@@ -1,0 +1,28 @@
+---
+motion_path: fighter/duckhunt/motion/finaldog/c00
+list:
+  finaldog01:
+    game_script: game_finaldog01
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04finaldog01.nuanmb
+        unk: 0
+    scripts:
+      - sound_finaldog01
+      - effect_finaldog01
+    extra: ~

@@ -1,0 +1,126 @@
+---
+motion_path: boss/kiilacore/motion/body/c00
+list:
+  appear:
+    game_script: game_appear
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: fixedartillerystart_core.nuanmb
+        unk: 0
+    scripts:
+      - effect_appear
+      - sound_appear
+    extra: ~
+  attack:
+    game_script: game_attack
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: fixedartilleryloop_core.nuanmb
+        unk: 0
+    scripts:
+      - effect_attack
+      - sound_attack
+    extra: ~
+  attack_end:
+    game_script: game_attackend
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: fixedartilleryend_core.nuanmb
+        unk: 0
+    scripts:
+      - effect_attackend
+      - sound_attackend
+    extra: ~
+  lost:
+    game_script: game_lost
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations: []
+    scripts:
+      - effect_lost
+      - sound_lost
+    extra: ~
+  core_damage:
+    game_script: game_coredamage
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: core_damage.nuanmb
+        unk: 1
+    scripts:
+      - effect_coredamage
+      - sound_coredamage
+    extra: ~

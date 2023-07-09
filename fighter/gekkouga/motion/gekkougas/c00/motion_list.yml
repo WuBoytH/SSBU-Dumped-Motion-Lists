@@ -1,0 +1,276 @@
+---
+motion_path: fighter/gekkouga/motion/gekkougas/c00
+list:
+  final_change:
+    game_script: game_finalchange
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04finalchange.nuanmb
+        unk: 0
+    scripts:
+      - sound_finalchange
+      - effect_finalchange
+    extra: ~
+  final_start:
+    game_script: game_finalstart
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04finalstart.nuanmb
+        unk: 0
+    scripts:
+      - sound_finalstart
+      - effect_finalstart
+    extra: ~
+  final:
+    game_script: game_final
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04final.nuanmb
+        unk: 0
+    scripts:
+      - sound_final
+      - effect_final
+    extra: ~
+  final_miss:
+    game_script: game_finalmiss
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04finalmiss.nuanmb
+        unk: 0
+    scripts:
+      - sound_finalmiss
+      - effect_finalmiss
+    extra: ~
+  final_hit:
+    game_script: game_finalhit
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04finalhit.nuanmb
+        unk: 0
+    scripts:
+      - sound_finalhit
+      - effect_finalhit
+    extra: ~
+  final_hit_rv:
+    game_script: game_finalhitrv
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04finalhitrv.nuanmb
+        unk: 0
+    scripts:
+      - sound_finalhitrv
+      - effect_finalhitrv
+    extra: ~
+  final_jump:
+    game_script: game_finaljump
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04finaljump.nuanmb
+        unk: 0
+    scripts:
+      - sound_finaljump
+      - effect_finaljump
+    extra: ~
+  final_attack:
+    game_script: game_finalattack
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04finalattack.nuanmb
+        unk: 0
+    scripts:
+      - sound_finalattack
+      - effect_finalattack
+    extra: ~
+  final_attack_bunshin:
+    game_script: game_finalattackbunshin
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04finalattackbunshin.nuanmb
+        unk: 0
+    scripts:
+      - sound_finalattackbunshin
+      - effect_finalattackbunshin
+    extra: ~
+  final_end:
+    game_script: game_finalend
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04finalend.nuanmb
+        unk: 0
+    scripts:
+      - sound_finalend
+      - effect_finalend
+    extra: ~
+  final_air_change:
+    game_script: game_finalairchange
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations: []
+    scripts:
+      - sound_finalairchange
+      - effect_finalairchange
+    extra: ~

@@ -1,0 +1,528 @@
+---
+motion_path: fighter/kirby/motion/copy_jack_gun/c00
+list:
+  jack_special_n:
+    game_script: game_
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: jackd00specialn1.nuanmb
+        unk: 0
+    scripts:
+      - sound_
+      - effect_
+    extra: ~
+  jack_special_n_2:
+    game_script: game_
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: jackd00specialn2.nuanmb
+        unk: 0
+    scripts:
+      - sound_
+      - effect_
+    extra: ~
+  jack_special_n_3:
+    game_script: game_
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: jackd00specialn3.nuanmb
+        unk: 0
+    scripts:
+      - sound_
+      - effect_
+    extra: ~
+  jack_special_n_landing:
+    game_script: game_
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: jackd00specialnlanding.nuanmb
+        unk: 0
+    scripts:
+      - sound_
+      - effect_
+    extra: ~
+  jack_special_n_escape_f:
+    game_script: game_
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: jackd00specialnescapef.nuanmb
+        unk: 0
+    scripts:
+      - sound_
+      - effect_
+    extra: ~
+  jack_special_n_escape_b:
+    game_script: game_
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: jackd00specialnescapeb.nuanmb
+        unk: 0
+    scripts:
+      - sound_
+      - effect_
+    extra: ~
+  jack_special_n_jump:
+    game_script: game_
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: jackd00specialnjump.nuanmb
+        unk: 0
+    scripts:
+      - sound_
+      - effect_
+    extra: ~
+  jack_special_n_jump_landing:
+    game_script: game_
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: jackd00specialnjumplanding.nuanmb
+        unk: 0
+    scripts:
+      - sound_
+      - effect_
+    extra: ~
+  jack_special_n_barrage_lw_landing:
+    game_script: game_
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: jackd00specialndownlanding.nuanmb
+        unk: 0
+    scripts:
+      - sound_
+      - effect_
+    extra: ~
+  jack_special_n_barrage_landing:
+    game_script: game_
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: jackd00specialnrandomlanding.nuanmb
+        unk: 0
+    scripts:
+      - sound_
+      - effect_
+    extra: ~
+  jack_special_air_n:
+    game_script: game_
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: jackd00specialairn1.nuanmb
+        unk: 0
+    scripts:
+      - sound_
+      - effect_
+    extra: ~
+  jack_special_air_n_2:
+    game_script: game_
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: jackd00specialairn2.nuanmb
+        unk: 0
+    scripts:
+      - sound_
+      - effect_
+    extra: ~
+  jack_special_air_n_3:
+    game_script: game_
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: jackd00specialairn3.nuanmb
+        unk: 0
+    scripts:
+      - sound_
+      - effect_
+    extra: ~
+  jack_special_air_n_escape_f:
+    game_script: game_
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: jackd00specialairnescapef.nuanmb
+        unk: 0
+    scripts:
+      - sound_
+      - effect_
+    extra: ~
+  jack_special_air_n_escape_b:
+    game_script: game_
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: jackd00specialairnescapeb.nuanmb
+        unk: 0
+    scripts:
+      - sound_
+      - effect_
+    extra: ~
+  jack_special_air_n_barrage_lw_start:
+    game_script: game_
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: jackd00specialairndownstart.nuanmb
+        unk: 0
+    scripts:
+      - sound_
+      - effect_
+    extra: ~
+  jack_special_air_n_barrage_lw:
+    game_script: game_
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: jackd00specialairndown.nuanmb
+        unk: 0
+    scripts:
+      - sound_
+      - effect_
+    extra: ~
+  jack_special_air_n_barrage_lw_end:
+    game_script: game_
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: jackd00specialairndownend.nuanmb
+        unk: 0
+    scripts:
+      - sound_
+      - effect_
+    extra: ~
+  jack_special_air_n_barrage_start:
+    game_script: game_
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: jackd00specialairnrandomstart.nuanmb
+        unk: 0
+    scripts:
+      - sound_
+      - effect_
+    extra: ~
+  jack_special_air_n_barrage:
+    game_script: game_
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: jackd00specialairnrandom.nuanmb
+        unk: 0
+    scripts:
+      - sound_
+      - effect_
+    extra: ~
+  jack_special_air_n_barrage_end:
+    game_script: game_
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: jackd00specialairnrandomend.nuanmb
+        unk: 0
+    scripts:
+      - sound_
+      - effect_
+    extra: ~

@@ -1,0 +1,76 @@
+---
+motion_path: assist/flyandhandfly/motion/body/c00
+list:
+  damage:
+    game_script: game_damage
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: damage.nuanmb
+        unk: 0
+    scripts:
+      - effect_damage
+      - sound_damage
+    extra: ~
+  fly:
+    game_script: game_fly
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: fly.nuanmb
+        unk: 0
+    scripts:
+      - effect_fly
+      - sound_fly
+    extra: ~
+  lost:
+    game_script: game_lost
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations: []
+    scripts:
+      - effect_lost
+      - sound_lost
+    extra: ~

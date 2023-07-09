@@ -1,0 +1,53 @@
+---
+motion_path: fighter/pickel/motion/building/c00
+list:
+  win_3:
+    game_script: game_win3
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win3.nuanmb
+        unk: 0
+    scripts:
+      - sound_win3
+      - effect_win3
+    extra: ~
+  win_3_wait:
+    game_script: game_win3wait
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win3wait.nuanmb
+        unk: 0
+    scripts:
+      - sound_win3wait
+      - effect_win3wait
+    extra: ~

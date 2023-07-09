@@ -1,0 +1,272 @@
+---
+motion_path: assist/shiokarazu/motion/body/c00
+list:
+  appear:
+    game_script: game_appear
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: appear.nuanmb
+        unk: 0
+    scripts:
+      - effect_appear
+      - sound_appear
+    extra: ~
+  lost:
+    game_script: game_lost
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations: []
+    scripts:
+      - effect_lost
+      - sound_lost
+    extra: ~
+  kimiiro_vanish_wait:
+    game_script: game_kimiirovanishwait
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations: []
+    scripts:
+      - effect_kimiirovanishwait
+      - sound_kimiirovanishwait
+    extra: ~
+  kimiiro_wait:
+    game_script: game_kimiirowait
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: kimiirowait.nuanmb
+        unk: 0
+    scripts:
+      - effect_kimiirowait
+      - sound_kimiirowait
+    extra: ~
+  kimiiro:
+    game_script: game_kimiiro
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: kimiiro.nuanmb
+        unk: 0
+    scripts:
+      - effect_kimiiro
+      - sound_kimiiro
+    extra: ~
+  kimiiro_post:
+    game_script: game_kimiiropost
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: kimiiropost.nuanmb
+        unk: 0
+    scripts:
+      - effect_kimiiropost
+      - sound_kimiiropost
+    extra: ~
+  shiokara_vanish_wait:
+    game_script: game_shiokaravanishwait
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations: []
+    scripts:
+      - effect_shiokaravanishwait
+      - sound_shiokaravanishwait
+    extra: ~
+  shiokara_wait:
+    game_script: game_shiokarawait
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: shiokarawait.nuanmb
+        unk: 0
+    scripts:
+      - effect_shiokarawait
+      - sound_shiokarawait
+    extra: ~
+  shiokara_pre:
+    game_script: game_shiokarapre
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: shiokarapri.nuanmb
+        unk: 0
+    scripts:
+      - effect_shiokarapre
+      - sound_shiokarapre
+    extra: ~
+  shiokara:
+    game_script: game_shiokara
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: shiokara.nuanmb
+        unk: 0
+    scripts:
+      - effect_shiokara
+      - sound_shiokara
+    extra: ~
+  shiokara_post:
+    game_script: game_shiokarapost
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: shiokarapost.nuanmb
+        unk: 0
+    scripts:
+      - effect_shiokarapost
+      - sound_shiokarapost
+    extra: ~

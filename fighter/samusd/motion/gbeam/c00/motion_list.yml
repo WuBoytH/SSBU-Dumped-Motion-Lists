@@ -1,0 +1,303 @@
+---
+motion_path: fighter/samusd/motion/gbeam/c00
+list:
+  regular:
+    game_script: game_regular
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: gbeamwait.nuanmb
+        unk: 0
+    scripts:
+      - sound_regular
+      - effect_regular
+    extra: ~
+  wait:
+    game_script: game_wait
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: gbeamwait.nuanmb
+        unk: 0
+    scripts:
+      - sound_wait
+      - effect_wait
+    extra: ~
+  rewind:
+    game_script: game_rewind
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: gbeamwait.nuanmb
+        unk: 0
+    scripts:
+      - sound_rewind
+      - effect_rewind
+    extra: ~
+  catch:
+    game_script: game_catch
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: e00catch.nuanmb
+        unk: 0
+    scripts:
+      - sound_catch
+      - effect_catch
+    extra: ~
+  catch_dash:
+    game_script: game_catchdash
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: e00catchdash.nuanmb
+        unk: 0
+    scripts:
+      - sound_catchdash
+      - effect_catchdash
+    extra: ~
+  catch_turn:
+    game_script: game_catchturn
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: e00catchturn.nuanmb
+        unk: 0
+    scripts:
+      - sound_catchturn
+      - effect_catchturn
+    extra: ~
+  catch_pull:
+    game_script: game_catchpulled
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: e00catchpulled.nuanmb
+        unk: 0
+    scripts:
+      - sound_catchpulled
+      - effect_catchpulled
+    extra: ~
+  throw_b:
+    game_script: game_throwb
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: e01throwb.nuanmb
+        unk: 0
+    scripts:
+      - sound_throwb
+      - effect_throwb
+    extra: ~
+  throw_f:
+    game_script: game_throwf
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: e01throwf.nuanmb
+        unk: 0
+    scripts:
+      - sound_throwf
+      - effect_throwf
+    extra: ~
+  throw_hi:
+    game_script: game_throwhi
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: e01throwhi.nuanmb
+        unk: 0
+    scripts:
+      - sound_throwhi
+      - effect_throwhi
+    extra: ~
+  throw_lw:
+    game_script: game_throwlw
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: e01throwlw.nuanmb
+        unk: 0
+    scripts:
+      - sound_throwlw
+      - effect_throwlw
+    extra: ~
+  air_catch:
+    game_script: game_aircatch
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: g04aircatch.nuanmb
+        unk: 0
+    scripts:
+      - sound_aircatch
+      - effect_aircatch
+    extra: ~

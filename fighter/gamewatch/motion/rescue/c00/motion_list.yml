@@ -1,0 +1,85 @@
+---
+motion_path: fighter/gamewatch/motion/rescue/c00
+list:
+  color_anim:
+    game_script: game_coloranim
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations: []
+    scripts:
+      - sound_coloranim
+      - effect_coloranim
+      - game_coloranim
+      - sound_coloranim
+      - effect_coloranim
+    extra: ~
+  special_hi:
+    game_script: game_specialhi
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d02specialhi.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialhi
+      - effect_specialhi
+      - game_specialhi
+      - sound_specialhi
+      - effect_specialhi
+    extra: ~
+  special_air_hi:
+    game_script: game_specialairhi
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d02specialairhi.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialairhi
+      - effect_specialairhi
+      - game_specialairhi
+      - sound_specialairhi
+      - effect_specialairhi
+    extra: ~

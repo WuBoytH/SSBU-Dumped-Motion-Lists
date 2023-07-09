@@ -1,0 +1,278 @@
+---
+motion_path: assist/ashley/motion/body/c00
+list:
+  appear:
+    game_script: game_appear
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: enter.nuanmb
+        unk: 0
+    scripts:
+      - effect_appear
+      - sound_appear
+    extra: ~
+  fall:
+    game_script: game_fall
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: enter.nuanmb
+        unk: 0
+    scripts:
+      - effect_fall
+      - sound_fall
+    extra: ~
+  landing:
+    game_script: game_landing
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: landing.nuanmb
+        unk: 0
+    scripts:
+      - effect_landing
+      - sound_landing
+    extra: ~
+  dark_extend:
+    game_script: game_darkextend
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: darkextend.nuanmb
+        unk: 0
+    scripts:
+      - effect_darkextend
+      - sound_darkextend
+    extra: ~
+  dark_arrival_end:
+    game_script: game_darkarrivalend
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: darkarrivalend.nuanmb
+        unk: 0
+    scripts:
+      - effect_darkarrivalend
+      - sound_darkarrivalend
+    extra: ~
+  dark_arrival:
+    game_script: game_darkarrival
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: darkarrival.nuanmb
+        unk: 0
+    scripts:
+      - effect_darkarrival
+      - sound_darkarrival
+    extra: ~
+  dark:
+    game_script: game_dark
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: dark.nuanmb
+        unk: 0
+    scripts:
+      - effect_dark
+      - sound_dark
+    extra: ~
+  dark_vanish:
+    game_script: game_darkvanish
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: darkvanish.nuanmb
+        unk: 0
+    scripts:
+      - effect_darkvanish
+      - sound_darkvanish
+    extra: ~
+  dark_vanish_end:
+    game_script: game_darkvanishend
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: darkarrival.nuanmb
+        unk: 0
+    scripts:
+      - effect_darkvanishend
+      - sound_darkvanishend
+    extra: ~
+  exit:
+    game_script: game_exit
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: darkarrivalend.nuanmb
+        unk: 0
+    scripts:
+      - effect_exit
+      - sound_exit
+    extra: ~
+  visanim:
+    game_script: game_visanim
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: vis.nuanmb
+        unk: 1
+    scripts:
+      - effect_visanim
+      - sound_visanim
+    extra: ~

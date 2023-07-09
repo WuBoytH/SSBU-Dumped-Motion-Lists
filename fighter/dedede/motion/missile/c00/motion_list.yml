@@ -1,0 +1,303 @@
+---
+motion_path: fighter/dedede/motion/missile/c00
+list:
+  missile_01:
+    game_script: game_missile01
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04missile01.nuanmb
+        unk: 0
+    scripts:
+      - sound_missile01
+      - effect_missile01
+    extra: ~
+  missile_02:
+    game_script: game_missile02
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04missile02.nuanmb
+        unk: 0
+    scripts:
+      - sound_missile02
+      - effect_missile02
+    extra: ~
+  missile_03:
+    game_script: game_missile03
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04missile03.nuanmb
+        unk: 0
+    scripts:
+      - sound_missile03
+      - effect_missile03
+    extra: ~
+  missile_04:
+    game_script: game_missile04
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04missile04.nuanmb
+        unk: 0
+    scripts:
+      - sound_missile04
+      - effect_missile04
+    extra: ~
+  missile_05:
+    game_script: game_missile05
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04missile05.nuanmb
+        unk: 0
+    scripts:
+      - sound_missile05
+      - effect_missile05
+    extra: ~
+  missile_06:
+    game_script: game_missile06
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04missile06.nuanmb
+        unk: 0
+    scripts:
+      - sound_missile06
+      - effect_missile06
+    extra: ~
+  missile_07:
+    game_script: game_missile07
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04missile07.nuanmb
+        unk: 0
+    scripts:
+      - sound_missile07
+      - effect_missile07
+    extra: ~
+  missile_08:
+    game_script: game_missile08
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04missile08.nuanmb
+        unk: 0
+    scripts:
+      - sound_missile08
+      - effect_missile08
+    extra: ~
+  missile_09:
+    game_script: game_missile09
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04missile09.nuanmb
+        unk: 0
+    scripts:
+      - sound_missile09
+      - effect_missile09
+    extra: ~
+  missile_10:
+    game_script: game_missile10
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04missile10.nuanmb
+        unk: 0
+    scripts:
+      - sound_missile10
+      - effect_missile10
+    extra: ~
+  missile_11:
+    game_script: game_missile11
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04missile11.nuanmb
+        unk: 0
+    scripts:
+      - sound_missile11
+      - effect_missile11
+    extra: ~
+  missile_12:
+    game_script: game_missile12
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04missile12.nuanmb
+        unk: 0
+    scripts:
+      - sound_missile12
+      - effect_missile12
+    extra: ~

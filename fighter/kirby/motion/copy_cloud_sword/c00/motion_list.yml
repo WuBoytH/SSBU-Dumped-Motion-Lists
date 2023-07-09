@@ -1,0 +1,76 @@
+---
+motion_path: "0x23fa7b50a0"
+list:
+  regular:
+    game_script: game_regular
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations: []
+    scripts:
+      - sound_regular
+      - effect_regular
+    extra: ~
+  cloud_special_n:
+    game_script: game_cloudspecialn
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialn.nuanmb
+        unk: 0
+    scripts:
+      - sound_cloudspecialn
+      - effect_cloudspecialn
+    extra: ~
+  cloud_special_air_n:
+    game_script: game_cloudspecialairn
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialairn.nuanmb
+        unk: 0
+    scripts:
+      - sound_cloudspecialairn
+      - effect_cloudspecialairn
+    extra: ~

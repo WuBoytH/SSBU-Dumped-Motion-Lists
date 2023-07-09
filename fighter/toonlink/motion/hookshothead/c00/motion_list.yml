@@ -1,0 +1,78 @@
+---
+motion_path: fighter/toonlink/motion/hookshothead/c00
+list:
+  wait:
+    game_script: game_wait
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: headwait.nuanmb
+        unk: 0
+    scripts:
+      - sound_wait
+      - effect_wait
+    extra: ~
+  open:
+    game_script: game_open
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: headopen.nuanmb
+        unk: 0
+    scripts:
+      - sound_open
+      - effect_open
+    extra: ~
+  close:
+    game_script: game_close
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: headclose.nuanmb
+        unk: 0
+    scripts:
+      - sound_close
+      - effect_close
+    extra: ~

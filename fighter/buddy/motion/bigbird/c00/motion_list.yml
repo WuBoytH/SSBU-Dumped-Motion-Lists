@@ -1,0 +1,153 @@
+---
+motion_path: fighter/buddy/motion/bigbird/c00
+list:
+  final:
+    game_script: game_final
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04final.nuanmb
+        unk: 0
+    scripts:
+      - sound_final
+      - effect_final
+    extra: ~
+  visual_scene_01:
+    game_script: game_visualscene01
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04visualscene01.nuanmb
+        unk: 0
+    scripts:
+      - sound_visualscene01
+      - effect_visualscene01
+    extra: ~
+  visual_scene_02_a:
+    game_script: game_visualscene02a
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04visualscene02a.nuanmb
+        unk: 0
+    scripts:
+      - sound_visualscene02a
+      - effect_visualscene02a
+    extra: ~
+  visual_scene_02_b:
+    game_script: game_visualscene02b
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04visualscene02b.nuanmb
+        unk: 0
+    scripts:
+      - sound_visualscene02b
+      - effect_visualscene02b
+    extra: ~
+  visual_scene_03:
+    game_script: game_visualscene03
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04visualscene03.nuanmb
+        unk: 0
+    scripts:
+      - sound_visualscene03
+      - effect_visualscene03
+    extra: ~
+  visual_scene_04:
+    game_script: game_visualscene04
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04visualscene04.nuanmb
+        unk: 0
+    scripts:
+      - sound_visualscene04
+      - effect_visualscene04
+    extra: ~

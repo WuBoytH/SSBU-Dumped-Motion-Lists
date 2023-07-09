@@ -1,0 +1,103 @@
+---
+motion_path: fighter/ganon/motion/ganond/c00
+list:
+  start:
+    game_script: game_start
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04finalstart.nuanmb
+        unk: 0
+    scripts:
+      - sound_start
+      - effect_start
+    extra: ~
+  attack:
+    game_script: game_attack
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04finalattack.nuanmb
+        unk: 0
+    scripts:
+      - sound_attack
+      - effect_attack
+    extra: ~
+  start_air:
+    game_script: game_startair
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04finalairstart.nuanmb
+        unk: 0
+    scripts:
+      - sound_startair
+      - effect_startair
+    extra: ~
+  attack_air:
+    game_script: game_attackair
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04finalairattack.nuanmb
+        unk: 0
+    scripts:
+      - sound_attackair
+      - effect_attackair
+    extra: ~

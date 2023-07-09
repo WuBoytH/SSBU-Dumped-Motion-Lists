@@ -1,0 +1,51 @@
+---
+motion_path: "0x0000000000"
+list:
+  attack_axe:
+    game_script: game_attackaxe
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations: []
+    scripts:
+      - sound_attackaxe
+      - effect_attackaxe
+    extra: ~
+  break:
+    game_script: game_break
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: break.nuanmb
+        unk: 0
+    scripts:
+      - sound_break
+      - effect_break
+    extra: ~

@@ -1,0 +1,178 @@
+---
+motion_path: fighter/krool/motion/backpack/c00
+list:
+  start:
+    game_script: game_start
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d02specialhistart.nuanmb
+        unk: 0
+    scripts:
+      - sound_start
+      - effect_start
+    extra: ~
+  fly:
+    game_script: game_fly
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d02specialhifly.nuanmb
+        unk: 0
+    scripts:
+      - sound_fly
+      - effect_fly
+    extra: ~
+  fly_wind:
+    game_script: game_flywind
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d02specialhifly.nuanmb
+        unk: 0
+    scripts:
+      - sound_flywind
+      - effect_flywind
+    extra: ~
+  top:
+    game_script: game_top
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d02specialhitop.nuanmb
+        unk: 0
+    scripts:
+      - sound_top
+      - effect_top
+    extra: ~
+  fall:
+    game_script: game_fall
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d02specialhifall.nuanmb
+        unk: 0
+    scripts:
+      - sound_fall
+      - effect_fall
+    extra: ~
+  landing:
+    game_script: game_landing
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d02specialhilanding.nuanmb
+        unk: 0
+    scripts:
+      - sound_landing
+      - effect_landing
+    extra: ~
+  damage_end:
+    game_script: game_damageend
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d02specialhidamageend.nuanmb
+        unk: 0
+    scripts:
+      - sound_damageend
+      - effect_damageend
+    extra: ~

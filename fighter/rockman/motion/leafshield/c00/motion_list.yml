@@ -1,0 +1,153 @@
+---
+motion_path: fighter/rockman/motion/leafshield/c00
+list:
+  start:
+    game_script: game_start
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d03speciallwstartflip.nuanmb
+        unk: 0
+    scripts:
+      - sound_start
+      - effect_start
+    extra: ~
+  shield:
+    game_script: game_shield
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d03speciallwloopflipl.nuanmb
+        unk: 0
+    scripts:
+      - sound_shield
+      - effect_shield
+    extra: ~
+  fly:
+    game_script: game_fly
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d03speciallwloopflipl.nuanmb
+        unk: 0
+    scripts:
+      - sound_fly
+      - effect_fly
+    extra: ~
+  start_reverse:
+    game_script: game_startreverse
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d03speciallwstart.nuanmb
+        unk: 0
+    scripts:
+      - sound_startreverse
+      - effect_startreverse
+    extra: ~
+  shield_reverse:
+    game_script: game_shieldreverse
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d03speciallwloopl.nuanmb
+        unk: 0
+    scripts:
+      - sound_shieldreverse
+      - effect_shieldreverse
+    extra: ~
+  fly_reverse:
+    game_script: game_flyreverse
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d03speciallwloopl.nuanmb
+        unk: 0
+    scripts:
+      - sound_flyreverse
+      - effect_flyreverse
+    extra: ~

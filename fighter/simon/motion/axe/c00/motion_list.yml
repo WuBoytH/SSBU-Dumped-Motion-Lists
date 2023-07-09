@@ -1,0 +1,124 @@
+---
+motion_path: fighter/simon/motion/axe/c00
+list:
+  haved:
+    game_script: game_haved
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations: []
+    scripts:
+      - sound_haved
+      - effect_haved
+    extra: ~
+  fly:
+    game_script: game_fly
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations: []
+    scripts:
+      - sound_fly
+      - effect_fly
+    extra: ~
+  hop_h:
+    game_script: game_hoph
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialnhoph.nuanmb
+        unk: 0
+    scripts:
+      - sound_hoph
+      - effect_hoph
+    extra: ~
+  hop_v:
+    game_script: game_hopv
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialnhopv.nuanmb
+        unk: 0
+    scripts:
+      - sound_hopv
+      - effect_hopv
+    extra: ~
+  landing:
+    game_script: game_landing
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 5
+    animations:
+      - name: d00specialnlanding.nuanmb
+        unk: 0
+    scripts:
+      - sound_landing
+      - effect_landing
+    extra: ~

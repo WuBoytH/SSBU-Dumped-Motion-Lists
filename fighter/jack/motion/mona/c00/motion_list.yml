@@ -1,0 +1,203 @@
+---
+motion_path: fighter/jack/motion/mona/c00
+list:
+  appeal_hi_r:
+    game_script: game_appealhir
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j01appealhir.nuanmb
+        unk: 0
+    scripts:
+      - sound_appealhir
+      - effect_appealhir
+    extra: ~
+  appeal_hi_l:
+    game_script: game_appealhil
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j01appealhil.nuanmb
+        unk: 0
+    scripts:
+      - sound_appealhil
+      - effect_appealhil
+    extra: ~
+  appeal_s_r:
+    game_script: game_appealsr
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j01appealsr.nuanmb
+        unk: 0
+    scripts:
+      - sound_appealsr
+      - effect_appealsr
+    extra: ~
+  appeal_s_l:
+    game_script: game_appealsl
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j01appealsl.nuanmb
+        unk: 0
+    scripts:
+      - sound_appealsl
+      - effect_appealsl
+    extra: ~
+  appeal_lw_r:
+    game_script: game_appeallwr
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j01appeallwr.nuanmb
+        unk: 0
+    scripts:
+      - sound_appeallwr
+      - effect_appeallwr
+    extra: ~
+  appeal_lw_l:
+    game_script: game_appeallwl
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j01appeallwl.nuanmb
+        unk: 0
+    scripts:
+      - sound_appeallwl
+      - effect_appeallwl
+    extra: ~
+  win_1:
+    game_script: game_win1
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win1.nuanmb
+        unk: 0
+    scripts:
+      - sound_win1
+      - effect_win1
+    extra: ~
+  win_3:
+    game_script: game_win3
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win3.nuanmb
+        unk: 0
+    scripts:
+      - sound_win3
+      - effect_win3
+    extra: ~

@@ -1,0 +1,1928 @@
+---
+motion_path: boss/lioleusboss/motion/body/c00
+list:
+  entry:
+    game_script: game_entry
+    flags:
+      turn: true
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: entry.nuanmb
+        unk: 0
+    scripts:
+      - effect_entry
+      - sound_entry
+    extra: ~
+  wait:
+    game_script: game_wait
+    flags:
+      turn: false
+      loop: true
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: wait.nuanmb
+        unk: 0
+    scripts:
+      - effect_wait
+      - sound_wait
+    extra: ~
+  flight:
+    game_script: game_flight
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: flight.nuanmb
+        unk: 0
+    scripts:
+      - effect_flight
+      - sound_flight
+    extra: ~
+  hovering:
+    game_script: game_hovering
+    flags:
+      turn: false
+      loop: true
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: hovering.nuanmb
+        unk: 0
+    scripts:
+      - effect_hovering
+      - sound_hovering
+    extra: ~
+  hovering_move:
+    game_script: game_hoveringmove
+    flags:
+      turn: false
+      loop: true
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: frywaitmovestart.nuanmb
+        unk: 0
+    scripts:
+      - effect_hoveringmove
+      - sound_hoveringmove
+    extra: ~
+  hovering_move_r:
+    game_script: game_hoveringmover
+    flags:
+      turn: false
+      loop: true
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: frywaitmoveback.nuanmb
+        unk: 0
+    scripts:
+      - effect_hoveringmover
+      - sound_hoveringmover
+    extra: ~
+  hovering_move_turn:
+    game_script: game_hoveringmoveturn
+    flags:
+      turn: true
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: hoveringmoveturn.nuanmb
+        unk: 0
+    scripts:
+      - effect_hoveringmoveturn
+      - sound_hoveringmoveturn
+    extra: ~
+  landing:
+    game_script: game_landing
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: landing.nuanmb
+        unk: 0
+    scripts:
+      - effect_landing
+      - sound_landing
+    extra: ~
+  rush_move_start:
+    game_script: game_rushmovestart
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: rushmovestart.nuanmb
+        unk: 0
+    scripts:
+      - effect_rushmovestart
+      - sound_rushmovestart
+    extra: ~
+  rush_move_loop:
+    game_script: game_rushmoveloop
+    flags:
+      turn: false
+      loop: true
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: rushmoveloop.nuanmb
+        unk: 0
+    scripts:
+      - effect_rushmoveloop
+      - sound_rushmoveloop
+    extra: ~
+  rush_move_end:
+    game_script: game_rushmoveend
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 10
+    animations:
+      - name: rushmoveend.nuanmb
+        unk: 0
+    scripts:
+      - effect_rushmoveend
+      - sound_rushmoveend
+    extra: ~
+  turn:
+    game_script: game_tail
+    flags:
+      turn: true
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: tail.nuanmb
+        unk: 0
+    scripts:
+      - effect_tail
+      - sound_tail
+    extra: ~
+  turn_air:
+    game_script: game_turnair
+    flags:
+      turn: true
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: turnair.nuanmb
+        unk: 0
+    scripts:
+      - effect_turnair
+      - sound_turnair
+    extra: ~
+  hovering_step:
+    game_script: game_hoveringstep
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: hoveringstep.nuanmb
+        unk: 0
+    scripts:
+      - effect_hoveringstep
+      - sound_hoveringstep
+    extra: ~
+  body_attack_start:
+    game_script: game_bodyattackstart
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: bodyattackstart.nuanmb
+        unk: 0
+    scripts:
+      - effect_bodyattackstart
+      - sound_bodyattackstart
+    extra: ~
+  body_attack_loop:
+    game_script: game_bodyattackloop
+    flags:
+      turn: false
+      loop: true
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: rushmoveloop.nuanmb
+        unk: 0
+    scripts:
+      - effect_bodyattackloop
+      - sound_bodyattackloop
+    extra: ~
+  body_attack_turn:
+    game_script: game_bodyattackturn
+    flags:
+      turn: true
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: quickturning.nuanmb
+        unk: 0
+    scripts:
+      - effect_bodyattackturn
+      - sound_bodyattackturn
+    extra: ~
+  body_attack_end:
+    game_script: game_bodyattackend
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 14
+    animations:
+      - name: bodyattackend.nuanmb
+        unk: 0
+    scripts:
+      - effect_bodyattackend
+      - sound_bodyattackend
+    extra: ~
+  body_attack_jump:
+    game_script: game_bodyattackjump
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: spinattack.nuanmb
+        unk: 0
+    scripts:
+      - effect_bodyattackjump
+      - sound_bodyattackjump
+    extra: ~
+  fireball_shot_up:
+    game_script: game_fireballshot
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: fireballshotup.nuanmb
+        unk: 0
+    scripts:
+      - effect_fireballshot
+      - sound_fireballshot
+    extra: ~
+  fireball_shot:
+    game_script: game_fireballshot
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: fireballshot.nuanmb
+        unk: 0
+    scripts:
+      - effect_fireballshot
+      - sound_fireballshot
+    extra: ~
+  fireball_shot_low:
+    game_script: game_fireballshot
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: fireballshotlow.nuanmb
+        unk: 0
+    scripts:
+      - effect_fireballshot
+      - sound_fireballshot
+    extra: ~
+  fireball_shot3_start:
+    game_script: game_fireballshot3start
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: 3waybreathfront.nuanmb
+        unk: 0
+    scripts:
+      - effect_fireballshot3start
+      - sound_fireballshot3start
+    extra: ~
+  fireball_shot3:
+    game_script: game_fireballshot3
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: 3waybreath.nuanmb
+        unk: 0
+    scripts:
+      - effect_fireballshot3
+      - sound_fireballshot3
+    extra: ~
+  fireball_shot3_end:
+    game_script: game_fireballshot3end
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: 3waybreathend.nuanmb
+        unk: 0
+    scripts:
+      - effect_fireballshot3end
+      - sound_fireballshot3end
+    extra: ~
+  back_jump_fire:
+    game_script: game_backjumpfire
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: backjumpfire.nuanmb
+        unk: 0
+    scripts:
+      - effect_backjumpfire
+      - sound_backjumpfire
+    extra: ~
+  back_jump_fire2:
+    game_script: game_backjumpfire2
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: longbackjumpfire.nuanmb
+        unk: 0
+    scripts:
+      - effect_backjumpfire2
+      - sound_backjumpfire2
+    extra: ~
+  tail:
+    game_script: game_tail
+    flags:
+      turn: true
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: tail.nuanmb
+        unk: 0
+    scripts:
+      - effect_tail
+      - sound_tail
+    extra: ~
+  tail_short:
+    game_script: game_tailshort
+    flags:
+      turn: true
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: tail.nuanmb
+        unk: 0
+    scripts:
+      - effect_tailshort
+      - sound_tailshort
+    extra: ~
+  howling:
+    game_script: game_howling
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: howling.nuanmb
+        unk: 0
+    scripts:
+      - effect_howling
+      - sound_howling
+    extra: ~
+  low_fireball_shot:
+    game_script: game_lowfireballshot
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: lowfireballshot.nuanmb
+        unk: 0
+    scripts:
+      - effect_lowfireballshot
+      - sound_lowfireballshot
+    extra: ~
+  low_fireball_shot3_start:
+    game_script: game_lowfireballshot3start
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: sky3waybreathfront.nuanmb
+        unk: 0
+    scripts:
+      - effect_lowfireballshot3start
+      - sound_lowfireballshot3start
+    extra: ~
+  low_fireball_shot3:
+    game_script: game_lowfireballshot3
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: sky3waybreath.nuanmb
+        unk: 0
+    scripts:
+      - effect_lowfireballshot3
+      - sound_lowfireballshot3
+    extra: ~
+  low_fireball_shot3_end:
+    game_script: game_lowfireballshot3end
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: sky3waybreathend.nuanmb
+        unk: 0
+    scripts:
+      - effect_lowfireballshot3end
+      - sound_lowfireballshot3end
+    extra: ~
+  sky_slip_start:
+    game_script: game_skyslipstart
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: skyslipstart.nuanmb
+        unk: 0
+    scripts:
+      - effect_skyslipstart
+      - sound_skyslipstart
+    extra: ~
+  sky_slip_loop:
+    game_script: game_skysliploop
+    flags:
+      turn: false
+      loop: true
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: skysliploop.nuanmb
+        unk: 0
+    scripts:
+      - effect_skysliploop
+      - sound_skysliploop
+    extra: ~
+  sky_slip_end:
+    game_script: game_skyslipend
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 4
+    animations:
+      - name: skyslipend.nuanmb
+        unk: 0
+    scripts:
+      - effect_skyslipend
+      - sound_skyslipend
+    extra: ~
+  sky_slip_end2:
+    game_script: game_skyslipend2
+    flags:
+      turn: true
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 4
+    animations:
+      - name: risegliding.nuanmb
+        unk: 0
+    scripts:
+      - effect_skyslipend2
+      - sound_skyslipend2
+    extra: ~
+  nail:
+    game_script: game_nail
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: nail.nuanmb
+        unk: 0
+    scripts:
+      - effect_nail
+      - sound_nail
+    extra: ~
+  air_howling:
+    game_script: game_airhowling
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: airhowling.nuanmb
+        unk: 0
+    scripts:
+      - effect_airhowling
+      - sound_airhowling
+    extra: ~
+  assault_start:
+    game_script: game_assaultstart
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: assaultstart.nuanmb
+        unk: 0
+    scripts:
+      - effect_assaultstart
+      - sound_assaultstart
+    extra: ~
+  assault_start_reverse:
+    game_script: game_assaultstartreverse
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: assaultstartreverse.nuanmb
+        unk: 0
+    scripts:
+      - effect_assaultstartreverse
+      - sound_assaultstartreverse
+    extra: ~
+  assault_loop:
+    game_script: game_assaultloop
+    flags:
+      turn: true
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: assaultloop.nuanmb
+        unk: 0
+    scripts:
+      - effect_assaultloop
+      - sound_assaultloop
+    extra: ~
+  assault_loop_reverse:
+    game_script: game_assaultloopreverse
+    flags:
+      turn: true
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: assaultloopreverse.nuanmb
+        unk: 0
+    scripts:
+      - effect_assaultloopreverse
+      - sound_assaultloopreverse
+    extra: ~
+  charge_fireball_rise:
+    game_script: game_chargefireballrise
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: chargefireballrise.nuanmb
+        unk: 0
+    scripts:
+      - effect_chargefireballrise
+      - sound_chargefireballrise
+    extra: ~
+  charge_fireball_rise_air:
+    game_script: game_chargefireballriseair
+    flags:
+      turn: false
+      loop: true
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: hovering.nuanmb
+        unk: 0
+    scripts:
+      - effect_chargefireballriseair
+      - sound_chargefireballriseair
+    extra: ~
+  charge_fireball_start:
+    game_script: game_chargefireballstart
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 4
+    animations:
+      - name: chargefireballstart.nuanmb
+        unk: 0
+    scripts:
+      - effect_chargefireballstart
+      - sound_chargefireballstart
+    extra: ~
+  charge_fireball_loop:
+    game_script: game_chargefireballloop
+    flags:
+      turn: false
+      loop: true
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: chargefireballloop.nuanmb
+        unk: 0
+    scripts:
+      - effect_chargefireballloop
+      - sound_chargefireballloop
+    extra: ~
+  charge_fireball_launch_loop:
+    game_script: game_chargefireballlaunchloop
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: chargefireballlaunchloop.nuanmb
+        unk: 0
+    scripts:
+      - effect_chargefireballlaunchloop
+      - sound_chargefireballlaunchloop
+    extra: ~
+  charge_fireball_launch:
+    game_script: game_chargefireballlaunch
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: chargefireballlaunch.nuanmb
+        unk: 0
+    scripts:
+      - effect_chargefireballlaunch
+      - sound_chargefireballlaunch
+    extra: ~
+  down_start:
+    game_script: game_downstart
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: downstart.nuanmb
+        unk: 0
+    scripts:
+      - effect_downstart
+      - sound_downstart
+    extra: ~
+  down_loop:
+    game_script: game_downloop
+    flags:
+      turn: false
+      loop: true
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: downloop.nuanmb
+        unk: 0
+    scripts:
+      - effect_downloop
+      - sound_downloop
+    extra: ~
+  down_end:
+    game_script: game_downend
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 4
+    animations:
+      - name: downend.nuanmb
+        unk: 0
+    scripts:
+      - effect_downend
+      - sound_downend
+    extra: ~
+  air_down_start:
+    game_script: game_airdownstart
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: airdownstart.nuanmb
+        unk: 0
+    scripts:
+      - effect_airdownstart
+      - sound_airdownstart
+    extra: ~
+  air_down_loop:
+    game_script: game_airdownloop
+    flags:
+      turn: false
+      loop: true
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: airdownloop.nuanmb
+        unk: 0
+    scripts:
+      - effect_airdownloop
+      - sound_airdownloop
+    extra: ~
+  air_down_landing:
+    game_script: game_airdownlanding
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 4
+    animations:
+      - name: airdownlanding.nuanmb
+        unk: 0
+    scripts:
+      - effect_airdownlanding
+      - sound_airdownlanding
+    extra: ~
+  tail_cut_down_start:
+    game_script: game_tailcutdownstart
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: tailcutdownstart.nuanmb
+        unk: 0
+    scripts:
+      - effect_tailcutdownstart
+      - sound_tailcutdownstart
+    extra: ~
+  tail_cut_down_end:
+    game_script: game_tailcutdownend
+    flags:
+      turn: true
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 4
+    animations:
+      - name: tailcutdownend.nuanmb
+        unk: 0
+    scripts:
+      - effect_tailcutdownend
+      - sound_tailcutdownend
+    extra: ~
+  hole_start:
+    game_script: game_holestart
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: mogakistart.nuanmb
+        unk: 0
+    scripts:
+      - effect_holestart
+      - sound_holestart
+    extra: ~
+  hole_loop:
+    game_script: game_holeloop
+    flags:
+      turn: false
+      loop: true
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: mogakiloop.nuanmb
+        unk: 0
+    scripts:
+      - effect_holeloop
+      - sound_holeloop
+    extra: ~
+  hole_end:
+    game_script: game_holeend
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 4
+    animations:
+      - name: holeescape.nuanmb
+        unk: 0
+    scripts:
+      - effect_holeend
+      - sound_holeend
+    extra: ~
+  hole_dead:
+    game_script: game_holedead
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 4
+    animations:
+      - name: mogakidead.nuanmb
+        unk: 0
+    scripts:
+      - effect_holedead
+      - sound_holedead
+    extra: ~
+  kizetsu_start:
+    game_script: game_kizetsustart
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: kizetustart.nuanmb
+        unk: 0
+    scripts:
+      - effect_kizetsustart
+      - sound_kizetsustart
+    extra: ~
+  kizetsu_loop:
+    game_script: game_kizetsuloop
+    flags:
+      turn: false
+      loop: true
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: kizetuloop.nuanmb
+        unk: 0
+    scripts:
+      - effect_kizetsuloop
+      - sound_kizetsuloop
+    extra: ~
+  kizetsu_end:
+    game_script: game_kizetsuend
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 4
+    animations:
+      - name: kizetuend.nuanmb
+        unk: 0
+    scripts:
+      - effect_kizetsuend
+      - sound_kizetsuend
+    extra: ~
+  dead:
+    game_script: game_dead
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 4
+    animations:
+      - name: dead.nuanmb
+        unk: 0
+    scripts:
+      - effect_dead
+      - sound_dead
+    extra: ~
+  dead_air_start:
+    game_script: game_deadairstart
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 4
+    animations:
+      - name: airdownstart.nuanmb
+        unk: 0
+    scripts:
+      - effect_deadairstart
+      - sound_deadairstart
+    extra: ~
+  dead_air:
+    game_script: game_deadair
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 4
+    animations:
+      - name: deadair.nuanmb
+        unk: 0
+    scripts:
+      - effect_deadair
+      - sound_deadair
+    extra: ~
+  entry_adventure:
+    game_script: game_entry_adventure
+    flags:
+      turn: true
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: entry.nuanmb
+        unk: 0
+    scripts:
+      - effect_entry_adventure
+      - sound_entry_adventure
+    extra: ~
+  sky_slip_start_adventure:
+    game_script: game_skyslipstart_adventure
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: skyslipstart.nuanmb
+        unk: 0
+    scripts:
+      - effect_skyslipstart_adventure
+      - sound_skyslipstart_adventure
+    extra: ~
+  sky_slip_loop_adventure:
+    game_script: game_skysliploop_adventure
+    flags:
+      turn: false
+      loop: true
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: skysliploop.nuanmb
+        unk: 0
+    scripts:
+      - effect_skysliploop_adventure
+      - sound_skysliploop_adventure
+    extra: ~
+  sky_slip_end_adventure:
+    game_script: game_skyslipend_adventure
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 4
+    animations:
+      - name: skyslipend.nuanmb
+        unk: 0
+    scripts:
+      - effect_skyslipend_adventure
+      - sound_skyslipend_adventure
+    extra: ~
+  flight_adventure:
+    game_script: game_flight_adventure
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: flight.nuanmb
+        unk: 0
+    scripts:
+      - effect_flight_adventure
+      - sound_flight_adventure
+    extra: ~
+  hovering_adventure:
+    game_script: game_hovering_adventure
+    flags:
+      turn: false
+      loop: true
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: hovering.nuanmb
+        unk: 0
+    scripts:
+      - effect_hovering_adventure
+      - sound_hovering_adventure
+    extra: ~
+  hovering_move_adventure:
+    game_script: game_hoveringmove_adventure
+    flags:
+      turn: false
+      loop: true
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: frywaitmovestart.nuanmb
+        unk: 0
+    scripts:
+      - effect_hoveringmove_adventure
+      - sound_hoveringmove_adventure
+    extra: ~
+  wait_adventure:
+    game_script: game_wait_adventure
+    flags:
+      turn: false
+      loop: true
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 8
+    animations:
+      - name: wait.nuanmb
+        unk: 0
+    scripts:
+      - effect_wait_adventure
+      - sound_wait_adventure
+    extra: ~
+  dead_adventure:
+    game_script: game_dead_adventure
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 4
+    animations:
+      - name: dead.nuanmb
+        unk: 0
+    scripts:
+      - effect_dead_adventure
+      - sound_dead_adventure
+    extra: ~

@@ -1,0 +1,53 @@
+---
+motion_path: fighter/shizue/motion/bucket/c00
+list:
+  charge:
+    game_script: game_charge
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: c04attacklw4charge.nuanmb
+        unk: 0
+    scripts:
+      - sound_charge
+      - effect_charge
+    extra: ~
+  attack:
+    game_script: game_attack
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: c04attacklw4.nuanmb
+        unk: 0
+    scripts:
+      - sound_attack
+      - effect_attack
+    extra: ~

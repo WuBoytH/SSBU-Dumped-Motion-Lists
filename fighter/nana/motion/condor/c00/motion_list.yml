@@ -1,0 +1,103 @@
+---
+motion_path: fighter/popo/motion/condor/c00
+list:
+  entry_r:
+    game_script: game_entryr
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j00entryr.nuanmb
+        unk: 0
+    scripts:
+      - sound_entryr
+      - effect_entryr
+    extra: ~
+  entry_l:
+    game_script: game_entryl
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j00entryl.nuanmb
+        unk: 0
+    scripts:
+      - sound_entryl
+      - effect_entryl
+    extra: ~
+  main:
+    game_script: game_main
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04final.nuanmb
+        unk: 0
+    scripts:
+      - sound_main
+      - effect_main
+    extra: ~
+  final_turn:
+    game_script: game_finalturn
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04finalturn.nuanmb
+        unk: 0
+    scripts:
+      - sound_finalturn
+      - effect_finalturn
+    extra: ~

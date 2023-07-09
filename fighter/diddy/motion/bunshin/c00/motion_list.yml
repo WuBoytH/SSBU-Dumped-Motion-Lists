@@ -1,0 +1,78 @@
+---
+motion_path: fighter/diddy/motion/body/c00
+list:
+  final_hi:
+    game_script: game_finalhi
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04finalhi.nuanmb
+        unk: 0
+    scripts:
+      - sound_finalhi
+      - effect_finalhi
+    extra: ~
+  final_lw:
+    game_script: game_finallw
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04finallw.nuanmb
+        unk: 0
+    scripts:
+      - sound_finallw
+      - effect_finallw
+    extra: ~
+  final_s:
+    game_script: game_finals
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04finals.nuanmb
+        unk: 0
+    scripts:
+      - sound_finals
+      - effect_finals
+    extra: ~

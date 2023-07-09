@@ -1,0 +1,53 @@
+---
+motion_path: fighter/duckhunt/motion/finalcan/c00
+list:
+  finalcan01:
+    game_script: game_finalcan01
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04finalcan01.nuanmb
+        unk: 0
+    scripts:
+      - sound_finalcan01
+      - effect_finalcan01
+    extra: ~
+  finalcan02:
+    game_script: game_finalcan02
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04finalcan02.nuanmb
+        unk: 0
+    scripts:
+      - sound_finalcan02
+      - effect_finalcan02
+    extra: ~

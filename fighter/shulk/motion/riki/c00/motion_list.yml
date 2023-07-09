@@ -1,0 +1,53 @@
+---
+motion_path: fighter/shulk/motion/riki/c00
+list:
+  entry:
+    game_script: game_entry
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04finalrikientry.nuanmb
+        unk: 0
+    scripts:
+      - sound_entry
+      - effect_entry
+    extra: ~
+  attack:
+    game_script: game_attack
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04finalrikiattack.nuanmb
+        unk: 0
+    scripts:
+      - sound_attack
+      - effect_attack
+    extra: ~

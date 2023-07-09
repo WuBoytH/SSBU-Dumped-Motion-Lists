@@ -1,0 +1,53 @@
+---
+motion_path: fighter/tantan/motion/ring/c00
+list:
+  attack_fly:
+    game_script: game_attackfly
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: c00attackfly.nuanmb
+        unk: 0
+    scripts:
+      - sound_attackfly
+      - effect_attackfly
+    extra: ~
+  attack_hold_fly:
+    game_script: game_attacks4fly
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: c00attacks4fly.nuanmb
+        unk: 0
+    scripts:
+      - sound_attacks4fly
+      - effect_attacks4fly
+    extra: ~

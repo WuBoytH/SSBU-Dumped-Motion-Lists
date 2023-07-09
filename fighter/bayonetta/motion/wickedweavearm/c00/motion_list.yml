@@ -1,0 +1,103 @@
+---
+motion_path: fighter/bayonetta/motion/wickedweavearm/c00
+list:
+  attack_s4_hi:
+    game_script: game_attacks4hi
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: c03attacks4hi.nuanmb
+        unk: 0
+    scripts:
+      - sound_attacks4hi
+      - effect_attacks4hi
+    extra: ~
+  attack_s4_s:
+    game_script: game_attacks4
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: c03attacks4s.nuanmb
+        unk: 0
+    scripts:
+      - sound_attacks4
+      - effect_attacks4
+    extra: ~
+  attack_s4_lw:
+    game_script: game_attacks4lw
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: c03attacks4lw.nuanmb
+        unk: 0
+    scripts:
+      - sound_attacks4lw
+      - effect_attacks4lw
+    extra: ~
+  attack_hi4:
+    game_script: game_attackhi4
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: c04attackhi4.nuanmb
+        unk: 0
+    scripts:
+      - sound_attackhi4
+      - effect_attackhi4
+    extra: ~

@@ -1,0 +1,299 @@
+---
+motion_path: fighter/pickel/motion/trolley/c00
+list:
+  special_s_drive:
+    game_script: game_specialsdrive
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d01specialswait.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialsdrive
+      - effect_specialsdrive
+    extra: ~
+  special_s_drive_empty:
+    game_script: game_specialsdriveempty
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d01specialswait.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialsdriveempty
+      - effect_specialsdriveempty
+    extra: ~
+  special_s_drive_off_rail:
+    game_script: game_specialsdrive
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d01specialsshake.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialsdrive
+      - effect_specialsdrive
+    extra: ~
+  special_s_drive_off_rail_empty:
+    game_script: game_specialsdriveempty
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d01specialsshake.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialsdriveempty
+      - effect_specialsdriveempty
+    extra: ~
+  special_s_wall_s:
+    game_script: game_specialswalls
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d01specialswall1.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialswalls
+      - effect_specialswalls
+    extra: ~
+  special_s_wall_m:
+    game_script: game_specialswallm
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d01specialswall2.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialswallm
+      - effect_specialswallm
+    extra: ~
+  special_s_wall_l:
+    game_script: game_specialswalll
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d01specialswall3.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialswalll
+      - effect_specialswalll
+    extra: ~
+  special_s_damage_s:
+    game_script: game_specialsdamages
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d01specialsdamage1.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialsdamages
+      - effect_specialsdamages
+    extra: ~
+  special_s_damage_m:
+    game_script: game_specialsdamagem
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d01specialsdamage2.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialsdamagem
+      - effect_specialsdamagem
+    extra: ~
+  special_s_damage_l:
+    game_script: game_specialsdamagel
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d01specialsdamage3.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialsdamagel
+      - effect_specialsdamagel
+    extra: ~
+  "0x178753d926":
+    game_script: game_specialsdrivepartial
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations: []
+    scripts:
+      - "0x1a14f3ba43"
+      - "0x1b13b38eec"
+    extra: ~
+  "0x1d6aa43c45":
+    game_script: game_specialsdriveemptypartial
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations: []
+    scripts:
+      - "0x1fb1e10f61"
+      - "0x20030473d7"
+    extra: ~

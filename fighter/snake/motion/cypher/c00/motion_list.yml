@@ -1,0 +1,103 @@
+---
+motion_path: fighter/snake/motion/cypher/c00
+list:
+  attach:
+    game_script: game_attach
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: c00.nuanmb
+        unk: 0
+    scripts:
+      - sound_attach
+      - effect_attach
+    extra: ~
+  fly:
+    game_script: game_fly
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: c00.nuanmb
+        unk: 0
+    scripts:
+      - sound_fly
+      - effect_fly
+    extra: ~
+  detach:
+    game_script: game_detach
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: c00.nuanmb
+        unk: 0
+    scripts:
+      - sound_detach
+      - effect_detach
+    extra: ~
+  explosion:
+    game_script: game_explosion
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: c00.nuanmb
+        unk: 0
+    scripts:
+      - sound_explosion
+      - effect_explosion
+    extra: ~

@@ -1,0 +1,28 @@
+---
+motion_path: fighter/tantan/motion/ally6/c00
+list:
+  visual_scene_01:
+    game_script: game_visualscene01
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04visualscene01.nuanmb
+        unk: 0
+    scripts:
+      - sound_visualscene01
+      - effect_visualscene01
+    extra: ~

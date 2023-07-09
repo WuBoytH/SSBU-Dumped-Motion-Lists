@@ -1,0 +1,124 @@
+---
+motion_path: fighter/ike/motion/sword/c00
+list:
+  special_hi_2:
+    game_script: game_specialhi2
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d02specialhi2.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialhi2
+      - effect_specialhi2
+    extra: ~
+  special_air_hi_2:
+    game_script: game_specialairhi2
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d02specialairhi2.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialairhi2
+      - effect_specialairhi2
+    extra: ~
+  had:
+    game_script: game_had
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations: []
+    scripts:
+      - sound_had
+      - effect_had
+    extra: ~
+  fly:
+    game_script: game_fly
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations: []
+    scripts:
+      - sound_fly
+      - effect_fly
+    extra: ~
+  appeal_lw:
+    game_script: game_appeallw
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j01appeallw.nuanmb
+        unk: 0
+    scripts:
+      - sound_appeallw
+      - effect_appeallw
+    extra: ~

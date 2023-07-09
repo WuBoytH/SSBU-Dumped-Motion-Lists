@@ -1,0 +1,103 @@
+---
+motion_path: fighter/shizue/motion/broom/c00
+list:
+  attack_hi3:
+    game_script: game_attackhi3
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: c02attackhi3.nuanmb
+        unk: 0
+    scripts:
+      - sound_attackhi3
+      - effect_attackhi3
+    extra: ~
+  down_attack_u:
+    game_script: game_downattacku
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: f03downattacku.nuanmb
+        unk: 0
+    scripts:
+      - sound_downattacku
+      - effect_downattacku
+    extra: ~
+  down_attack_d:
+    game_script: game_downattackd
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: f04downattackd.nuanmb
+        unk: 0
+    scripts:
+      - sound_downattackd
+      - effect_downattackd
+    extra: ~
+  slip_attack:
+    game_script: game_slipattack
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: g03slipattack.nuanmb
+        unk: 0
+    scripts:
+      - sound_slipattack
+      - effect_slipattack
+    extra: ~

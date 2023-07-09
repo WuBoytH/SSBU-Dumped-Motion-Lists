@@ -1,0 +1,128 @@
+---
+motion_path: fighter/jack/motion/wirerope/c00
+list:
+  wait:
+    game_script: game_
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: wait.nuanmb
+        unk: 0
+    scripts:
+      - sound_
+      - effect_
+    extra: ~
+  special_hi:
+    game_script: game_specialhi
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d02specialhicatch.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialhi
+      - effect_specialhi
+    extra: ~
+  special_hi_pull:
+    game_script: game_specialhipull
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d02specialhipull.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialhipull
+      - effect_specialhipull
+    extra: ~
+  special_hi_back:
+    game_script: game_specialhifailure
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d02specialhifailure.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialhifailure
+      - effect_specialhifailure
+    extra: ~
+  special_hi_throw:
+    game_script: game_specialhithrow
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d02specialhithrow.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialhithrow
+      - effect_specialhithrow
+    extra: ~

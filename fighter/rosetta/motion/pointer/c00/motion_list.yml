@@ -1,0 +1,78 @@
+---
+motion_path: fighter/rosetta/motion/pointer/c00
+list:
+  capture_1:
+    game_script: game_capture1
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d03speciallwpointer1.nuanmb
+        unk: 0
+    scripts:
+      - sound_capture1
+      - effect_capture1
+    extra: ~
+  capture_2:
+    game_script: game_capture2
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d03speciallwpointer2.nuanmb
+        unk: 0
+    scripts:
+      - sound_capture2
+      - effect_capture2
+    extra: ~
+  capture_3:
+    game_script: game_capture3
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d03speciallwpointer3.nuanmb
+        unk: 0
+    scripts:
+      - sound_capture3
+      - effect_capture3
+    extra: ~

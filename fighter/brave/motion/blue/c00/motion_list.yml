@@ -1,0 +1,203 @@
+---
+motion_path: fighter/brave/motion/blue/c00
+list:
+  appeal_lw_r:
+    game_script: game_appeallwr
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j01appeallwr.nuanmb
+        unk: 0
+    scripts:
+      - sound_appeallwr
+      - effect_appeallwr
+    extra: ~
+  appeal_lw_l:
+    game_script: game_appeallwl
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j01appeallwl.nuanmb
+        unk: 0
+    scripts:
+      - sound_appeallwl
+      - effect_appeallwl
+    extra: ~
+  win_3_blue_1:
+    game_script: game_win3blue1
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win3blue1.nuanmb
+        unk: 0
+    scripts:
+      - sound_win3blue1
+      - effect_win3blue1
+    extra: ~
+  win_3_blue_1_wait:
+    game_script: game_win3blue1wait
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win3blue1wait.nuanmb
+        unk: 0
+    scripts:
+      - sound_win3blue1wait
+      - effect_win3blue1wait
+    extra: ~
+  win_3_blue_2:
+    game_script: game_win3blue2
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win3blue2.nuanmb
+        unk: 0
+    scripts:
+      - sound_win3blue2
+      - effect_win3blue2
+    extra: ~
+  win_3_blue_2_wait:
+    game_script: game_win3blue2wait
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win3blue2wait.nuanmb
+        unk: 0
+    scripts:
+      - sound_win3blue2wait
+      - effect_win3blue2wait
+    extra: ~
+  win_3_blue_3:
+    game_script: game_win3blue3
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win3blue3.nuanmb
+        unk: 0
+    scripts:
+      - sound_win3blue3
+      - effect_win3blue3
+    extra: ~
+  win_3_blue_3_wait:
+    game_script: game_win3blue3wait
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win3blue3wait.nuanmb
+        unk: 0
+    scripts:
+      - sound_win3blue3wait
+      - effect_win3blue3wait
+    extra: ~

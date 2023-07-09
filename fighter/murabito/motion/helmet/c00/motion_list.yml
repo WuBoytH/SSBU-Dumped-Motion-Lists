@@ -1,0 +1,51 @@
+---
+motion_path: fighter/murabito/motion/helmet/c00
+list:
+  dummy:
+    game_script: game_dummy
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations: []
+    scripts:
+      - sound_dummy
+      - effect_dummy
+    extra: ~
+  color:
+    game_script: game_
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: l01helmetcolor.nuanmb
+        unk: 0
+    scripts:
+      - sound_
+      - effect_
+    extra: ~

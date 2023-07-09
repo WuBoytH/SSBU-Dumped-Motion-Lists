@@ -1,0 +1,103 @@
+---
+motion_path: fighter/pikachu/motion/specialupdummy/c00
+list:
+  special_air_hi_1:
+    game_script: game_specialairhi1
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d02specialairhi.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialairhi1
+      - effect_specialairhi1
+    extra: ~
+  special_air_hi_2:
+    game_script: game_specialairhi2
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d02specialairhi.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialairhi2
+      - effect_specialairhi2
+    extra: ~
+  special_air_hi_end:
+    game_script: game_specialairhiend
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d02specialairhiend.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialairhiend
+      - effect_specialairhiend
+    extra: ~
+  special_hi_end:
+    game_script: game_specialhiend
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d02specialhiend.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialhiend
+      - effect_specialhiend
+    extra: ~

@@ -1,0 +1,903 @@
+---
+motion_path: fighter/littlemac/motion/doclouis/c00
+list:
+  win1:
+    game_script: game_win1
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win1.nuanmb
+        unk: 0
+    scripts:
+      - sound_win1
+      - effect_win1
+    extra: ~
+  win1a:
+    game_script: game_win1a
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win1a.nuanmb
+        unk: 1
+    scripts:
+      - sound_win1a
+      - effect_win1a
+    extra: ~
+  win1b:
+    game_script: game_win1b
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win1b.nuanmb
+        unk: 1
+    scripts:
+      - sound_win1b
+      - effect_win1b
+    extra: ~
+  win1c:
+    game_script: game_win1c
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win1c.nuanmb
+        unk: 1
+    scripts:
+      - sound_win1c
+      - effect_win1c
+    extra: ~
+  win1d:
+    game_script: game_win1d
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win1d.nuanmb
+        unk: 1
+    scripts:
+      - sound_win1d
+      - effect_win1d
+    extra: ~
+  win1e:
+    game_script: game_win1e
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win1e.nuanmb
+        unk: 1
+    scripts:
+      - sound_win1e
+      - effect_win1e
+    extra: ~
+  win1_wait:
+    game_script: game_win1wait
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win1wait.nuanmb
+        unk: 0
+    scripts:
+      - sound_win1wait
+      - effect_win1wait
+    extra: ~
+  win1a_wait:
+    game_script: game_win1await
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win1await.nuanmb
+        unk: 1
+    scripts:
+      - sound_win1await
+      - effect_win1await
+    extra: ~
+  win1b_wait:
+    game_script: game_win1bwait
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win1bwait.nuanmb
+        unk: 1
+    scripts:
+      - sound_win1bwait
+      - effect_win1bwait
+    extra: ~
+  win1c_wait:
+    game_script: game_win1cwait
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win1cwait.nuanmb
+        unk: 1
+    scripts:
+      - sound_win1cwait
+      - effect_win1cwait
+    extra: ~
+  win1d_wait:
+    game_script: game_win1dwait
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win1dwait.nuanmb
+        unk: 1
+    scripts:
+      - sound_win1dwait
+      - effect_win1dwait
+    extra: ~
+  win1e_wait:
+    game_script: game_win1ewait
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win1ewait.nuanmb
+        unk: 1
+    scripts:
+      - sound_win1ewait
+      - effect_win1ewait
+    extra: ~
+  win2:
+    game_script: game_win2
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win2.nuanmb
+        unk: 0
+    scripts:
+      - sound_win2
+      - effect_win2
+    extra: ~
+  win2a:
+    game_script: game_win2a
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win2a.nuanmb
+        unk: 1
+    scripts:
+      - sound_win2a
+      - effect_win2a
+    extra: ~
+  win2b:
+    game_script: game_win2b
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win2b.nuanmb
+        unk: 1
+    scripts:
+      - sound_win2b
+      - effect_win2b
+    extra: ~
+  win2c:
+    game_script: game_win2c
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win2c.nuanmb
+        unk: 1
+    scripts:
+      - sound_win2c
+      - effect_win2c
+    extra: ~
+  win2d:
+    game_script: game_win2d
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win2d.nuanmb
+        unk: 1
+    scripts:
+      - sound_win2d
+      - effect_win2d
+    extra: ~
+  win2e:
+    game_script: game_win2e
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win2e.nuanmb
+        unk: 1
+    scripts:
+      - sound_win2e
+      - effect_win2e
+    extra: ~
+  win2_wait:
+    game_script: game_win2wait
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win2wait.nuanmb
+        unk: 0
+    scripts:
+      - sound_win2wait
+      - effect_win2wait
+    extra: ~
+  win2a_wait:
+    game_script: game_win2await
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win2await.nuanmb
+        unk: 1
+    scripts:
+      - sound_win2await
+      - effect_win2await
+    extra: ~
+  win2b_wait:
+    game_script: game_win2bwait
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win2bwait.nuanmb
+        unk: 1
+    scripts:
+      - sound_win2bwait
+      - effect_win2bwait
+    extra: ~
+  win2c_wait:
+    game_script: game_win2cwait
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win2cwait.nuanmb
+        unk: 1
+    scripts:
+      - sound_win2cwait
+      - effect_win2cwait
+    extra: ~
+  win2d_wait:
+    game_script: game_win2dwait
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win2dwait.nuanmb
+        unk: 1
+    scripts:
+      - sound_win2dwait
+      - effect_win2dwait
+    extra: ~
+  win2e_wait:
+    game_script: game_win2ewait
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win2ewait.nuanmb
+        unk: 1
+    scripts:
+      - sound_win2ewait
+      - effect_win2ewait
+    extra: ~
+  win3:
+    game_script: game_win3
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win3.nuanmb
+        unk: 0
+    scripts:
+      - sound_win3
+      - effect_win3
+    extra: ~
+  win3a:
+    game_script: game_win3a
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win3a.nuanmb
+        unk: 1
+    scripts:
+      - sound_win3a
+      - effect_win3a
+    extra: ~
+  win3b:
+    game_script: game_win3b
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win3b.nuanmb
+        unk: 1
+    scripts:
+      - sound_win3b
+      - effect_win3b
+    extra: ~
+  win3c:
+    game_script: game_win3c
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win3c.nuanmb
+        unk: 1
+    scripts:
+      - sound_win3c
+      - effect_win3c
+    extra: ~
+  win3d:
+    game_script: game_win3d
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win3d.nuanmb
+        unk: 1
+    scripts:
+      - sound_win3d
+      - effect_win3d
+    extra: ~
+  win3e:
+    game_script: game_win3e
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win3e.nuanmb
+        unk: 1
+    scripts:
+      - sound_win3e
+      - effect_win3e
+    extra: ~
+  win3_wait:
+    game_script: game_win3wait
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win3wait.nuanmb
+        unk: 0
+    scripts:
+      - sound_win3wait
+      - effect_win3wait
+    extra: ~
+  win3a_wait:
+    game_script: game_win3await
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win3await.nuanmb
+        unk: 1
+    scripts:
+      - sound_win3await
+      - effect_win3await
+    extra: ~
+  win3b_wait:
+    game_script: game_win3bwait
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win3bwait.nuanmb
+        unk: 1
+    scripts:
+      - sound_win3bwait
+      - effect_win3bwait
+    extra: ~
+  win3c_wait:
+    game_script: game_win3cwait
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win3cwait.nuanmb
+        unk: 1
+    scripts:
+      - sound_win3cwait
+      - effect_win3cwait
+    extra: ~
+  win3d_wait:
+    game_script: game_win3dwait
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win3dwait.nuanmb
+        unk: 1
+    scripts:
+      - sound_win3dwait
+      - effect_win3dwait
+    extra: ~
+  win3e_wait:
+    game_script: game_win3ewait
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j02win3ewait.nuanmb
+        unk: 1
+    scripts:
+      - sound_win3ewait
+      - effect_win3ewait
+    extra: ~

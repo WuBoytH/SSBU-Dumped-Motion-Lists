@@ -1,0 +1,126 @@
+---
+motion_path: "0x216ed6d6e0"
+list:
+  regular:
+    game_script: game_regular
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations: []
+    scripts:
+      - sound_regular
+      - effect_regular
+    extra: ~
+  yoshi_special_n1:
+    game_script: game_yoshispecialn1
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialn1.nuanmb
+        unk: 0
+    scripts:
+      - sound_yoshispecialn1
+      - effect_yoshispecialn1
+    extra: ~
+  yoshi_special_air_n1:
+    game_script: game_yoshispecialairn1
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialairn1.nuanmb
+        unk: 0
+    scripts:
+      - sound_yoshispecialairn1
+      - effect_yoshispecialairn1
+    extra: ~
+  yoshi_special_n2:
+    game_script: game_yoshispecialn2
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialn2.nuanmb
+        unk: 0
+    scripts:
+      - sound_yoshispecialn2
+      - effect_yoshispecialn2
+    extra: ~
+  yoshi_special_air_n2:
+    game_script: game_yoshispecialairn2
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialairn2.nuanmb
+        unk: 0
+    scripts:
+      - sound_yoshispecialairn2
+      - effect_yoshispecialairn2
+    extra: ~

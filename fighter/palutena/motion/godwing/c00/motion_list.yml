@@ -1,0 +1,153 @@
+---
+motion_path: fighter/palutena/motion/godwing/c00
+list:
+  attack_s4_charge:
+    game_script: game_attacks4charge
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: c03attacks4charge.nuanmb
+        unk: 0
+    scripts:
+      - sound_attacks4charge
+      - effect_attacks4charge
+    extra: ~
+  attack_s4s:
+    game_script: game_attacks4
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: c03attacks4s.nuanmb
+        unk: 0
+    scripts:
+      - sound_attacks4
+      - effect_attacks4
+    extra: ~
+  attack_lw4_charge:
+    game_script: game_attacklw4charge
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: c04attacklw4charge.nuanmb
+        unk: 0
+    scripts:
+      - sound_attacklw4charge
+      - effect_attacklw4charge
+    extra: ~
+  attack_lw4:
+    game_script: game_attacklw4
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: c04attacklw4.nuanmb
+        unk: 0
+    scripts:
+      - sound_attacklw4
+      - effect_attacklw4
+    extra: ~
+  appeal_hi_r:
+    game_script: game_appealhir
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j01appealhir.nuanmb
+        unk: 0
+    scripts:
+      - sound_appealhir
+      - effect_appealhir
+    extra: ~
+  appeal_hi_l:
+    game_script: game_appealhil
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j01appealhil.nuanmb
+        unk: 0
+    scripts:
+      - sound_appealhil
+      - effect_appealhil
+    extra: ~

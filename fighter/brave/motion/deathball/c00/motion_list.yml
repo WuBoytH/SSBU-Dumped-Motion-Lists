@@ -1,0 +1,74 @@
+---
+motion_path: fighter/brave/motion/deathball/c00
+list:
+  deathball1:
+    game_script: game_deathball1
+    flags:
+      turn: false
+      loop: true
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d03speciallw6.nuanmb
+        unk: 0
+    scripts:
+      - sound_deathball1
+      - effect_deathball1
+    extra: ~
+  deathball_hit1:
+    game_script: game_deathballhit1
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations: []
+    scripts:
+      - sound_deathballhit1
+      - effect_deathballhit1
+    extra: ~
+  deathball2:
+    game_script: game_deathball2
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations: []
+    scripts:
+      - sound_deathball2
+      - effect_deathball2
+    extra: ~

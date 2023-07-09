@@ -1,0 +1,28 @@
+---
+motion_path: fighter/gekkouga/motion/bunshin/c00
+list:
+  final_attack_bunshin:
+    game_script: game_finalattackbunshin
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04finalattackbunshin.nuanmb
+        unk: 0
+    scripts:
+      - sound_finalattackbunshin
+      - effect_finalattackbunshin
+    extra: ~

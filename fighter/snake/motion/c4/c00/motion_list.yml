@@ -1,0 +1,178 @@
+---
+motion_path: fighter/snake/motion/c4/c00
+list:
+  establish_target:
+    game_script: game_establishtarget
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: c00.nuanmb
+        unk: 0
+    scripts:
+      - sound_establishtarget
+      - effect_establishtarget
+    extra: ~
+  stick_target:
+    game_script: game_sticktarget
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: c00.nuanmb
+        unk: 0
+    scripts:
+      - sound_sticktarget
+      - effect_sticktarget
+    extra: ~
+  establish_wall:
+    game_script: game_establishwall
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: c00.nuanmb
+        unk: 0
+    scripts:
+      - sound_establishwall
+      - effect_establishwall
+    extra: ~
+  establish_ground:
+    game_script: game_establishground
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: c00.nuanmb
+        unk: 0
+    scripts:
+      - sound_establishground
+      - effect_establishground
+    extra: ~
+  stick_other:
+    game_script: game_stickother
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: c00.nuanmb
+        unk: 0
+    scripts:
+      - sound_stickother
+      - effect_stickother
+    extra: ~
+  explosion:
+    game_script: game_explosion
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: c00.nuanmb
+        unk: 0
+    scripts:
+      - sound_explosion
+      - effect_explosion
+    extra: ~
+  disappear:
+    game_script: game_disappear
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: c00.nuanmb
+        unk: 0
+    scripts:
+      - sound_disappear
+      - effect_disappear
+    extra: ~

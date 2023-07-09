@@ -1,0 +1,103 @@
+---
+motion_path: fighter/kirby/motion/rosettaticomissile/c00
+list:
+  special_n_start:
+    game_script: game_specialnstart
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialnstart.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialnstart
+      - effect_specialnstart
+    extra: ~
+  special_n_charge:
+    game_script: game_specialncharge
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialncharge.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialncharge
+      - effect_specialncharge
+    extra: ~
+  special_n_fly:
+    game_script: game_specialnfly
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialnfly.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialnfly
+      - effect_specialnfly
+    extra: ~
+  special_n_end:
+    game_script: game_specialnend
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialnend.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialnend
+      - effect_specialnend
+    extra: ~

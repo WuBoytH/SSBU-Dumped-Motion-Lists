@@ -1,0 +1,128 @@
+---
+motion_path: boss/darzpierce/motion/body/c00
+list:
+  pierce_start:
+    game_script: game_piercestart
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: piercestart_tenta.nuanmb
+        unk: 0
+    scripts:
+      - effect_piercestart
+      - sound_piercestart
+    extra: ~
+  pierce_hold_loop:
+    game_script: game_pierceholdloop
+    flags:
+      turn: false
+      loop: true
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: pierceholdloop_tenta.nuanmb
+        unk: 0
+    scripts:
+      - effect_pierceholdloop
+      - sound_pierceholdloop
+    extra: ~
+  pierce:
+    game_script: game_pierce
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: pierce_tenta.nuanmb
+        unk: 0
+    scripts:
+      - effect_pierce
+      - sound_pierce
+    extra: ~
+  pierce_loop:
+    game_script: game_pierceloop
+    flags:
+      turn: false
+      loop: true
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: pierceloop_tenta.nuanmb
+        unk: 0
+    scripts:
+      - effect_pierceloop
+      - sound_pierceloop
+    extra: ~
+  pierce_end:
+    game_script: game_pierceend
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: pierceend_tenta.nuanmb
+        unk: 0
+    scripts:
+      - effect_pierceend
+      - sound_pierceend
+    extra: ~

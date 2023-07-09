@@ -1,0 +1,153 @@
+---
+motion_path: fighter/toonlink/motion/bow/c00
+list:
+  n_start:
+    game_script: game_nstart
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialnstart.nuanmb
+        unk: 0
+    scripts:
+      - sound_nstart
+      - effect_nstart
+    extra: ~
+  n:
+    game_script: game_n
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialnloop.nuanmb
+        unk: 0
+    scripts:
+      - sound_n
+      - effect_n
+    extra: ~
+  n_end:
+    game_script: game_nend
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialnend.nuanmb
+        unk: 0
+    scripts:
+      - sound_nend
+      - effect_nend
+    extra: ~
+  n_air_start:
+    game_script: game_nairstart
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialairnstart.nuanmb
+        unk: 0
+    scripts:
+      - sound_nairstart
+      - effect_nairstart
+    extra: ~
+  n_air:
+    game_script: game_nair
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialairnloop.nuanmb
+        unk: 0
+    scripts:
+      - sound_nair
+      - effect_nair
+    extra: ~
+  n_air_end:
+    game_script: game_nairend
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialairnend.nuanmb
+        unk: 0
+    scripts:
+      - sound_nairend
+      - effect_nairend
+    extra: ~

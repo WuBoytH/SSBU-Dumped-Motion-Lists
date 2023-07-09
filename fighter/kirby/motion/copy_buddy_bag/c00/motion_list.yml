@@ -1,0 +1,453 @@
+---
+motion_path: fighter/kirby/motion/copy_buddy_bag/c00
+list:
+  buddy_wait:
+    game_script: game_buddywait
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: wait.nuanmb
+        unk: 0
+    scripts:
+      - sound_buddywait
+      - effect_buddywait
+    extra: ~
+  buddy_special_n:
+    game_script: game_buddyspecialnfire
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialnfire.nuanmb
+        unk: 0
+    scripts:
+      - sound_buddyspecialnfire
+      - effect_buddyspecialnfire
+    extra: ~
+  buddy_special_n_shoot_start:
+    game_script: game_buddyspecialnstart
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialnstart.nuanmb
+        unk: 0
+    scripts:
+      - sound_buddyspecialnstart
+      - effect_buddyspecialnstart
+    extra: ~
+  buddy_special_n_shoot_wait:
+    game_script: game_buddyspecialnwait
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialnwait.nuanmb
+        unk: 0
+    scripts:
+      - sound_buddyspecialnwait
+      - effect_buddyspecialnwait
+    extra: ~
+  buddy_special_n_shoot_fire:
+    game_script: game_buddyspecialnfire2
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialnfire2.nuanmb
+        unk: 0
+    scripts:
+      - sound_buddyspecialnfire2
+      - effect_buddyspecialnfire2
+    extra: ~
+  buddy_special_n_shoot_turn:
+    game_script: game_buddyspecialnturn
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialnturn.nuanmb
+        unk: 0
+    scripts:
+      - sound_buddyspecialnturn
+      - effect_buddyspecialnturn
+    extra: ~
+  buddy_special_n_shoot_jump:
+    game_script: game_buddyspecialnjump
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialnjump.nuanmb
+        unk: 0
+    scripts:
+      - sound_buddyspecialnjump
+      - effect_buddyspecialnjump
+    extra: ~
+  buddy_special_n_shoot_jump_aerial_f1:
+    game_script: game_buddyspecialnjumpaerialf1
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialnjumpaerialf1.nuanmb
+        unk: 0
+    scripts:
+      - sound_buddyspecialnjumpaerialf1
+      - effect_buddyspecialnjumpaerialf1
+    extra: ~
+  buddy_special_n_shoot_fall:
+    game_script: game_buddyspecialnfall
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialnfall.nuanmb
+        unk: 0
+    scripts:
+      - sound_buddyspecialnfall
+      - effect_buddyspecialnfall
+    extra: ~
+  buddy_special_n_shoot_end:
+    game_script: game_buddyspecialnend
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialnend.nuanmb
+        unk: 0
+    scripts:
+      - sound_buddyspecialnend
+      - effect_buddyspecialnend
+    extra: ~
+  buddy_special_air_n_shoot_start:
+    game_script: game_buddyspecialairnstart
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialairnstart.nuanmb
+        unk: 0
+    scripts:
+      - sound_buddyspecialairnstart
+      - effect_buddyspecialairnstart
+    extra: ~
+  buddy_special_air_n_shoot_end:
+    game_script: game_buddyspecialairnend
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialairnend.nuanmb
+        unk: 0
+    scripts:
+      - sound_buddyspecialairnend
+      - effect_buddyspecialairnend
+    extra: ~
+  buddy_special_air_n:
+    game_script: game_buddyspecialairnfire
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialairnfire.nuanmb
+        unk: 0
+    scripts:
+      - sound_buddyspecialairnfire
+      - effect_buddyspecialairnfire
+    extra: ~
+  buddy_special_air_n_shoot_fire:
+    game_script: game_buddyspecialairnfire2
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialairnfire2.nuanmb
+        unk: 0
+    scripts:
+      - sound_buddyspecialairnfire2
+      - effect_buddyspecialairnfire2
+    extra: ~
+  buddy_special_air_n_shoot_jump_fire:
+    game_script: game_buddyspecialairnfire3
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialairnfire3.nuanmb
+        unk: 0
+    scripts:
+      - sound_buddyspecialairnfire3
+      - effect_buddyspecialairnfire3
+    extra: ~
+  buddy_special_air_n_shoot_turn:
+    game_script: game_buddyspecialairnturn
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialairnturn.nuanmb
+        unk: 0
+    scripts:
+      - sound_buddyspecialairnturn
+      - effect_buddyspecialairnturn
+    extra: ~
+  buddy_special_n_shoot_upper_fire:
+    game_script: game_buddyspecialnshootupperfire
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialnupperfire.nuanmb
+        unk: 0
+    scripts:
+      - sound_buddyspecialnshootupperfire
+      - effect_buddyspecialnshootupperfire
+    extra: ~
+  buddy_special_n_shoot_upper_wait:
+    game_script: game_buddyspecialnshootupperwait
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d00specialnupperwait.nuanmb
+        unk: 0
+    scripts:
+      - sound_buddyspecialnshootupperwait
+      - effect_buddyspecialnshootupperwait
+    extra: ~

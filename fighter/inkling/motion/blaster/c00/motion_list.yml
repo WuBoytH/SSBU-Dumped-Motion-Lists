@@ -1,0 +1,53 @@
+---
+motion_path: fighter/inkling/motion/blaster/c00
+list:
+  attack_hi4:
+    game_script: game_attackhi4
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: c04attackhi4.nuanmb
+        unk: 0
+    scripts:
+      - sound_attackhi4
+      - effect_attackhi4
+    extra: ~
+  attack_hi4_charge:
+    game_script: game_attackhi4charge
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: c04attackhi4charge.nuanmb
+        unk: 0
+    scripts:
+      - sound_attackhi4charge
+      - effect_attackhi4charge
+    extra: ~

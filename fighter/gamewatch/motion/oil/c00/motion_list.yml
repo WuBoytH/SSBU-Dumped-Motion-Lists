@@ -1,0 +1,85 @@
+---
+motion_path: fighter/gamewatch/motion/oil/c00
+list:
+  color_anim:
+    game_script: game_coloranim
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations: []
+    scripts:
+      - sound_coloranim
+      - effect_coloranim
+      - game_coloranim
+      - sound_coloranim
+      - effect_coloranim
+    extra: ~
+  special_lw_shoot:
+    game_script: game_speciallwshoot
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d03speciallwshoot.nuanmb
+        unk: 0
+    scripts:
+      - sound_speciallwshoot
+      - effect_speciallwshoot
+      - game_speciallwshoot
+      - sound_speciallwshoot
+      - effect_speciallwshoot
+    extra: ~
+  special_air_lw_shoot:
+    game_script: game_specialairlwshoot
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d03specialairlwshoot.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialairlwshoot
+      - effect_specialairlwshoot
+      - game_specialairlwshoot
+      - sound_specialairlwshoot
+      - effect_specialairlwshoot
+    extra: ~

@@ -1,0 +1,103 @@
+---
+motion_path: fighter/bayonetta/motion/bat/c00
+list:
+  escape_f_l:
+    game_script: game_escapefl
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: b02escapefl.nuanmb
+        unk: 0
+    scripts:
+      - sound_escapefl
+      - effect_escapefl
+    extra: ~
+  escape_f_r:
+    game_script: game_escapefr
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: b02escapefr.nuanmb
+        unk: 0
+    scripts:
+      - sound_escapefr
+      - effect_escapefr
+    extra: ~
+  batwithin_l:
+    game_script: game_batwithinl
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: batwithinl.nuanmb
+        unk: 0
+    scripts:
+      - sound_batwithinl
+      - effect_batwithinl
+    extra: ~
+  batwithin_r:
+    game_script: game_batwithinr
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: batwithinr.nuanmb
+        unk: 0
+    scripts:
+      - sound_batwithinr
+      - effect_batwithinr
+    extra: ~

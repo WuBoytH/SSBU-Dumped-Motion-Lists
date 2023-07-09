@@ -1,0 +1,153 @@
+---
+motion_path: fighter/jack/motion/wing/c00
+list:
+  special_hi2:
+    game_script: game_specialhistart
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d02specialhistart.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialhistart
+      - effect_specialhistart
+    extra: ~
+  special_air_hi2:
+    game_script: game_specialairhistart
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d02specialairhistart.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialairhistart
+      - effect_specialairhistart
+    extra: ~
+  special_hi2_f:
+    game_script: game_specialairhif
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d02specialairhif.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialairhif
+      - effect_specialairhif
+    extra: ~
+  special_hi2_b:
+    game_script: game_specialairhib
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d02specialairhib.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialairhib
+      - effect_specialairhib
+    extra: ~
+  special_hi2_end_f:
+    game_script: game_specialairhiendf
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d02specialairhiendf.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialairhiendf
+      - effect_specialairhiendf
+    extra: ~
+  special_hi2_end_b:
+    game_script: game_specialairhiendb
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d02specialairhiendb.nuanmb
+        unk: 0
+    scripts:
+      - sound_specialairhiendb
+      - effect_specialairhiendb
+    extra: ~

@@ -1,0 +1,853 @@
+---
+motion_path: fighter/element/motion/diver/c00
+list:
+  "0x0d1a6b318f":
+    game_script: game_ffinalstart
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x151efd1ca9"
+        unk: 0
+    scripts:
+      - sound_ffinalstart
+      - effect_ffinalstart
+    extra: ~
+  "0x0e47453f5f":
+    game_script: "0x11f50d1832"
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x16d5d2afc8"
+        unk: 0
+    scripts:
+      - sound_ffinalattack
+      - effect_ffinalattack
+    extra: ~
+  "0x0b5314f7b0":
+    game_script: "0x0e0b9d1f47"
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x138dfcda79"
+        unk: 0
+    scripts:
+      - "0x0feb230af8"
+      - "0x10cebeafa0"
+    extra: ~
+  "0x11173987eb":
+    game_script: game_ffinalairstart
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x188b78e0d2"
+        unk: 0
+    scripts:
+      - sound_ffinalairstart
+      - effect_ffinalairstart
+    extra: ~
+  "0x120d97c8a8":
+    game_script: "0x14a77530c5"
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x1912908280"
+        unk: 0
+    scripts:
+      - sound_ffinalairattack
+      - effect_ffinalairattack
+    extra: ~
+  "0x0f3a48a016":
+    game_script: "0x116a0edfdd"
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x168e54dc18"
+        unk: 0
+    scripts:
+      - "0x12bf601e8f"
+      - "0x138001c6f7"
+    extra: ~
+  "0x111227ca66":
+    game_script: "0x137237bea4"
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x18cd315c6a"
+        unk: 0
+    scripts:
+      - "0x1416d9a63a"
+      - effect_fvisualscene01
+    extra: ~
+  "0x118b2e9bdc":
+    game_script: "0x13eb3eef1e"
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x1843be5b89"
+        unk: 0
+    scripts:
+      - "0x148fd0f780"
+      - "0x15e03e61f9"
+    extra: ~
+  "0x0d203457a9":
+    game_script: game_lfinalstart
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x150c78d926"
+        unk: 0
+    scripts:
+      - sound_lfinalstart
+      - effect_lfinalstart
+    extra: ~
+  "0x0e9572e5c4":
+    game_script: game_lfinalattack
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x16a8c7b4bc"
+        unk: 0
+    scripts:
+      - sound_lfinalattack
+      - effect_lfinalattack
+    extra: ~
+  "0x0bb1bbaf34":
+    game_script: "0x0e9eb395d9"
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x13794f6055"
+        unk: 0
+    scripts:
+      - "0x0f7e0d8066"
+      - "0x105b90253e"
+    extra: ~
+  "0x11251558b2":
+    game_script: game_lfinalairstart
+    flags:
+      turn: false
+      loop: false
+      move: true
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x184a4ee8d9"
+        unk: 0
+    scripts:
+      - sound_lfinalairstart
+      - effect_lfinalairstart
+    extra: ~
+  "0x121f120d27":
+    game_script: "0x14c07a4dd3"
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x1985836d00"
+        unk: 0
+    scripts:
+      - sound_lfinalairattack
+      - effect_lfinalairattack
+    extra: ~
+  "0x0f5d47dd00":
+    game_script: "0x11803937bc"
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x16f341c76c"
+        unk: 0
+    scripts:
+      - "0x125557f6ee"
+      - "0x136a362e96"
+    extra: ~
+  "0x11200b153f":
+    game_script: "0x13a000643f"
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x180c075461"
+        unk: 0
+    scripts:
+      - "0x14c4ee7ca1"
+      - effect_lvisualscene01
+    extra: ~
+  "0x11b9024485":
+    game_script: "0x1339093585"
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x1882885382"
+        unk: 0
+    scripts:
+      - "0x145de72d1b"
+      - "0x153209bb62"
+    extra: ~
+  "0x11ce057413":
+    game_script: "0x134e0e0513"
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x184e22531c"
+        unk: 0
+    scripts:
+      - "0x142ae01d8d"
+      - "0x15450e8bf4"
+    extra: ~
+  "0x115061e1b0":
+    game_script: "0x13d06a90b0"
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x1844e75a05"
+        unk: 0
+    scripts:
+      - "0x14b484882e"
+      - "0x15db6a1e57"
+    extra: ~
+  "0x09bb6a2cce":
+    game_script: "0x0c6d2dd711"
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x113379382d"
+        unk: 0
+    scripts:
+      - sound_fentryr
+      - effect_fentryr
+    extra: ~
+  "0x09416511ad":
+    game_script: "0x0c9722ea72"
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x115a481b34"
+        unk: 0
+    scripts:
+      - sound_fentryl
+      - effect_fentryl
+    extra: ~
+  "0x092e44a650":
+    game_script: "0x0cc95d885f"
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x11e14ee2b6"
+        unk: 0
+    scripts:
+      - sound_lentryr
+      - effect_lentryr
+    extra: ~
+  "0x09d44b9b33":
+    game_script: "0x0c3352b53c"
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x11887fc1af"
+        unk: 0
+    scripts:
+      - sound_lentryl
+      - effect_lentryl
+    extra: ~
+  "0x0d323e89b4":
+    game_script: "0x0f1be4dd39"
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x14796cc945"
+        unk: 0
+    scripts:
+      - sound_fappealhir
+      - effect_fappealhir
+    extra: ~
+  "0x0dc831b4d7":
+    game_script: "0x0fe1ebe05a"
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x14105dea5c"
+        unk: 0
+    scripts:
+      - sound_fappealhil
+      - effect_fappealhil
+    extra: ~
+  "0x0d0861ef92":
+    game_script: "0x0f0cc64df0"
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x144b40161c"
+        unk: 0
+    scripts:
+      - sound_lappealhir
+      - effect_lappealhir
+    extra: ~
+  "0x0df26ed2f1":
+    game_script: "0x0ff6c97093"
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x1422713505"
+        unk: 0
+    scripts:
+      - sound_lappealhil
+      - effect_lappealhil
+    extra: ~
+  "0x07abba3f5e":
+    game_script: "0x0af92d22e6"
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x0ff021afb3"
+        unk: 0
+    scripts:
+      - "0x0bdce39050"
+      - effect_fwin1
+    extra: ~
+  "0x0c8a9a7447":
+    game_script: "0x0e51781fd8"
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x13e3b1da5b"
+        unk: 0
+    scripts:
+      - "0x0fb1c60a67"
+      - "0x10945baf3f"
+    extra: ~
+  "0x0732b36ee4":
+    game_script: "0x0a6024735c"
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x0f7eaea850"
+        unk: 0
+    scripts:
+      - "0x0b45eac1ea"
+      - "0x0c96e6255c"
+    extra: ~
+  "0x0c0c0e06e9":
+    game_script: "0x0e16d86508"
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x13942f08ab"
+        unk: 0
+    scripts:
+      - "0x0ff66670b7"
+      - "0x10d3fbd5ef"
+    extra: ~
+  "0x070fca6010":
+    game_script: "0x0ab39d3a47"
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x0f1a1647d2"
+        unk: 0
+    scripts:
+      - "0x0b965388f1"
+      - effect_lwin1
+    extra: ~
+  "0x0c60ad9c26":
+    game_script: "0x0ec4569546"
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x1317026077"
+        unk: 0
+    scripts:
+      - "0x0f24e880f9"
+      - "0x10017525a1"
+    extra: ~
+  "0x0796c331aa":
+    game_script: "0x0a2a946bfd"
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x0f94994031"
+        unk: 0
+    scripts:
+      - "0x0b0f5ad94b"
+      - effect_lwin2
+    extra: ~
+  "0x0ce639ee88":
+    game_script: "0x0e83f6ef96"
+    flags:
+      turn: false
+      loop: true
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: "0x13609cb287"
+        unk: 0
+    scripts:
+      - "0x0f6348fa29"
+      - "0x1046d55f71"
+    extra: ~

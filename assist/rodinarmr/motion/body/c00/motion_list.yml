@@ -1,0 +1,78 @@
+---
+motion_path: assist/rodinarmr/motion/body/c00
+list:
+  attack:
+    game_script: game_attack
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: attackhuge.nuanmb
+        unk: 0
+    scripts:
+      - effect_attack
+      - sound_attack
+    extra: ~
+  attack_flatstage_right:
+    game_script: game_attackflatstageright
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: attackhuge.nuanmb
+        unk: 0
+    scripts:
+      - effect_attackflatstageright
+      - sound_attackflatstageright
+    extra: ~
+  attack_flatstage_left:
+    game_script: game_attackflatstageleft
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: attackhuge.nuanmb
+        unk: 0
+    scripts:
+      - effect_attackflatstageleft
+      - sound_attackflatstageleft
+    extra: ~

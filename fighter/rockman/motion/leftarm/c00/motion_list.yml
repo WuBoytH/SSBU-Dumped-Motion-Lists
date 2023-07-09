@@ -1,0 +1,78 @@
+---
+motion_path: fighter/rockman/motion/leftarm/c00
+list:
+  normalhand_change:
+    game_script: game_nomalhandchange
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: nomalhandchange.nuanmb
+        unk: 0
+    scripts:
+      - sound_nomalhandchange
+      - effect_nomalhandchange
+    extra: ~
+  rockbuster_change:
+    game_script: game_rockbusterchange
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: rockbusterchange.nuanmb
+        unk: 0
+    scripts:
+      - sound_rockbusterchange
+      - effect_rockbusterchange
+    extra: ~
+  waste_heat:
+    game_script: game_wasteheat
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: wasteheat.nuanmb
+        unk: 0
+    scripts:
+      - sound_wasteheat
+      - effect_wasteheat
+    extra: ~

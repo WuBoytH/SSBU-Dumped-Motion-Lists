@@ -1,0 +1,28 @@
+---
+motion_path: fighter/link/motion/navy/c00
+list:
+  appeal_s:
+    game_script: game_appeals
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j01appeals.nuanmb
+        unk: 0
+    scripts:
+      - sound_appeals
+      - effect_appeals
+    extra: ~

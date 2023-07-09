@@ -1,0 +1,53 @@
+---
+motion_path: "0x0000000000"
+list:
+  final_start:
+    game_script: game_ultraswordhatfinalstart
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04finalstart.nuanmb
+        unk: 0
+    scripts:
+      - sound_ultraswordhatfinalstart
+      - effect_ultraswordhatfinalstart
+    extra: ~
+  final_attack:
+    game_script: game_ultraswordhatfinalattack
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04finalattack.nuanmb
+        unk: 0
+    scripts:
+      - sound_ultraswordhatfinalattack
+      - effect_ultraswordhatfinalattack
+    extra: ~
