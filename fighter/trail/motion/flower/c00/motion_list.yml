@@ -1,0 +1,53 @@
+---
+motion_path: "0x1f5c9394f0"
+list:
+  appeal_hi_r:
+    game_script: game_appealhir
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j01appealhir.nuanmb
+        unk: 0
+    scripts:
+      - sound_appealhir
+      - effect_appealhir
+    extra: ~
+  appeal_hi_l:
+    game_script: game_appealhil
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j01appealhil.nuanmb
+        unk: 0
+    scripts:
+      - sound_appealhil
+      - effect_appealhil
+    extra: ~

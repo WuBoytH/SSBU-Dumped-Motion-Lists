@@ -1,0 +1,203 @@
+---
+motion_path: fighter/captain/motion/bluefalcon/c00
+list:
+  entry_l:
+    game_script: game_bluefalconentryl
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j00entryl.nuanmb
+        unk: 0
+    scripts:
+      - sound_bluefalconentryl
+      - effect_bluefalconentryl
+    extra: ~
+  entry_r:
+    game_script: game_bluefalconentryr
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: j00entryr.nuanmb
+        unk: 0
+    scripts:
+      - sound_bluefalconentryr
+      - effect_bluefalconentryr
+    extra: ~
+  start_l:
+    game_script: game_startl
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04finalstartl.nuanmb
+        unk: 0
+    scripts:
+      - sound_startl
+      - effect_startl
+    extra: ~
+  start_r:
+    game_script: game_startr
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04finalstartr.nuanmb
+        unk: 0
+    scripts:
+      - sound_startr
+      - effect_startr
+    extra: ~
+  ride_l:
+    game_script: game_ridel
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04finalridel.nuanmb
+        unk: 0
+    scripts:
+      - sound_ridel
+      - effect_ridel
+    extra: ~
+  ride_r:
+    game_script: game_rider
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04finalrider.nuanmb
+        unk: 0
+    scripts:
+      - sound_rider
+      - effect_rider
+    extra: ~
+  scene02:
+    game_script: game_scene02
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04visualscene02.nuanmb
+        unk: 0
+    scripts:
+      - sound_scene02
+      - effect_scene02
+    extra: ~
+  scene03:
+    game_script: game_scene03
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations:
+      - name: d04visualscene03.nuanmb
+        unk: 0
+    scripts:
+      - sound_scene03
+      - effect_scene03
+    extra: ~

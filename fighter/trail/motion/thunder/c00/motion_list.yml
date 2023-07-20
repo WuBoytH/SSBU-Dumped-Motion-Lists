@@ -1,0 +1,118 @@
+---
+motion_path: "0x0000000000"
+list:
+  fall:
+    game_script: game_fall
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations: []
+    scripts:
+      - sound_fall
+      - effect_fall
+    extra: ~
+  "0x0937cd8bb3":
+    game_script: game_falllast
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations: []
+    scripts:
+      - sound_falllast
+      - effect_falllast
+    extra: ~
+  "0x08addc1a74":
+    game_script: game_fallair
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations: []
+    scripts:
+      - sound_fallair
+      - effect_fallair
+    extra: ~
+  "0x0dd545b818":
+    game_script: "0x10983531cc"
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations: []
+    scripts:
+      - "0x1196b587ee"
+      - "0x12426b2248"
+    extra: ~
+  landing:
+    game_script: game_landing
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations: []
+    scripts:
+      - sound_landing
+      - effect_landing
+    extra: ~

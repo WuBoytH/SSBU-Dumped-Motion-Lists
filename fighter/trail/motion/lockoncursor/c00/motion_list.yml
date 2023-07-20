@@ -1,0 +1,49 @@
+---
+motion_path: "0x0000000000"
+list:
+  start:
+    game_script: game_start
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations: []
+    scripts:
+      - sound_start
+      - effect_start
+    extra: ~
+  "0x0359fa4760":
+    game_script: "0x0842a054a5"
+    flags:
+      turn: false
+      loop: false
+      move: false
+      fix_trans: false
+      fix_rot: false
+      fix_scale: false
+      unk_40: false
+      unk_80: false
+      unk_100: false
+      unk_200: false
+      unk_400: false
+      unk_800: false
+      unk_1000: false
+      unk_2000: false
+    blend_frames: 0
+    animations: []
+    scripts:
+      - "0x09f3259804"
+      - effect_fix
+    extra: ~
