@@ -24,7 +24,7 @@ list:
       - sound_fall
       - effect_fall
     extra: ~
-  "0x0937cd8bb3":
+  fall_last:
     game_script: game_falllast
     flags:
       turn: false
@@ -47,7 +47,7 @@ list:
       - sound_falllast
       - effect_falllast
     extra: ~
-  "0x08addc1a74":
+  fall_air:
     game_script: game_fallair
     flags:
       turn: false
@@ -70,8 +70,8 @@ list:
       - sound_fallair
       - effect_fallair
     extra: ~
-  "0x0dd545b818":
-    game_script: "0x10983531cc"
+  fall_last_air:
+    game_script: game_falllastair
     flags:
       turn: false
       loop: false
@@ -90,8 +90,8 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x1196b587ee"
-      - "0x12426b2248"
+      - sound_falllastair
+      - effect_falllastair
     extra: ~
   landing:
     game_script: game_landing

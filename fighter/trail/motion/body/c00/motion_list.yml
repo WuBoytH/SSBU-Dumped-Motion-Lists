@@ -2851,8 +2851,8 @@ list:
       xlu_end: 0
       cancel_frame: 20
       no_stop_intp: false
-  "0x0ef18da434":
-    game_script: "0x1160da8032"
+  landing_air_n2:
+    game_script: game_landingairn2
     flags:
       turn: false
       loop: false
@@ -2870,19 +2870,19 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1695128c3f"
+      - name: c05landingairn2.nuanmb
         unk: 0
     scripts:
-      - "0x17be2d743d"
-      - "0x12b5b44160"
-      - "0x138ad59918"
+      - expression_landingairn2
+      - sound_landingairn2
+      - effect_landingairn2
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 20
       no_stop_intp: false
-  "0x0e868a94a2":
-    game_script: "0x1117ddb0a4"
+  landing_air_n3:
+    game_script: game_landingairn3
     flags:
       turn: false
       loop: false
@@ -2900,12 +2900,12 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1659b88ca1"
+      - name: c05landingairn3.nuanmb
         unk: 0
     scripts:
-      - "0x17c92a44ab"
-      - "0x12c2b371f6"
-      - "0x13fdd2a98e"
+      - expression_landingairn3
+      - sound_landingairn3
+      - effect_landingairn3
     extra:
       xlu_start: 0
       xlu_end: 0
@@ -2960,7 +2960,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1695128c3f"
+      - name: c05landingairn2.nuanmb
         unk: 0
     scripts:
       - expression_landingairf2
@@ -2990,7 +2990,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1659b88ca1"
+      - name: c05landingair3.nuanmb
         unk: 0
     scripts:
       - expression_landingairf3
@@ -4682,7 +4682,7 @@ list:
       cancel_frame: 0
       no_stop_intp: false
   final_visual_scene_04:
-    game_script: "0x1746950c08"
+    game_script: game_finalvisualscene04
     flags:
       turn: false
       loop: false
