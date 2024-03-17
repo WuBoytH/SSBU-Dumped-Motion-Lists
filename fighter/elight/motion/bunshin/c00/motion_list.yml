@@ -120,7 +120,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x13d7492940"
+      - name: d01specials4.nuanmb
         unk: 0
     scripts:
       - sound_specials4
@@ -145,7 +145,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x131be329de"
+      - name: d01specials5.nuanmb
         unk: 0
     scripts:
       - sound_specials5
@@ -251,7 +251,7 @@ list:
       - sound_specialairs3
       - effect_specialairs3
     extra: ~
-  "0x0e644ff8d2":
+  special_air_s4:
     game_script: game_specialairs4
     flags:
       turn: false
@@ -270,13 +270,13 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x13d7492940"
+      - name: d01specials4.nuanmb
         unk: 0
     scripts:
       - sound_specialairs4
       - effect_specialairs4
     extra: ~
-  "0x0e1348c844":
+  special_air_s5:
     game_script: game_specialairs5
     flags:
       turn: false
@@ -295,14 +295,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x131be329de"
+      - name: d01specials5.nuanmb
         unk: 0
     scripts:
       - sound_specialairs5
       - effect_specialairs5
     extra: ~
-  "0x100c0b6339":
-    game_script: "0x13077df312"
+  special_cliff_s3:
+    game_script: game_specialcliffs3
     flags:
       turn: false
       loop: false
@@ -320,14 +320,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1894b7b575"
+      - name: d01specialscliff3.nuanmb
         unk: 0
     scripts:
-      - "0x146393eb8c"
-      - "0x150c7d7df5"
+      - sound_specialcliffs3
+      - effect_specialcliffs3
     extra: ~
-  "0x10926ff69a":
-    game_script: "0x13991966b1"
+  special_cliff_s4:
+    game_script: game_specialcliffs4
     flags:
       turn: false
       loop: false
@@ -345,14 +345,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x189e72bc6c"
+      - name: d01specialscliff4.nuanmb
         unk: 0
     scripts:
-      - "0x14fdf77e2f"
-      - "0x159219e856"
+      - sound_specialcliffs4
+      - effect_specialcliffs4
     extra: ~
-  "0x10e568c60c":
-    game_script: "0x13ee1e5627"
+  special_cliff_s5:
+    game_script: game_specialcliffs5
     flags:
       turn: false
       loop: false
@@ -370,9 +370,9 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1852d8bcf2"
+      - name: d01specialscliff5.nuanmb
         unk: 0
     scripts:
-      - "0x148af04eb9"
-      - "0x15e51ed8c0"
+      - sound_specialcliffs5
+      - effect_specialcliffs5
     extra: ~
