@@ -120,8 +120,8 @@ list:
       - effect_born
       - sound_born
     extra: ~
-  "0x101d8c2a28":
-    game_script: "0x146bc256e8"
+  born_suddendeath:
+    game_script: game_bornsuddendeath
     flags:
       turn: false
       loop: false
@@ -140,11 +140,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x1655a721bd"
-      - "0x157c1106b3"
+      - effect_bornsuddendeath
+      - sound_bornsuddendeath
     extra: ~
-  "0x0af4d75f13":
-    game_script: "0x0e8f49d79b"
+  born_throw:
+    game_script: game_bornthrow
     flags:
       turn: false
       loop: false
@@ -163,11 +163,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x104a6a677c"
-      - "0x0f6ff7c224"
+      - effect_bornthrow
+      - sound_bornthrow
     extra: ~
-  "0x0e6fcbd819":
-    game_script: "0x12801503d5"
+  born_adventure:
+    game_script: game_bornadventure
     flags:
       turn: false
       loop: false
@@ -186,8 +186,8 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x145b44c51a"
-      - "0x1305a55dcc"
+      - effect_bornadventure
+      - sound_bornadventure
     extra: ~
   lost:
     game_script: game_lost

@@ -139,8 +139,8 @@ list:
       - effect_lost
       - sound_lost
     extra: ~
-  "0x0fda80dac5":
-    game_script: "0x133e4546f5"
+  transform_start:
+    game_script: game_transformstart
     flags:
       turn: false
       loop: false
@@ -158,14 +158,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x10dc61497a"
+      - name: transform.nuanmb
         unk: 0
     scripts:
-      - "0x153545c812"
-      - "0x145aab5e6b"
+      - effect_transformstart
+      - sound_transformstart
     extra: ~
-  "0x0d0af3b281":
-    game_script: "0x11387bb231"
+  transform_end:
+    game_script: game_transformend
     flags:
       turn: false
       loop: false
@@ -184,8 +184,8 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x13d274ab1b"
-      - "0x12ed157363"
+      - effect_transformend
+      - sound_transformend
     extra: ~
   charge:
     game_script: game_charge

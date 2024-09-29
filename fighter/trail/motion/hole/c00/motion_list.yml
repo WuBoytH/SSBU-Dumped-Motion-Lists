@@ -1,8 +1,8 @@
 ---
 motion_path: "0x0000000000"
 list:
-  "0x09f0695b72":
-    game_script: "0x0e22cf9a70"
+  expansion:
+    game_script: game_expansion
     flags:
       turn: false
       loop: false
@@ -21,8 +21,8 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0fc2718fcf"
-      - "0x10e7ec2a97"
+      - sound_expansion
+      - effect_expansion
     extra: ~
   stay:
     game_script: game_stay

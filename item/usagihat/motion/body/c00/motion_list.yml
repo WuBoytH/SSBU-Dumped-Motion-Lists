@@ -162,8 +162,8 @@ list:
       - effect_waitground
       - sound_waitground
     extra: ~
-  "0x0a0eef3289":
-    game_script: "0x103ca0f6da"
+  other_anim:
+    game_script: game_othervisanm
     flags:
       turn: false
       loop: false
@@ -184,6 +184,6 @@ list:
       - name: vis.nuanmb
         unk: 1
     scripts:
-      - "0x12e6fee55e"
-      - "0x11322040f8"
+      - effect_othervisanm
+      - sound_othervisanm
     extra: ~

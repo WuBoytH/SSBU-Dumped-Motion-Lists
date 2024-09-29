@@ -2671,8 +2671,8 @@ list:
       xlu_end: 0
       cancel_frame: 20
       no_stop_intp: false
-  "0x108a69b021":
-    game_script: "0x13f2166a3b"
+  special_n1_start:
+    game_script: game_specialn1start
     flags:
       turn: false
       loop: false
@@ -2690,19 +2690,19 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1810472709"
+      - name: d00specialn1start.nuanmb
         unk: 0
     scripts:
-      - "0x19cf5e9e06"
-      - "0x1496f872a5"
-      - "0x15f916e4dc"
+      - expression_specialn1start
+      - sound_specialn1start
+      - effect_specialn1start
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x0fd502ea5a":
-    game_script: "0x12ad115212"
+  special_n1_hold:
+    game_script: game_specialn1hold
     flags:
       turn: false
       loop: true
@@ -2720,19 +2720,19 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x177b4d1614"
+      - name: d00specialn1hold.nuanmb
         unk: 0
     scripts:
-      - "0x183d70b877"
-      - "0x1328a10c0b"
-      - "0x14764094dd"
+      - expression_specialn1hold
+      - sound_specialn1hold
+      - effect_specialn1hold
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x11676d5b78":
-    game_script: "0x149a77ddd8"
+  special_n1_cancel:
+    game_script: game_specialn1cancel
     flags:
       turn: false
       loop: false
@@ -2750,19 +2750,19 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x19c69ea55d"
+      - name: d00specialn1cancel.nuanmb
         unk: 0
     scripts:
-      - "0x1ac222d93d"
-      - "0x158da48d83"
-      - "0x16a412aa8d"
+      - expression_specialn1cancel
+      - sound_specialn1cancel
+      - effect_specialn1cancel
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 5
       no_stop_intp: false
-  "0x0f9216ee92":
-    game_script: "0x12ea0556da"
+  special_n1_fire:
+    game_script: game_specialn1fire
     flags:
       turn: false
       loop: false
@@ -2783,16 +2783,16 @@ list:
       - name: d00specialn1.nuanmb
         unk: 0
     scripts:
-      - "0x187a64bcbf"
-      - "0x136fb508c3"
-      - "0x1431549015"
+      - expression_specialn1fire
+      - sound_specialn1fire
+      - effect_specialn1fire
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 40
       no_stop_intp: false
-  "0x1366b1a849":
-    game_script: "0x1581e39cd8"
+  special_n1_fire_max:
+    game_script: game_specialn1firemax
     flags:
       turn: false
       loop: false
@@ -2813,16 +2813,16 @@ list:
       - name: d00specialn1.nuanmb
         unk: 0
     scripts:
-      - "0x1b51dbdf2b"
-      - "0x167d4dc7f4"
-      - "0x179adc5cd4"
+      - expression_specialn1firemax
+      - sound_specialn1firemax
+      - effect_specialn1firemax
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 40
       no_stop_intp: false
-  "0x140bdc3f61":
-    game_script: "0x16b9a6b011"
+  special_air_n1_start:
+    game_script: game_specialairn1start
     flags:
       turn: false
       loop: false
@@ -2840,19 +2840,19 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1b085bce7b"
+      - name: d00specialairn1start.nuanmb
         unk: 0
     scripts:
-      - "0x1c9dc22bf4"
-      - "0x178b8272a9"
-      - "0x18b00bc3fa"
+      - expression_specialairn1start
+      - sound_specialairn1start
+      - effect_specialairn1start
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x13de9b678e":
-    game_script: "0x15191f3f37"
+  special_air_n1_hold:
+    game_script: game_specialairn1hold
     flags:
       turn: false
       loop: true
@@ -2870,19 +2870,19 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1ad0e313c3"
+      - name: d00specialairn1hold.nuanmb
         unk: 0
     scripts:
-      - "0x1bc9277cc4"
-      - "0x16e5b1641b"
-      - "0x170220ff3b"
+      - expression_specialairn1hold
+      - sound_specialairn1hold
+      - effect_specialairn1hold
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x151130af67":
-    game_script: "0x174187a4d4"
+  special_air_n1_cancel:
+    game_script: game_specialairn1cancel
     flags:
       turn: false
       loop: false
@@ -2900,19 +2900,19 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1c788da9a4"
+      - name: d00specialairn1cancel.nuanmb
         unk: 0
     scripts:
-      - "0x1d91c3d6b8"
-      - "0x18840fbba8"
-      - "0x1976563257"
+      - expression_specialairn1cancel
+      - sound_specialairn1cancel
+      - effect_specialairn1cancel
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 5
       no_stop_intp: false
-  "0x1a85cad765":
-    game_script: "0x1b15b5a297"
+  special_air_n1_jump_cancel:
+    game_script: game_specialairn1jumpcancel
     flags:
       turn: false
       loop: false
@@ -2930,19 +2930,19 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x20354399f8"
+      - name: d00specialairn1jumpcancel.nuanmb
         unk: 0
     scripts:
-      - "0x2121f60ec7"
-      - "0x1c3b727d82"
-      - "0x1d33592e51"
+      - expression_specialairn1jumpcancel
+      - sound_specialairn1jumpcancel
+      - effect_specialairn1jumpcancel
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 6
       no_stop_intp: false
-  "0x13998f6346":
-    game_script: "0x155e0b3bff"
+  special_air_n1_fire:
+    game_script: game_specialairn1fire
     flags:
       turn: false
       loop: false
@@ -2963,16 +2963,16 @@ list:
       - name: d00specialairn1.nuanmb
         unk: 0
     scripts:
-      - "0x1b8e33780c"
-      - "0x16a2a560d3"
-      - "0x174534fbf3"
+      - expression_specialairn1fire
+      - sound_specialairn1fire
+      - effect_specialairn1fire
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 40
       no_stop_intp: false
-  "0x17113be68f":
-    game_script: "0x18888e208a"
+  special_air_n1_fire_max:
+    game_script: game_specialairn1firemax
     flags:
       turn: false
       loop: false
@@ -2993,9 +2993,9 @@ list:
       - name: d00specialairn1.nuanmb
         unk: 0
     scripts:
-      - "0x1ecc5a498b"
-      - "0x19d1f89582"
-      - "0x1afc082386"
+      - expression_specialairn1firemax
+      - sound_specialairn1firemax
+      - effect_specialairn1firemax
     extra:
       xlu_start: 0
       xlu_end: 0
@@ -3031,8 +3031,8 @@ list:
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: true
-  "0x0fed03881d":
-    game_script: "0x125424382b"
+  special_n2_loop:
+    game_script: game_specialn2loop
     flags:
       turn: false
       loop: false
@@ -3050,12 +3050,12 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x177d76b472"
+      - name: d00specialn2loop.nuanmb
         unk: 0
     scripts:
-      - "0x18c445d24e"
-      - "0x13d1946632"
-      - "0x148f75fee4"
+      - expression_specialn2loop
+      - sound_specialn2loop
+      - effect_specialn2loop
     extra:
       xlu_start: 0
       xlu_end: 0
@@ -3121,8 +3121,8 @@ list:
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: true
-  "0x13e69a05c9":
-    game_script: "0x15e02a550e"
+  special_air_n2_loop:
+    game_script: game_specialairn2loop
     flags:
       turn: false
       loop: false
@@ -3140,19 +3140,19 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1ad6d8b1a5"
+      - name: d00specialairn2loop.nuanmb
         unk: 0
     scripts:
-      - "0x1b301216fd"
-      - "0x161c840e22"
-      - "0x17fb159502"
+      - expression_specialairn2loop
+      - sound_specialairn2loop
+      - effect_specialairn2loop
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: true
-  "0x12772b6b5f":
-    game_script: "0x1471ceb31a"
+  special_air_n2_end:
+    game_script: game_specialairn2end
     flags:
       turn: false
       loop: false
@@ -3170,12 +3170,12 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x19b34be989"
+      - name: d00specialairn2end.nuanmb
         unk: 0
     scripts:
-      - "0x1a299bb7ff"
-      - "0x15661de341"
-      - "0x164fabc44f"
+      - expression_specialairn2end
+      - sound_specialairn2end
+      - effect_specialairn2end
     extra:
       xlu_start: 0
       xlu_end: 0
@@ -3391,8 +3391,8 @@ list:
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x0feb0a7513":
-    game_script: "0x12eb6c296e"
+  special_s2_loop:
+    game_script: game_specials2loop
     flags:
       turn: false
       loop: true
@@ -3410,12 +3410,12 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x171187f148"
+      - name: d01specials2loop.nuanmb
         unk: 0
     scripts:
-      - "0x187b0dc30b"
-      - "0x136edc7777"
-      - "0x14303defa1"
+      - expression_specials2loop
+      - sound_specials2loop
+      - effect_specials2loop
     extra:
       xlu_start: 0
       xlu_end: 0
@@ -3481,8 +3481,8 @@ list:
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x13e093f8c7":
-    game_script: "0x155f62444b"
+  special_air_s2_loop:
+    game_script: game_specialairs2loop
     flags:
       turn: false
       loop: true
@@ -3500,12 +3500,12 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1aa4d61226"
+      - name: d01specialairs2loop.nuanmb
         unk: 0
     scripts:
-      - "0x1b8f5a07b8"
-      - "0x16a3cc1f67"
-      - "0x17445d8447"
+      - expression_specialairs2loop
+      - sound_specialairs2loop
+      - effect_specialairs2loop
     extra:
       xlu_start: 0
       xlu_end: 0
@@ -3542,7 +3542,7 @@ list:
       cancel_frame: 40
       no_stop_intp: false
   special_s3_1:
-    game_script: "0x0fcb8551a5"
+    game_script: game_specials31
     flags:
       turn: false
       loop: false
@@ -3563,15 +3563,15 @@ list:
       - name: d01specials31.nuanmb
         unk: 0
     scripts:
-      - "0x15c85fe284"
-      - "0x1090bb41ad"
-      - "0x11f52e05ce"
+      - expression_specials31
+      - sound_specials31
+      - effect_specials31
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 41
       no_stop_intp: true
-  "0x0c09409a97":
+  special_s3_2:
     game_script: game_specials32
     flags:
       turn: false
@@ -3602,7 +3602,7 @@ list:
       cancel_frame: 50
       no_stop_intp: true
   special_air_s3_1:
-    game_script: "0x12589e6dc2"
+    game_script: game_specialairs31
     flags:
       turn: false
       loop: false
@@ -3623,15 +3623,15 @@ list:
       - name: d01specialairs31.nuanmb
         unk: 0
     scripts:
-      - "0x18c8ff87a7"
-      - "0x13dd2e33db"
-      - "0x1483cfab0d"
+      - expression_specialairs31
+      - sound_specialairs31
+      - effect_specialairs31
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 41
       no_stop_intp: true
-  "0x10b10aad9d":
+  special_air_s3_2:
     game_script: game_specialairs32
     flags:
       turn: false
@@ -3721,8 +3721,8 @@ list:
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x11769c21c9":
-    game_script: "0x14f601a966"
+  special_hi2_squat:
+    game_script: game_specialhi2squat
     flags:
       turn: false
       loop: false
@@ -3740,19 +3740,19 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x19cc93504a"
+      - name: d02specialhi2squat.nuanmb
         unk: 0
     scripts:
-      - "0x1aae54ad83"
-      - "0x15e1d2f93d"
-      - "0x16c864de33"
+      - expression_specialhi2squat
+      - sound_specialhi2squat
+      - effect_specialhi2squat
     extra:
       xlu_start: 7
       xlu_end: 13
       cancel_frame: 0
       no_stop_intp: true
-  "0x1500c1d5d6":
-    game_script: "0x172df1d06a"
+  special_air_hi2_squat:
+    game_script: game_specialairhi2squat
     flags:
       turn: false
       loop: false
@@ -3770,12 +3770,12 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1c8a5cc435"
+      - name: d02specialairhi2squat.nuanmb
         unk: 0
     scripts:
-      - "0x1dfdb5a206"
-      - "0x18e879cf16"
-      - "0x191a2046e9"
+      - expression_specialairhi2squat
+      - sound_specialairhi2squat
+      - effect_specialairhi2squat
     extra:
       xlu_start: 0
       xlu_end: 0
@@ -3841,8 +3841,8 @@ list:
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x15eba8646e":
-    game_script: "0x17abb3b9c3"
+  special_air_hi3_start:
+    game_script: game_specialairhi3start
     flags:
       turn: false
       loop: false
@@ -3860,12 +3860,12 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1c9d95eed4"
+      - name: d02specialairhi3start.nuanmb
         unk: 0
     scripts:
-      - "0x1d7bf7cbaf"
-      - "0x186e3ba6bf"
-      - "0x199c622f40"
+      - expression_specialairhi3start
+      - sound_specialairhi3start
+      - effect_specialairhi3start
     extra:
       xlu_start: 0
       xlu_end: 0
@@ -3901,8 +3901,8 @@ list:
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x0d3aaf0366":
-    game_script: "0x1004a1e0ac"
+  special_hi3_f:
+    game_script: game_specialhi3f
     flags:
       turn: false
       loop: false
@@ -3920,19 +3920,19 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x15e8849edb"
+      - name: d02specialhi3f.nuanmb
         unk: 0
     scripts:
-      - "0x1648cb2a41"
-      - "0x110a21568e"
-      - "0x12defff328"
+      - expression_specialhi3f
+      - sound_specialhi3f
+      - effect_specialhi3f
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x0d3dc2c77f":
-    game_script: "0x1003cc24b5"
+  special_hi3_b:
+    game_script: game_specialhi3b
     flags:
       turn: false
       loop: false
@@ -3950,19 +3950,19 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x156cce9021"
+      - name: d02specialhi3b.nuanmb
         unk: 0
     scripts:
-      - "0x164fa6ee58"
-      - "0x110d4c9297"
-      - "0x12d9923731"
+      - expression_specialhi3b
+      - sound_specialhi3b
+      - effect_specialhi3b
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x135309652e":
-    game_script: "0x15e48837d7"
+  special_air_hi3_end:
+    game_script: game_specialairhi3end
     flags:
       turn: false
       loop: false
@@ -3980,19 +3980,19 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1af101cecc"
+      - name: d02specialairhi3end.nuanmb
         unk: 0
     scripts:
-      - "0x1b34b07424"
-      - "0x1618266cfb"
-      - "0x17ffb7f7db"
+      - expression_specialairhi3end
+      - sound_specialairhi3end
+      - effect_specialairhi3end
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x113eb7f34d":
-    game_script: "0x148e2088ad"
+  special_lw1_start:
+    game_script: game_speciallw1start
     flags:
       turn: false
       loop: false
@@ -4010,12 +4010,12 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x19072029bb"
+      - name: d03speciallw1start.nuanmb
         unk: 0
     scripts:
-      - "0x1ad6758c48"
-      - "0x1599f3d8f6"
-      - "0x16b045fff8"
+      - expression_speciallw1start
+      - sound_speciallw1start
+      - effect_speciallw1start
     extra:
       xlu_start: 0
       xlu_end: 0
@@ -4081,8 +4081,8 @@ list:
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x0fefc3fc62":
-    game_script: "0x12becef98c"
+  special_lw1_end:
+    game_script: game_speciallw1end
     flags:
       turn: false
       loop: false
@@ -4100,19 +4100,19 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1785766842"
+      - name: d03speciallw1end.nuanmb
         unk: 0
     scripts:
-      - "0x182eaf13e9"
-      - "0x133b7ea795"
-      - "0x14659f3f43"
+      - expression_speciallw1end
+      - sound_speciallw1end
+      - effect_speciallw1end
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 16
       no_stop_intp: false
-  "0x1548ea0752":
-    game_script: "0x1755d0f1a1"
+  special_air_lw1_start:
+    game_script: game_specialairlw1start
     flags:
       turn: false
       loop: false
@@ -4130,19 +4130,19 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1c3d81f187"
+      - name: d03specialairlw1start.nuanmb
         unk: 0
     scripts:
-      - "0x1d859483cd"
-      - "0x189058eedd"
-      - "0x1962016722"
+      - expression_specialairlw1start
+      - sound_specialairlw1start
+      - effect_specialairlw1start
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x143fdf2e0f":
-    game_script: "0x16b239b91f"
+  special_air_lw1_loop:
+    game_script: game_specialairlw1loop
     flags:
       turn: false
       loop: true
@@ -4160,12 +4160,12 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1bced1657d"
+      - name: d03specialairlw1loop.nuanmb
         unk: 0
     scripts:
-      - "0x1c965d22fa"
-      - "0x17801d7ba7"
-      - "0x18bb94caf4"
+      - expression_specialairlw1loop
+      - sound_specialairlw1loop
+      - effect_specialairlw1loop
     extra:
       xlu_start: 0
       xlu_end: 0
@@ -4201,8 +4201,8 @@ list:
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x13e45a71b6":
-    game_script: "0x150ac094a9"
+  special_air_lw1_end:
+    game_script: game_specialairlw1end
     flags:
       turn: false
       loop: false
@@ -4220,19 +4220,19 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1a0dd8465e"
+      - name: d03specialairlw1end.nuanmb
         unk: 0
     scripts:
-      - "0x1bdaf8d75a"
-      - "0x16f66ecf85"
-      - "0x1711ff54a5"
+      - expression_specialairlw1end
+      - sound_specialairlw1end
+      - effect_specialairlw1end
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 16
       no_stop_intp: false
-  "0x13599dd24e":
-    game_script: "0x148e2088ad"
+  special_lw1_start_l:
+    game_script: game_speciallw1start
     flags:
       turn: false
       loop: false
@@ -4250,18 +4250,18 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1a237564e7"
+      - name: d03speciallw1startl.nuanmb
         unk: 0
     scripts:
-      - "0x1ad6758c48"
-      - "0x1599f3d8f6"
-      - "0x16b045fff8"
+      - expression_speciallw1start
+      - sound_speciallw1start
+      - effect_speciallw1start
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x12eece00c9":
+  special_lw1_loop_l:
     game_script: game_speciallw1loop
     flags:
       turn: false
@@ -4280,7 +4280,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x196b1a2a12"
+      - name: d03speciallw1loopl.nuanmb
         unk: 0
     scripts:
       - expression_speciallw1loop
@@ -4291,7 +4291,7 @@ list:
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x11a25f79be":
+  special_lw1_hit_l:
     game_script: game_speciallw1hit
     flags:
       turn: false
@@ -4310,7 +4310,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x18621e6c11"
+      - name: d03speciallw1hitl.nuanmb
         unk: 0
     scripts:
       - expression_speciallw1hit
@@ -4321,8 +4321,8 @@ list:
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x11db3e26c6":
-    game_script: "0x12becef98c"
+  special_lw1_end_l:
+    game_script: game_speciallw1end
     flags:
       turn: false
       loop: false
@@ -4340,19 +4340,19 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x18e796781e"
+      - name: d03speciallw1endl.nuanmb
         unk: 0
     scripts:
-      - "0x182eaf13e9"
-      - "0x133b7ea795"
-      - "0x14659f3f43"
+      - expression_speciallw1end
+      - sound_speciallw1end
+      - effect_speciallw1end
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 16
       no_stop_intp: false
-  "0x172e179c88":
-    game_script: "0x1755d0f1a1"
+  special_air_lw1_start_l:
+    game_script: game_specialairlw1start
     flags:
       turn: false
       loop: false
@@ -4370,19 +4370,19 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1d0c20b9b8"
+      - name: d03specialairlw1startl.nuanmb
         unk: 0
     scripts:
-      - "0x1d859483cd"
-      - "0x189058eedd"
-      - "0x1962016722"
+      - expression_specialairlw1start
+      - sound_specialairlw1start
+      - effect_specialairlw1start
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x1663b050c8":
-    game_script: "0x16b239b91f"
+  special_air_lw1_loop_l:
+    game_script: game_specialairlw1loop
     flags:
       turn: false
       loop: true
@@ -4400,18 +4400,18 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1c51bbf22e"
+      - name: d03specialairlw1loopl.nuanmb
         unk: 0
     scripts:
-      - "0x1c965d22fa"
-      - "0x17801d7ba7"
-      - "0x18bb94caf4"
+      - expression_specialairlw1loop
+      - sound_specialairlw1loop
+      - effect_specialairlw1loop
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x15d4028da1":
+  special_air_lw1_hit_l:
     game_script: game_specialairlw1hit
     flags:
       turn: false
@@ -4430,7 +4430,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1b76979e70"
+      - name: d03specialairlw1hitl.nuanmb
         unk: 0
     scripts:
       - expression_specialairlw1hit
@@ -4441,8 +4441,8 @@ list:
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x15ad63d2d9":
-    game_script: "0x150ac094a9"
+  special_air_lw1_end_l:
+    game_script: game_specialairlw1end
     flags:
       turn: false
       loop: false
@@ -4460,12 +4460,12 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1bf31f8a7f"
+      - name: d03specialairlw1endl.nuanmb
         unk: 0
     scripts:
-      - "0x1bdaf8d75a"
-      - "0x16f66ecf85"
-      - "0x1711ff54a5"
+      - expression_specialairlw1end
+      - sound_specialairlw1end
+      - effect_specialairlw1end
     extra:
       xlu_start: 0
       xlu_end: 0
@@ -4531,8 +4531,8 @@ list:
       xlu_end: 0
       cancel_frame: 47
       no_stop_intp: false
-  "0x11a928e264":
-    game_script: "0x14c3e829a6"
+  special_lw3_start:
+    game_script: game_speciallw3start
     flags:
       turn: false
       loop: false
@@ -4550,19 +4550,19 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x19677c9cf0"
+      - name: d03speciallw3start.nuanmb
         unk: 0
     scripts:
-      - "0x1a9bbd2d43"
-      - "0x15d43b79fd"
-      - "0x16fd8d5ef3"
+      - expression_speciallw3start
+      - sound_speciallw3start
+      - effect_speciallw3start
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x104d3710ad":
-    game_script: "0x133ddc20bc"
+  special_lw3_hold:
+    game_script: game_speciallw3hold
     flags:
       turn: false
       loop: true
@@ -4580,18 +4580,18 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1847c67915"
+      - name: d03speciallw3hold.nuanmb
         unk: 0
     scripts:
-      - "0x190094d481"
-      - "0x1459323822"
-      - "0x1536dcae5b"
+      - expression_speciallw3hold
+      - sound_speciallw3hold
+      - effect_speciallw3hold
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x0fcf2dbaf2":
+  special_lw3_hit:
     game_script: game_speciallw3hit
     flags:
       turn: false
@@ -4651,8 +4651,8 @@ list:
       xlu_end: 0
       cancel_frame: 7
       no_stop_intp: false
-  "0x15df75167b":
-    game_script: "0x17181850aa"
+  special_air_lw3_start:
+    game_script: game_specialairlw3start
     flags:
       turn: false
       loop: false
@@ -4670,19 +4670,19 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1c5ddd44cc"
+      - name: d03specialairlw3start.nuanmb
         unk: 0
     scripts:
-      - "0x1dc85c22c6"
-      - "0x18dd904fd6"
-      - "0x192fc9c629"
+      - expression_specialairlw3start
+      - sound_specialairlw3start
+      - effect_specialairlw3start
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x14cc829fed":
-    game_script: "0x16766cfa96"
+  special_air_lw3_hold:
+    game_script: game_specialairlw3hold
     flags:
       turn: false
       loop: true
@@ -4700,18 +4700,18 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1b534f8b74"
+      - name: d03specialairlw3hold.nuanmb
         unk: 0
     scripts:
-      - "0x1c52086173"
-      - "0x174448382e"
-      - "0x187fc1897d"
+      - expression_specialairlw3hold
+      - sound_specialairlw3hold
+      - effect_specialairlw3hold
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x13c4b43726":
+  special_air_lw3_hit:
     game_script: game_specialairlw3hit
     flags:
       turn: false
@@ -16483,7 +16483,7 @@ list:
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x13e9a9dc57":
+  fill_blank_fistdown:
     game_script: game_
     flags:
       turn: false
@@ -16502,7 +16502,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x18414415cf"
+      - name: l02share_fistdown.nuanmb
         unk: 3
     scripts:
       - expression_
@@ -21833,8 +21833,8 @@ list:
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x14ea15f043":
-    game_script: "0x171e0b5ddb"
+  demon_thrown_command:
+    game_script: game_demonthrowncommand
     flags:
       turn: false
       loop: false
@@ -21853,16 +21853,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x1dce4f2fb7"
-      - "0x18db8342a7"
-      - "0x1929dacb58"
+      - expression_demonthrowncommand
+      - sound_demonthrowncommand
+      - effect_demonthrowncommand
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x17cc53d117":
-    game_script: "0x1969806ac4"
+  demon_thrown_command_dx:
+    game_script: game_demonthrowncommanddx
     flags:
       turn: false
       loop: false
@@ -21881,16 +21881,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x1f1ec38e3b"
-      - "0x1a67029443"
-      - "0x1b6042a0ec"
+      - expression_demonthrowncommanddx
+      - sound_demonthrowncommanddx
+      - effect_demonthrowncommanddx
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x19e3d2e8d6":
-    game_script: "0x1b1574b1dd"
+  demon_thrown_command_girl:
+    game_script: game_demonthrowncommandgirl
     flags:
       turn: false
       loop: false
@@ -21909,16 +21909,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x2121371d8d"
-      - "0x1c3bb36ec8"
-      - "0x1d33983d1b"
+      - expression_demonthrowncommandgirl
+      - sound_demonthrowncommandgirl
+      - effect_demonthrowncommandgirl
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x18d59f92c2":
-    game_script: "0x1acae0c217"
+  demon_thrown_command_big:
+    game_script: game_demonthrowncommandbig
     flags:
       turn: false
       loop: false
@@ -21937,16 +21937,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x20e7956e7e"
-      - "0x1bb932566a"
-      - "0x1cff5ca827"
+      - expression_demonthrowncommandbig
+      - sound_demonthrowncommandbig
+      - effect_demonthrowncommandbig
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x1986430786":
-    game_script: "0x1b859de674"
+  demon_special_lw_captured:
+    game_script: game_demonspeciallwcaptured
     flags:
       turn: false
       loop: false
@@ -21965,16 +21965,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x21b1de4a24"
-      - "0x1cab5a3961"
-      - "0x1da3716ab2"
+      - expression_demonspeciallwcaptured
+      - sound_demonspeciallwcaptured
+      - effect_demonspeciallwcaptured
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x1c82c2066b":
-    game_script: "0x1d1cac3b70"
+  demon_special_lw_captured_dx:
+    game_script: game_demonspeciallwcaptureddx
     flags:
       turn: false
       loop: false
@@ -21993,16 +21993,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x237977bda4"
-      - "0x1e3d753ce6"
-      - "0x1f6502a25f"
+      - expression_demonspeciallwcaptureddx
+      - sound_demonspeciallwcaptureddx
+      - effect_demonspeciallwcaptureddx
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x1e78efd7ca":
-    game_script: "0x1f89b1ce2f"
+  demon_special_lw_captured_girl:
+    game_script: game_demonspeciallwcapturedgirl
     flags:
       turn: false
       loop: false
@@ -22021,16 +22021,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x25683e8dfa"
-      - "0x2030ce57c9"
-      - "0x21127ea40c"
+      - expression_demonspeciallwcapturedgirl
+      - sound_demonspeciallwcapturedgirl
+      - effect_demonspeciallwcapturedgirl
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x1d8c623e02":
-    game_script: "0x1e069999d3"
+  demon_special_lw_captured_big:
+    game_script: game_demonspeciallwcapturedbig
     flags:
       turn: false
       loop: false
@@ -22049,16 +22049,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x2487425498"
-      - "0x1f1fd476a5"
-      - "0x20ad310a13"
+      - expression_demonspeciallwcapturedbig
+      - sound_demonspeciallwcapturedbig
+      - effect_demonspeciallwcapturedbig
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x1e1a01dec8":
-    game_script: "0x1feb5fc72d"
+  demon_special_lw_captured_fall:
+    game_script: game_demonspeciallwcapturedfall
     flags:
       turn: false
       loop: false
@@ -22077,16 +22077,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x250ad084f8"
-      - "0x2052205ecb"
-      - "0x217090ad0e"
+      - expression_demonspeciallwcapturedfall
+      - sound_demonspeciallwcapturedfall
+      - effect_demonspeciallwcapturedfall
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x2130eef8d7":
-    game_script: "0x213bbca3f1"
+  demon_special_lw_captured_fall_dx:
+    game_script: game_demonspeciallwcapturedfalldx
     flags:
       turn: false
       loop: false
@@ -22105,16 +22105,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x272826630e"
-      - "0x22ba4b6504"
-      - "0x232872c719"
+      - expression_demonspeciallwcapturedfalldx
+      - sound_demonspeciallwcapturedfalldx
+      - effect_demonspeciallwcapturedfalldx
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x236a9a5b49":
-    game_script: "0x2355fd5b43"
+  demon_special_lw_captured_fall_girl:
+    game_script: game_demonspeciallwcapturedfallgirl
     flags:
       turn: false
       loop: false
@@ -22133,16 +22133,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x295dbd771b"
-      - "0x244e31a8c9"
-      - "0x2589859428"
+      - expression_demonspeciallwcapturedfallgirl
+      - sound_demonspeciallwcapturedfallgirl
+      - effect_demonspeciallwcapturedfallgirl
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x224e07ed5b":
-    game_script: "0x229c013afd"
+  demon_special_lw_captured_fall_big:
+    game_script: game_demonspeciallwcapturedfallbig
     flags:
       turn: false
       loop: false
@@ -22161,16 +22161,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x28b1104fb0"
-      - "0x235157cba8"
-      - "0x2432c39ed3"
+      - expression_demonspeciallwcapturedfallbig
+      - sound_demonspeciallwcapturedfallbig
+      - effect_demonspeciallwcapturedfallbig
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x207f6e40e5":
-    game_script: "0x21380c1ed2"
+  demon_special_lw_captured_ground:
+    game_script: game_demonspeciallwcapturedground
     flags:
       turn: false
       loop: false
@@ -22189,16 +22189,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x272b96de2d"
-      - "0x22b9fbd827"
-      - "0x232bc27a3a"
+      - expression_demonspeciallwcapturedground
+      - sound_demonspeciallwcapturedground
+      - effect_demonspeciallwcapturedground
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x2332b4f65c":
-    game_script: "0x235797e7a0"
+  demon_special_lw_captured_ground_dx:
+    game_script: game_demonspeciallwcapturedgrounddx
     flags:
       turn: false
       loop: false
@@ -22217,16 +22217,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x295fd7cbf8"
-      - "0x244c5b142a"
-      - "0x258bef28cb"
+      - expression_demonspeciallwcapturedgrounddx
+      - sound_demonspeciallwcapturedgrounddx
+      - effect_demonspeciallwcapturedgrounddx
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x2555553594":
-    game_script: "0x2587ecdef4"
+  demon_special_lw_captured_ground_girl:
+    game_script: game_demonspeciallwcapturedgroundgirl
     flags:
       turn: false
       loop: false
@@ -22245,16 +22245,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x2bc7566d0b"
-      - "0x266234165f"
-      - "0x270a3e6fc1"
+      - expression_demonspeciallwcapturedgroundgirl
+      - sound_demonspeciallwcapturedgroundgirl
+      - effect_demonspeciallwcapturedgroundgirl
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x24346fedfd":
-    game_script: "0x24800170db"
+  demon_special_lw_captured_ground_big:
+    game_script: game_demonspeciallwcapturedgroundbig
     flags:
       turn: false
       loop: false
@@ -22273,16 +22273,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x2ae5b9e931"
-      - "0x258d77d616"
-      - "0x265abdb0c4"
+      - expression_demonspeciallwcapturedgroundbig
+      - sound_demonspeciallwcapturedgroundbig
+      - effect_demonspeciallwcapturedgroundbig
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x2079db2c1a":
-    game_script: "0x21718dbfd4"
+  demon_attack_rage_drive_captured:
+    game_script: game_demonattackragedrivecaptured
     flags:
       turn: false
       loop: false
@@ -22301,16 +22301,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x2762177f2b"
-      - "0x22f07a7921"
-      - "0x236243db3c"
+      - expression_demonattackragedrivecaptured
+      - sound_demonattackragedrivecaptured
+      - effect_demonattackragedrivecaptured
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x23fe6fa11f":
-    game_script: "0x23a01c9ad9"
+  demon_attack_rage_drive_captured_dx:
+    game_script: game_demonattackragedrivecaptureddx
     flags:
       turn: false
       loop: false
@@ -22329,16 +22329,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x29a85cb681"
-      - "0x24bbd06953"
-      - "0x257c6455b2"
+      - expression_demonattackragedrivecaptureddx
+      - sound_demonattackragedrivecaptureddx
+      - effect_demonattackragedrivecaptureddx
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x257b0e21de":
-    game_script: "0x2557a5e641"
+  demon_attack_rage_drive_captured_girl:
+    game_script: game_demonattackragedrivecapturedgirl
     flags:
       turn: false
       loop: false
@@ -22357,16 +22357,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x2b171f55be"
-      - "0x26b27d2eea"
-      - "0x27da775774"
+      - expression_demonattackragedrivecapturedgirl
+      - sound_demonattackragedrivecapturedgirl
+      - effect_demonattackragedrivecapturedgirl
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x24db762680":
-    game_script: "0x24a92f323e"
+  demon_attack_rage_drive_captured_big:
+    game_script: game_demonattackragedrivecapturedbig
     flags:
       turn: false
       loop: false
@@ -22385,16 +22385,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x2acc97abd4"
-      - "0x25a45994f3"
-      - "0x267393f221"
+      - expression_demonattackragedrivecapturedbig
+      - sound_demonattackragedrivecapturedbig
+      - effect_demonattackragedrivecapturedbig
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x2519e028dc":
-    game_script: "0x25354bef43"
+  demon_attack_rage_drive_captured_fall:
+    game_script: game_demonattackragedrivecapturedfall
     flags:
       turn: false
       loop: false
@@ -22413,16 +22413,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x2b75f15cbc"
-      - "0x26d09327e8"
-      - "0x27b8995e76"
+      - expression_demonattackragedrivecapturedfall
+      - sound_demonattackragedrivecapturedfall
+      - effect_demonattackragedrivecapturedfall
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x28be2a67ad":
-    game_script: "0x27f5779336"
+  demon_attack_rage_drive_captured_fall_dx:
+    game_script: game_demonattackragedrivecapturedfalldx
     flags:
       turn: false
       loop: false
@@ -22441,16 +22441,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x2d343bccc8"
-      - "0x282d3b594e"
-      - "0x29eb205f48"
+      - expression_demonattackragedrivecapturedfalldx
+      - sound_demonattackragedrivecapturedfalldx
+      - effect_demonattackragedrivecapturedfalldx
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x2adffaca24":
-    game_script: "0x29f79fe4ad"
+  demon_attack_rage_drive_captured_fall_girl:
+    game_script: game_demonattackragedrivecapturedfallgirl
     flags:
       turn: false
       loop: false
@@ -22469,16 +22469,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x2f8674a5b7"
-      - "0x2a6bc8e4b1"
-      - "0x2bd4f12019"
+      - expression_demonattackragedrivecapturedfallgirl
+      - sound_demonattackragedrivecapturedfallgirl
+      - effect_demonattackragedrivecapturedfallgirl
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x29fe59b1e6":
-    game_script: "0x2899cfa6de"
+  demon_attack_rage_drive_captured_fall_big:
+    game_script: game_demonattackragedrivecapturedfallbig
     flags:
       turn: false
       loop: false
@@ -22497,16 +22497,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x2ec30b359a"
-      - "0x29c7c9131a"
-      - "0x2a2e6cad29"
+      - expression_demonattackragedrivecapturedfallbig
+      - sound_demonattackragedrivecapturedfallbig
+      - effect_demonattackragedrivecapturedfallbig
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x27051ec378":
-    game_script: "0x27f6c72e15"
+  demon_attack_rage_drive_captured_ground:
+    game_script: game_demonattackragedrivecapturedground
     flags:
       turn: false
       loop: false
@@ -22525,16 +22525,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x2d378b71eb"
-      - "0x282e8be46d"
-      - "0x29e890e26b"
+      - expression_demonattackragedrivecapturedground
+      - sound_demonattackragedrivecapturedground
+      - effect_demonattackragedrivecapturedground
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x2a87d46731":
-    game_script: "0x29f5f5584e"
+  demon_attack_rage_drive_captured_ground_dx:
+    game_script: game_demonattackragedrivecapturedgrounddx
     flags:
       turn: false
       loop: false
@@ -22553,16 +22553,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x2f841e1954"
-      - "0x2a69a25852"
-      - "0x2bd69b9cfa"
+      - expression_demonattackragedrivecapturedgrounddx
+      - sound_demonattackragedrivecapturedgrounddx
+      - effect_demonattackragedrivecapturedgrounddx
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x2c020e36cc":
-    game_script: "0x2b1ccf0ce9"
+  demon_attack_rage_drive_captured_ground_girl:
+    game_script: game_demonattackragedrivecapturedgroundgirl
     flags:
       turn: false
       loop: false
@@ -22581,16 +22581,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x31ad39f6df"
-      - "0x2cfab8cde3"
-      - "0x2d006f4292"
+      - expression_demonattackragedrivecapturedgroundgirl
+      - sound_demonattackragedrivecapturedgroundgirl
+      - effect_demonattackragedrivecapturedgroundgirl
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x2b07d99089":
-    game_script: "0x2ac711dd1b"
+  demon_attack_rage_drive_captured_ground_big:
+    game_script: game_demonattackragedrivecapturedgroundbig
     flags:
       turn: false
       loop: false
@@ -22609,16 +22609,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x303a02cf20"
-      - "0x2bd38cd654"
-      - "0x2c0b3ec44a"
+      - expression_demonattackragedrivecapturedgroundbig
+      - sound_demonattackragedrivecapturedgroundbig
+      - effect_demonattackragedrivecapturedgroundbig
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x191c45f026":
-    game_script: "0x1b5fe54436"
+  trail_special_lw_backward:
+    game_script: game_trailspeciallwbackward
     flags:
       turn: false
       loop: false
@@ -22637,16 +22637,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x216ba6e866"
-      - "0x1c71229b23"
-      - "0x1d7909c8f0"
+      - expression_trailspeciallwbackward
+      - sound_trailspeciallwbackward
+      - effect_trailspeciallwbackward
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x1da783bf4c":
-    game_script: "0x1ef4e5df77"
+  trail_special_air_lw_backward:
+    game_script: game_trailspecialairlwbackward
     flags:
       turn: false
       loop: false
@@ -22665,9 +22665,9 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x24753e123c"
-      - "0x1feda83001"
-      - "0x205f4d4cb7"
+      - expression_trailspecialairlwbackward
+      - sound_trailspecialairlwbackward
+      - effect_trailspecialairlwbackward
     extra:
       xlu_start: 0
       xlu_end: 0

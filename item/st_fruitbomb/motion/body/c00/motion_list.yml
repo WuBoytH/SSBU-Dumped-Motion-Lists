@@ -141,8 +141,8 @@ list:
       - effect_lost
       - sound_lost
     extra: ~
-  "0x0c24a7d8d9":
-    game_script: "0x10570fe8bd"
+  throw_normal:
+    game_script: game_thrownormal
     flags:
       turn: false
       loop: true
@@ -161,11 +161,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x128d51fb39"
-      - "0x11598f5e9f"
+      - effect_thrownormal
+      - sound_thrownormal
     extra: ~
-  "0x0b1d3dc82b":
-    game_script: "0x0ffe255db1"
+  born_normal:
+    game_script: game_bornnormal
     flags:
       turn: false
       loop: false
@@ -184,6 +184,6 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x11c08e09da"
-      - "0x10a51b4db9"
+      - effect_bornnormal
+      - sound_bornnormal
     extra: ~

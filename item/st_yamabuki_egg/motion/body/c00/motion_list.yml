@@ -1,5 +1,5 @@
 ---
-motion_path: "0x25358ceb5d"
+motion_path: stage/st_yamabuki_egg/motion/body/c00
 list:
   appear:
     game_script: game_appear

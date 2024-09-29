@@ -163,7 +163,7 @@ list:
       - sound_hit
     extra: ~
   get:
-    game_script: "0x08e6613db5"
+    game_script: game_get
     flags:
       turn: false
       loop: false
@@ -182,8 +182,8 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0a2711467f"
-      - "0x0957e4f114"
+      - effect_get
+      - sound_get
     extra: ~
   lost:
     game_script: game_lost

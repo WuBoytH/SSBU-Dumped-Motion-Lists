@@ -43,13 +43,13 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0c4e67d730"
+      - name: have1.nuanmb
         unk: 0
     scripts:
       - effect_have
       - sound_have
     extra: ~
-  "0x06048b94f9":
+  have_2:
     game_script: game_have
     flags:
       turn: false
@@ -68,13 +68,13 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0cc0e8d0d3"
+      - name: have2.nuanmb
         unk: 0
     scripts:
       - effect_have
       - sound_have
     extra: ~
-  "0x06738ca46f":
+  have_3:
     game_script: game_have
     flags:
       turn: false
@@ -93,13 +93,13 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0c0c42d04d"
+      - name: have3.nuanmb
         unk: 0
     scripts:
       - effect_have
       - sound_have
     extra: ~
-  "0x06ede831cc":
+  have_4:
     game_script: game_have
     flags:
       turn: false
@@ -118,13 +118,13 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0c0687d954"
+      - name: have4.nuanmb
         unk: 0
     scripts:
       - effect_have
       - sound_have
     extra: ~
-  "0x069aef015a":
+  have_5:
     game_script: game_have
     flags:
       turn: false
@@ -143,7 +143,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0cca2dd9ca"
+      - name: have5.nuanmb
         unk: 0
     scripts:
       - effect_have
@@ -241,8 +241,8 @@ list:
       - effect_lost
       - sound_lost
     extra: ~
-  "0x0d883dce76":
-    game_script: "0x1155e75695"
+  effect_motion:
+    game_script: game_effectmotion
     flags:
       turn: false
       loop: true
@@ -261,8 +261,8 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x13bfe84fbf"
-      - "0x12808997c7"
+      - effect_effectmotion
+      - sound_effectmotion
     extra: ~
   bounce:
     game_script: game_bounce
@@ -306,7 +306,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0c03cbc774"
+      - name: vis00.nuanmb
         unk: 1
     scripts:
       - "0x1958bd1947"
@@ -331,7 +331,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0ccf61c7ea"
+      - name: vis01.nuanmb
         unk: 1
     scripts:
       - "0x19cae80fc0"
@@ -356,7 +356,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0c41eec009"
+      - name: vis02.nuanmb
         unk: 1
     scripts:
       - "0x19b6e7cc8c"

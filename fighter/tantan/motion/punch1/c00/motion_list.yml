@@ -126,7 +126,7 @@ list:
       - sound_attackhitdamage
       - effect_attackhitdamage
     extra: ~
-  "0x1351cc783a":
+  attack_hit_hold_max:
     game_script: game_attackhitholdmaxdamage
     flags:
       turn: false
@@ -151,8 +151,8 @@ list:
       - sound_attackhitholdmaxdamage
       - effect_attackhitholdmaxdamage
     extra: ~
-  "0x11f3dbe9d2":
-    game_script: "0x1ad8ad3897"
+  attack_hit_dragon:
+    game_script: game_attackhitdragondamage
     flags:
       turn: false
       loop: false
@@ -173,8 +173,8 @@ list:
       - name: c00attacks4end.nuanmb
         unk: 0
     scripts:
-      - "0x1bab7facea"
-      - "0x1ced1152a7"
+      - sound_attackhitdragondamage
+      - effect_attackhitdragondamage
     extra: ~
   attack_wait:
     game_script: game_attackwait
@@ -1051,7 +1051,7 @@ list:
       - sound_catchdragonwait
       - effect_catchdragonwait
     extra: ~
-  "0x0f6bc36663":
+  attack_shrink_k:
     game_script: game_attackshrinkk
     flags:
       turn: false

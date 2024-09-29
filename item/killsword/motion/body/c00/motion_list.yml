@@ -47,8 +47,8 @@ list:
       - effect_have
       - sound_have
     extra: ~
-  "0x12c651cd58":
-    game_script: "0x156c685627"
+  have_attack_normal:
+    game_script: game_haveattacknormal
     flags:
       turn: false
       loop: true
@@ -67,11 +67,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x177757962b"
-      - "0x1690c60d0b"
+      - effect_haveattacknormal
+      - sound_haveattacknormal
     extra: ~
-  "0x14b9894acc":
-    game_script: "0x1776f3cf00"
+  have_attack_critical:
+    game_script: game_haveattackcritical
     flags:
       turn: false
       loop: true
@@ -90,8 +90,8 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x1941225983"
-      - "0x18b37bd07c"
+      - effect_haveattackcritical
+      - sound_haveattackcritical
     extra: ~
   fall:
     game_script: game_fall
@@ -185,8 +185,8 @@ list:
       - effect_lost
       - sound_lost
     extra: ~
-  "0x0857451bcb":
-    game_script: "0x0dfc01e4ed"
+  critical:
+    game_script: game_critical
     flags:
       turn: false
       loop: true
@@ -204,9 +204,9 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0d17addd6a"
+      - name: motion.nuanmb
         unk: 0
     scripts:
-      - "0x0f658abd55"
-      - "0x0e97fd45e7"
+      - effect_critical
+      - sound_critical
     extra: ~

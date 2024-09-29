@@ -1,7 +1,7 @@
 ---
 motion_path: "0x0000000000"
 list:
-  "0x056da96350":
+  fly_n:
     game_script: game_flyn
     flags:
       turn: false
@@ -22,9 +22,9 @@ list:
     animations: []
     scripts:
       - sound_flyn
-      - "0x0bba56fc9e"
+      - effect_flyn
     extra: ~
-  "0x06db306960":
+  fly_hi:
     game_script: game_flyhi
     flags:
       turn: false
@@ -45,9 +45,9 @@ list:
     animations: []
     scripts:
       - sound_flyhi
-      - "0x0ca73b7948"
+      - effect_flyhi
     extra: ~
-  "0x0645539107":
+  fly_lw:
     game_script: game_flylw
     flags:
       turn: false
@@ -68,9 +68,9 @@ list:
     animations: []
     scripts:
       - sound_flylw
-      - "0x0c3958812f"
+      - effect_flylw
     extra: ~
-  "0x09e83c2120":
+  fly_air_n:
     game_script: game_flyairn
     flags:
       turn: false
@@ -91,9 +91,9 @@ list:
     animations: []
     scripts:
       - sound_flyairn
-      - "0x0e9aaba1f0"
+      - effect_flyairn
     extra: ~
-  "0x0a8bb08d1e":
+  fly_air_hi:
     game_script: game_flyairhi
     flags:
       turn: false
@@ -114,9 +114,9 @@ list:
     animations: []
     scripts:
       - sound_flyairhi
-      - "0x0f0d11c84a"
+      - effect_flyairhi
     extra: ~
-  "0x0a15d37579":
+  fly_air_lw:
     game_script: game_flyairlw
     flags:
       turn: false
@@ -137,10 +137,10 @@ list:
     animations: []
     scripts:
       - sound_flyairlw
-      - "0x0f9372302d"
+      - effect_flyairlw
     extra: ~
-  "0x0943adc084":
-    game_script: "0x0d316845c1"
+  fly_throw:
+    game_script: game_flythrow
     flags:
       turn: false
       loop: false
@@ -159,8 +159,8 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0e5a94e4cb"
-      - "0x0fa8e31c79"
+      - sound_flythrow
+      - effect_flythrow
     extra: ~
   hit_ground:
     game_script: game_hitground

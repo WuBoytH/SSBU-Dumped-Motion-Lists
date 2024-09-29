@@ -116,8 +116,8 @@ list:
       - effect_lost
       - sound_lost
     extra: ~
-  "0x0d2d8dba77":
-    game_script: "0x116568c143"
+  airflow_start:
+    game_script: game_airflowstart
     flags:
       turn: false
       loop: false
@@ -135,14 +135,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x11f91694b5"
+      - name: shootstart.nuanmb
         unk: 0
     scripts:
-      - "0x138f67d869"
-      - "0x12b0060011"
+      - effect_airflowstart
+      - sound_airflowstart
     extra: ~
-  "0x0ce8bbcd57":
-    game_script: "0x10bff6b2f0"
+  airflow_loop:
+    game_script: game_airflowloop
     flags:
       turn: false
       loop: true
@@ -160,14 +160,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1038feef84"
+      - name: shootloop.nuanmb
         unk: 0
     scripts:
-      - "0x1265a8a174"
-      - "0x11b17604d2"
+      - effect_airflowloop
+      - sound_airflowloop
     extra: ~
-  "0x0b8d6bc757":
-    game_script: "0x0fa8a14523"
+  airflow_end:
+    game_script: game_airflowend
     flags:
       turn: false
       loop: false
@@ -185,14 +185,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0f9b74e48b"
+      - name: shootend.nuanmb
         unk: 0
     scripts:
-      - "0x11960a1148"
-      - "0x10f39f552b"
+      - effect_airflowend
+      - sound_airflowend
     extra: ~
-  "0x07b5b7361d":
-    game_script: "0x0c20754932"
+  violent:
+    game_script: game_violent
     flags:
       turn: false
       loop: true
@@ -210,14 +210,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0c759682c3"
+      - name: rough.nuanmb
         unk: 0
     scripts:
-      - "0x0ea27d4b31"
-      - "0x0db785b762"
+      - effect_violent
+      - sound_violent
     extra: ~
-  "0x04b6489977":
-    game_script: "0x095d5df55b"
+  suka:
+    game_script: game_suka
     flags:
       turn: false
       loop: true
@@ -235,9 +235,9 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1038feef84"
+      - name: shootloop.nuanmb
         unk: 0
     scripts:
-      - "0x0b262dae8e"
-      - "0x0afc3de3e9"
+      - effect_suka
+      - sound_suka
     extra: ~

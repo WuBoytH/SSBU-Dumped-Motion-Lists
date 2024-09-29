@@ -93,8 +93,8 @@ list:
       - effect_throw
       - sound_throw
     extra: ~
-  "0x0d14065142":
-    game_script: "0x115eaa5c33"
+  throw_special:
+    game_script: game_throwspecial
     flags:
       turn: false
       loop: true
@@ -113,8 +113,8 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x13b4a54519"
-      - "0x128bc49d61"
+      - effect_throwspecial
+      - sound_throwspecial
     extra: ~
   lost:
     game_script: game_lost

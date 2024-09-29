@@ -72,8 +72,8 @@ list:
       - effect_shake
       - sound_shake
     extra: ~
-  "0x08a876749c":
-    game_script: "0x0d03328bba"
+  vertical:
+    game_script: game_vertical
     flags:
       turn: false
       loop: false
@@ -91,14 +91,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0ff58888e2"
+      - name: vertical.nuanmb
         unk: 0
     scripts:
-      - "0x0f9ab9d202"
-      - "0x0e68ce2ab0"
+      - effect_vertical
+      - sound_vertical
     extra: ~
-  "0x0831fe12be":
-    game_script: "0x0c92ff7f3b"
+  pre_lost:
+    game_script: game_prelost
     flags:
       turn: false
       loop: true
@@ -117,8 +117,8 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0e10f77d38"
-      - "0x0d050f816b"
+      - effect_prelost
+      - sound_prelost
     extra: ~
   lost:
     game_script: game_lost
@@ -189,8 +189,8 @@ list:
       - effect_flashing
       - sound_flashing
     extra: ~
-  "0x0d0b321e8a":
-    game_script: "0x11ac6b1b0a"
+  flashing_near:
+    game_script: game_flashingnear
     flags:
       turn: false
       loop: true
@@ -209,6 +209,6 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x1346640220"
-      - "0x127905da58"
+      - effect_flashingnear
+      - sound_flashingnear
     extra: ~

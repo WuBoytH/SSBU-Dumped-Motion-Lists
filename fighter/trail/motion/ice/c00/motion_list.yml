@@ -24,7 +24,7 @@ list:
       - sound_fly
       - effect_fly
     extra: ~
-  "0x08c241226b":
+  fly_last:
     game_script: game_flylast
     flags:
       turn: false

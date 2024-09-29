@@ -93,8 +93,8 @@ list:
       - effect_throw
       - sound_throw
     extra: ~
-  "0x1139f1e947":
-    game_script: "0x157611e686"
+  throw_lioleusboss:
+    game_script: game_throwlioleusboss
     flags:
       turn: false
       loop: true
@@ -113,8 +113,8 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x176d2e268a"
-      - "0x168abfbdaa"
+      - effect_throwlioleusboss
+      - sound_throwlioleusboss
     extra: ~
   born:
     game_script: game_born
@@ -139,8 +139,8 @@ list:
       - effect_born
       - sound_born
     extra: ~
-  "0x10a51c0d79":
-    game_script: "0x14d35271b9"
+  born_lioleusboss:
+    game_script: game_bornlioleusboss
     flags:
       turn: false
       loop: false
@@ -159,8 +159,8 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x16ed3706ec"
-      - "0x15c48121e2"
+      - effect_bornlioleusboss
+      - sound_bornlioleusboss
     extra: ~
   lost:
     game_script: game_lost

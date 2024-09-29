@@ -149,8 +149,8 @@ list:
       - effect_lost
       - sound_lost
     extra: ~
-  "0x1018adb31a":
-    game_script: "0x13efa26116"
+  bond_ground_open:
+    game_script: game_bondgroundopen
     flags:
       turn: false
       loop: false
@@ -171,11 +171,11 @@ list:
       - name: open.nuanmb
         unk: 0
     scripts:
-      - "0x15e4a2eff1"
-      - "0x148b4c7988"
+      - effect_bondgroundopen
+      - sound_bondgroundopen
     extra: ~
-  "0x0b40738e0a":
-    game_script: "0x0ff73bcd17"
+  bond_ground:
+    game_script: game_bondground
     flags:
       turn: false
       loop: true
@@ -196,11 +196,11 @@ list:
       - name: wait.nuanmb
         unk: 0
     scripts:
-      - "0x11c990997c"
-      - "0x10ac05dd1f"
+      - effect_bondground
+      - sound_bondground
     extra: ~
-  "0x0d37aa4c06":
-    game_script: "0x10599a8149"
+  bond_air_open:
+    game_script: game_bondairopen
     flags:
       turn: false
       loop: false
@@ -221,11 +221,11 @@ list:
       - name: open.nuanmb
         unk: 0
     scripts:
-      - "0x1283c492cd"
-      - "0x11571a376b"
+      - effect_bondairopen
+      - sound_bondairopen
     extra: ~
-  "0x0804118519":
-    game_script: "0x0c3c428883"
+  bond_air:
+    game_script: game_bondair
     flags:
       turn: false
       loop: true
@@ -246,11 +246,11 @@ list:
       - name: wait.nuanmb
         unk: 0
     scripts:
-      - "0x0ebe4a8a80"
-      - "0x0dabb276d3"
+      - effect_bondair
+      - sound_bondair
     extra: ~
-  "0x09b5ec2d65":
-    game_script: "0x0da50e0432"
+  bond_fall:
+    game_script: game_bondfall
     flags:
       turn: false
       loop: true
@@ -271,6 +271,6 @@ list:
       - name: wait.nuanmb
         unk: 0
     scripts:
-      - "0x0f3c855d8a"
-      - "0x0ecef2a538"
+      - effect_bondfall
+      - sound_bondfall
     extra: ~

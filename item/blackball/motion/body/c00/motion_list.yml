@@ -162,8 +162,8 @@ list:
       - effect_lost
       - sound_lost
     extra: ~
-  "0x07c4c8b333":
-    game_script: "0x0bb7efdd1b"
+  set_air:
+    game_script: game_setair
     flags:
       turn: false
       loop: false
@@ -182,11 +182,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0db7191f4d"
-      - "0x0c95c80510"
+      - effect_setair
+      - sound_setair
     extra: ~
-  "0x0a03bab6f9":
-    game_script: "0x0e6b905290"
+  set_ground:
+    game_script: game_setground
     flags:
       turn: false
       loop: false
@@ -205,8 +205,8 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x10aeb3e277"
-      - "0x0f8b2e472f"
+      - effect_setground
+      - sound_setground
     extra: ~
   attack:
     game_script: game_attack

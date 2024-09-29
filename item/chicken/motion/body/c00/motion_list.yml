@@ -193,8 +193,8 @@ list:
       - effect_jump
       - sound_jump
     extra: ~
-  "0x0c42e29d06":
-    game_script: "0x10314aad62"
+  throw_attack:
+    game_script: game_throwattack
     flags:
       turn: false
       loop: true
@@ -215,8 +215,8 @@ list:
       - name: jump.nuanmb
         unk: 0
     scripts:
-      - "0x12eb14bee6"
-      - "0x113fca1b40"
+      - effect_throwattack
+      - sound_throwattack
     extra: ~
   turn:
     game_script: game_turn
@@ -266,8 +266,8 @@ list:
       - effect_damage
       - sound_damage
     extra: ~
-  "0x055dfc36e5":
-    game_script: "0x0a6fcf4f6a"
+  accel:
+    game_script: game_accel
     flags:
       turn: false
       loop: true
@@ -285,9 +285,9 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x11d1fd7a1a"
+      - name: accelerate.nuanmb
         unk: 0
     scripts:
-      - "0x0c990d196a"
-      - "0x0b4a01fddc"
+      - effect_accel
+      - sound_accel
     extra: ~

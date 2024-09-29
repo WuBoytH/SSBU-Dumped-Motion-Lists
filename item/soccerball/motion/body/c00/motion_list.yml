@@ -162,8 +162,8 @@ list:
       - effect_attack
       - sound_attack
     extra: ~
-  "0x0b9bd59267":
-    game_script: "0x0fe0969564"
+  fire_attack:
+    game_script: game_fireattack
     flags:
       turn: false
       loop: false
@@ -182,11 +182,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x11de3dc10f"
-      - "0x10bba8856c"
+      - effect_fireattack
+      - sound_fireattack
     extra: ~
-  "0x101f223238":
-    game_script: "0x13af26b1f0"
+  fire_attack_anim:
+    game_script: game_fireattackanim
     flags:
       turn: false
       loop: true
@@ -204,11 +204,11 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0af3b60c02"
+      - name: col.nuanmb
         unk: 0
     scripts:
-      - "0x15a4263f17"
-      - "0x14cbc8a96e"
+      - effect_fireattackanim
+      - sound_fireattackanim
     extra: ~
   warp:
     game_script: game_warp

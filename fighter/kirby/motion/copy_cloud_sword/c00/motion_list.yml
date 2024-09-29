@@ -1,5 +1,5 @@
 ---
-motion_path: "0x23fa7b50a0"
+motion_path: fighter/kirby/motion/cloudsword/c00
 list:
   regular:
     game_script: game_regular

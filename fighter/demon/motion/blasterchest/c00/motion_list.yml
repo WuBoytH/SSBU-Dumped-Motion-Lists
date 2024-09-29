@@ -1,5 +1,5 @@
 ---
-motion_path: "0x25617c9cae"
+motion_path: fighter/demon/motion/blasterchest/c00
 list:
   final:
     game_script: game_final
@@ -170,7 +170,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x134ddf60a6"
+      - name: d04finalairl.nuanmb
         unk: 0
     scripts:
       - sound_finalair

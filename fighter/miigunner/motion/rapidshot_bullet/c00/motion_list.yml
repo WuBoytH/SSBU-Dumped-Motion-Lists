@@ -70,8 +70,8 @@ list:
       - sound_flythrowhi
       - effect_flythrowhi
     extra: ~
-  "0x0e08debafe":
-    game_script: "0x109b676c88"
+  fly_throw_hi_2:
+    game_script: game_flythrowhi2
     flags:
       turn: false
       loop: false
@@ -90,6 +90,6 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x1195e7daaa"
-      - "0x1241397f0c"
+      - sound_flythrowhi2
+      - effect_flythrowhi2
     extra: ~

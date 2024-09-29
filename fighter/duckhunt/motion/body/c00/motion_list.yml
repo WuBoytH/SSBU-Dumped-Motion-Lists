@@ -14833,7 +14833,7 @@ list:
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x13e9a9dc57":
+  fill_blank_fistdown:
     game_script: game_
     flags:
       turn: false
@@ -14852,7 +14852,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x18414415cf"
+      - name: l02share_fistdown.nuanmb
         unk: 3
     scripts:
       - expression_
@@ -20185,8 +20185,8 @@ list:
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x14ea15f043":
-    game_script: "0x171e0b5ddb"
+  demon_thrown_command:
+    game_script: game_demonthrowncommand
     flags:
       turn: false
       loop: false
@@ -20205,16 +20205,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x1dce4f2fb7"
-      - "0x18db8342a7"
-      - "0x1929dacb58"
+      - expression_demonthrowncommand
+      - sound_demonthrowncommand
+      - effect_demonthrowncommand
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x17cc53d117":
-    game_script: "0x1969806ac4"
+  demon_thrown_command_dx:
+    game_script: game_demonthrowncommanddx
     flags:
       turn: false
       loop: false
@@ -20233,16 +20233,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x1f1ec38e3b"
-      - "0x1a67029443"
-      - "0x1b6042a0ec"
+      - expression_demonthrowncommanddx
+      - sound_demonthrowncommanddx
+      - effect_demonthrowncommanddx
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x19e3d2e8d6":
-    game_script: "0x1b1574b1dd"
+  demon_thrown_command_girl:
+    game_script: game_demonthrowncommandgirl
     flags:
       turn: false
       loop: false
@@ -20261,16 +20261,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x2121371d8d"
-      - "0x1c3bb36ec8"
-      - "0x1d33983d1b"
+      - expression_demonthrowncommandgirl
+      - sound_demonthrowncommandgirl
+      - effect_demonthrowncommandgirl
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x18d59f92c2":
-    game_script: "0x1acae0c217"
+  demon_thrown_command_big:
+    game_script: game_demonthrowncommandbig
     flags:
       turn: false
       loop: false
@@ -20289,16 +20289,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x20e7956e7e"
-      - "0x1bb932566a"
-      - "0x1cff5ca827"
+      - expression_demonthrowncommandbig
+      - sound_demonthrowncommandbig
+      - effect_demonthrowncommandbig
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x1986430786":
-    game_script: "0x1b859de674"
+  demon_special_lw_captured:
+    game_script: game_demonspeciallwcaptured
     flags:
       turn: false
       loop: false
@@ -20317,16 +20317,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x21b1de4a24"
-      - "0x1cab5a3961"
-      - "0x1da3716ab2"
+      - expression_demonspeciallwcaptured
+      - sound_demonspeciallwcaptured
+      - effect_demonspeciallwcaptured
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x1c82c2066b":
-    game_script: "0x1d1cac3b70"
+  demon_special_lw_captured_dx:
+    game_script: game_demonspeciallwcaptureddx
     flags:
       turn: false
       loop: false
@@ -20345,16 +20345,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x237977bda4"
-      - "0x1e3d753ce6"
-      - "0x1f6502a25f"
+      - expression_demonspeciallwcaptureddx
+      - sound_demonspeciallwcaptureddx
+      - effect_demonspeciallwcaptureddx
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x1e78efd7ca":
-    game_script: "0x1f89b1ce2f"
+  demon_special_lw_captured_girl:
+    game_script: game_demonspeciallwcapturedgirl
     flags:
       turn: false
       loop: false
@@ -20373,16 +20373,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x25683e8dfa"
-      - "0x2030ce57c9"
-      - "0x21127ea40c"
+      - expression_demonspeciallwcapturedgirl
+      - sound_demonspeciallwcapturedgirl
+      - effect_demonspeciallwcapturedgirl
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x1d8c623e02":
-    game_script: "0x1e069999d3"
+  demon_special_lw_captured_big:
+    game_script: game_demonspeciallwcapturedbig
     flags:
       turn: false
       loop: false
@@ -20401,16 +20401,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x2487425498"
-      - "0x1f1fd476a5"
-      - "0x20ad310a13"
+      - expression_demonspeciallwcapturedbig
+      - sound_demonspeciallwcapturedbig
+      - effect_demonspeciallwcapturedbig
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x1e1a01dec8":
-    game_script: "0x1feb5fc72d"
+  demon_special_lw_captured_fall:
+    game_script: game_demonspeciallwcapturedfall
     flags:
       turn: false
       loop: false
@@ -20429,16 +20429,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x250ad084f8"
-      - "0x2052205ecb"
-      - "0x217090ad0e"
+      - expression_demonspeciallwcapturedfall
+      - sound_demonspeciallwcapturedfall
+      - effect_demonspeciallwcapturedfall
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x2130eef8d7":
-    game_script: "0x213bbca3f1"
+  demon_special_lw_captured_fall_dx:
+    game_script: game_demonspeciallwcapturedfalldx
     flags:
       turn: false
       loop: false
@@ -20457,16 +20457,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x272826630e"
-      - "0x22ba4b6504"
-      - "0x232872c719"
+      - expression_demonspeciallwcapturedfalldx
+      - sound_demonspeciallwcapturedfalldx
+      - effect_demonspeciallwcapturedfalldx
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x236a9a5b49":
-    game_script: "0x2355fd5b43"
+  demon_special_lw_captured_fall_girl:
+    game_script: game_demonspeciallwcapturedfallgirl
     flags:
       turn: false
       loop: false
@@ -20485,16 +20485,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x295dbd771b"
-      - "0x244e31a8c9"
-      - "0x2589859428"
+      - expression_demonspeciallwcapturedfallgirl
+      - sound_demonspeciallwcapturedfallgirl
+      - effect_demonspeciallwcapturedfallgirl
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x224e07ed5b":
-    game_script: "0x229c013afd"
+  demon_special_lw_captured_fall_big:
+    game_script: game_demonspeciallwcapturedfallbig
     flags:
       turn: false
       loop: false
@@ -20513,16 +20513,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x28b1104fb0"
-      - "0x235157cba8"
-      - "0x2432c39ed3"
+      - expression_demonspeciallwcapturedfallbig
+      - sound_demonspeciallwcapturedfallbig
+      - effect_demonspeciallwcapturedfallbig
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x207f6e40e5":
-    game_script: "0x21380c1ed2"
+  demon_special_lw_captured_ground:
+    game_script: game_demonspeciallwcapturedground
     flags:
       turn: false
       loop: false
@@ -20541,16 +20541,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x272b96de2d"
-      - "0x22b9fbd827"
-      - "0x232bc27a3a"
+      - expression_demonspeciallwcapturedground
+      - sound_demonspeciallwcapturedground
+      - effect_demonspeciallwcapturedground
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x2332b4f65c":
-    game_script: "0x235797e7a0"
+  demon_special_lw_captured_ground_dx:
+    game_script: game_demonspeciallwcapturedgrounddx
     flags:
       turn: false
       loop: false
@@ -20569,16 +20569,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x295fd7cbf8"
-      - "0x244c5b142a"
-      - "0x258bef28cb"
+      - expression_demonspeciallwcapturedgrounddx
+      - sound_demonspeciallwcapturedgrounddx
+      - effect_demonspeciallwcapturedgrounddx
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x2555553594":
-    game_script: "0x2587ecdef4"
+  demon_special_lw_captured_ground_girl:
+    game_script: game_demonspeciallwcapturedgroundgirl
     flags:
       turn: false
       loop: false
@@ -20597,16 +20597,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x2bc7566d0b"
-      - "0x266234165f"
-      - "0x270a3e6fc1"
+      - expression_demonspeciallwcapturedgroundgirl
+      - sound_demonspeciallwcapturedgroundgirl
+      - effect_demonspeciallwcapturedgroundgirl
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x24346fedfd":
-    game_script: "0x24800170db"
+  demon_special_lw_captured_ground_big:
+    game_script: game_demonspeciallwcapturedgroundbig
     flags:
       turn: false
       loop: false
@@ -20625,16 +20625,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x2ae5b9e931"
-      - "0x258d77d616"
-      - "0x265abdb0c4"
+      - expression_demonspeciallwcapturedgroundbig
+      - sound_demonspeciallwcapturedgroundbig
+      - effect_demonspeciallwcapturedgroundbig
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x2079db2c1a":
-    game_script: "0x21718dbfd4"
+  demon_attack_rage_drive_captured:
+    game_script: game_demonattackragedrivecaptured
     flags:
       turn: false
       loop: false
@@ -20653,16 +20653,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x2762177f2b"
-      - "0x22f07a7921"
-      - "0x236243db3c"
+      - expression_demonattackragedrivecaptured
+      - sound_demonattackragedrivecaptured
+      - effect_demonattackragedrivecaptured
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x23fe6fa11f":
-    game_script: "0x23a01c9ad9"
+  demon_attack_rage_drive_captured_dx:
+    game_script: game_demonattackragedrivecaptureddx
     flags:
       turn: false
       loop: false
@@ -20681,16 +20681,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x29a85cb681"
-      - "0x24bbd06953"
-      - "0x257c6455b2"
+      - expression_demonattackragedrivecaptureddx
+      - sound_demonattackragedrivecaptureddx
+      - effect_demonattackragedrivecaptureddx
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x257b0e21de":
-    game_script: "0x2557a5e641"
+  demon_attack_rage_drive_captured_girl:
+    game_script: game_demonattackragedrivecapturedgirl
     flags:
       turn: false
       loop: false
@@ -20709,16 +20709,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x2b171f55be"
-      - "0x26b27d2eea"
-      - "0x27da775774"
+      - expression_demonattackragedrivecapturedgirl
+      - sound_demonattackragedrivecapturedgirl
+      - effect_demonattackragedrivecapturedgirl
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x24db762680":
-    game_script: "0x24a92f323e"
+  demon_attack_rage_drive_captured_big:
+    game_script: game_demonattackragedrivecapturedbig
     flags:
       turn: false
       loop: false
@@ -20737,16 +20737,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x2acc97abd4"
-      - "0x25a45994f3"
-      - "0x267393f221"
+      - expression_demonattackragedrivecapturedbig
+      - sound_demonattackragedrivecapturedbig
+      - effect_demonattackragedrivecapturedbig
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x2519e028dc":
-    game_script: "0x25354bef43"
+  demon_attack_rage_drive_captured_fall:
+    game_script: game_demonattackragedrivecapturedfall
     flags:
       turn: false
       loop: false
@@ -20765,16 +20765,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x2b75f15cbc"
-      - "0x26d09327e8"
-      - "0x27b8995e76"
+      - expression_demonattackragedrivecapturedfall
+      - sound_demonattackragedrivecapturedfall
+      - effect_demonattackragedrivecapturedfall
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x28be2a67ad":
-    game_script: "0x27f5779336"
+  demon_attack_rage_drive_captured_fall_dx:
+    game_script: game_demonattackragedrivecapturedfalldx
     flags:
       turn: false
       loop: false
@@ -20793,16 +20793,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x2d343bccc8"
-      - "0x282d3b594e"
-      - "0x29eb205f48"
+      - expression_demonattackragedrivecapturedfalldx
+      - sound_demonattackragedrivecapturedfalldx
+      - effect_demonattackragedrivecapturedfalldx
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x2adffaca24":
-    game_script: "0x29f79fe4ad"
+  demon_attack_rage_drive_captured_fall_girl:
+    game_script: game_demonattackragedrivecapturedfallgirl
     flags:
       turn: false
       loop: false
@@ -20821,16 +20821,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x2f8674a5b7"
-      - "0x2a6bc8e4b1"
-      - "0x2bd4f12019"
+      - expression_demonattackragedrivecapturedfallgirl
+      - sound_demonattackragedrivecapturedfallgirl
+      - effect_demonattackragedrivecapturedfallgirl
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x29fe59b1e6":
-    game_script: "0x2899cfa6de"
+  demon_attack_rage_drive_captured_fall_big:
+    game_script: game_demonattackragedrivecapturedfallbig
     flags:
       turn: false
       loop: false
@@ -20849,16 +20849,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x2ec30b359a"
-      - "0x29c7c9131a"
-      - "0x2a2e6cad29"
+      - expression_demonattackragedrivecapturedfallbig
+      - sound_demonattackragedrivecapturedfallbig
+      - effect_demonattackragedrivecapturedfallbig
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x27051ec378":
-    game_script: "0x27f6c72e15"
+  demon_attack_rage_drive_captured_ground:
+    game_script: game_demonattackragedrivecapturedground
     flags:
       turn: false
       loop: false
@@ -20877,16 +20877,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x2d378b71eb"
-      - "0x282e8be46d"
-      - "0x29e890e26b"
+      - expression_demonattackragedrivecapturedground
+      - sound_demonattackragedrivecapturedground
+      - effect_demonattackragedrivecapturedground
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x2a87d46731":
-    game_script: "0x29f5f5584e"
+  demon_attack_rage_drive_captured_ground_dx:
+    game_script: game_demonattackragedrivecapturedgrounddx
     flags:
       turn: false
       loop: false
@@ -20905,16 +20905,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x2f841e1954"
-      - "0x2a69a25852"
-      - "0x2bd69b9cfa"
+      - expression_demonattackragedrivecapturedgrounddx
+      - sound_demonattackragedrivecapturedgrounddx
+      - effect_demonattackragedrivecapturedgrounddx
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x2c020e36cc":
-    game_script: "0x2b1ccf0ce9"
+  demon_attack_rage_drive_captured_ground_girl:
+    game_script: game_demonattackragedrivecapturedgroundgirl
     flags:
       turn: false
       loop: false
@@ -20933,16 +20933,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x31ad39f6df"
-      - "0x2cfab8cde3"
-      - "0x2d006f4292"
+      - expression_demonattackragedrivecapturedgroundgirl
+      - sound_demonattackragedrivecapturedgroundgirl
+      - effect_demonattackragedrivecapturedgroundgirl
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x2b07d99089":
-    game_script: "0x2ac711dd1b"
+  demon_attack_rage_drive_captured_ground_big:
+    game_script: game_demonattackragedrivecapturedgroundbig
     flags:
       turn: false
       loop: false
@@ -20961,16 +20961,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x303a02cf20"
-      - "0x2bd38cd654"
-      - "0x2c0b3ec44a"
+      - expression_demonattackragedrivecapturedgroundbig
+      - sound_demonattackragedrivecapturedgroundbig
+      - effect_demonattackragedrivecapturedgroundbig
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x191c45f026":
-    game_script: "0x1b5fe54436"
+  trail_special_lw_backward:
+    game_script: game_trailspeciallwbackward
     flags:
       turn: false
       loop: false
@@ -20989,16 +20989,16 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x216ba6e866"
-      - "0x1c71229b23"
-      - "0x1d7909c8f0"
+      - expression_trailspeciallwbackward
+      - sound_trailspeciallwbackward
+      - effect_trailspeciallwbackward
     extra:
       xlu_start: 0
       xlu_end: 0
       cancel_frame: 0
       no_stop_intp: false
-  "0x1da783bf4c":
-    game_script: "0x1ef4e5df77"
+  trail_special_air_lw_backward:
+    game_script: game_trailspecialairlwbackward
     flags:
       turn: false
       loop: false
@@ -21017,9 +21017,9 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x24753e123c"
-      - "0x1feda83001"
-      - "0x205f4d4cb7"
+      - expression_trailspecialairlwbackward
+      - sound_trailspecialairlwbackward
+      - effect_trailspecialairlwbackward
     extra:
       xlu_start: 0
       xlu_end: 0

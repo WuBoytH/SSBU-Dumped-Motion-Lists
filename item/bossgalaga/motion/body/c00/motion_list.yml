@@ -185,8 +185,8 @@ list:
       - effect_beam
       - sound_beam
     extra: ~
-  "0x031d39a761":
-    game_script: "0x0d49b1050e"
+  rot:
+    game_script: game_otherrot
     flags:
       turn: false
       loop: false
@@ -207,8 +207,8 @@ list:
       - name: ptn.nuanmb
         unk: 0
     scripts:
-      - "0x0fd03a5cb6"
-      - "0x0e224da404"
+      - effect_otherrot
+      - sound_otherrot
     extra: ~
   capture:
     game_script: game_capture

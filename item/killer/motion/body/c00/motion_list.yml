@@ -139,8 +139,8 @@ list:
       - effect_lost
       - sound_lost
     extra: ~
-  "0x0977b281ad":
-    game_script: "0x0ea51440af"
+  transform:
+    game_script: game_transform
     flags:
       turn: false
       loop: false
@@ -159,8 +159,8 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x106037f048"
-      - "0x0f45aa5510"
+      - effect_transform
+      - sound_transform
     extra: ~
   wait_ground:
     game_script: game_waitground

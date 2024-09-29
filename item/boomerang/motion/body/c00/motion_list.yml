@@ -164,8 +164,8 @@ list:
       - effect_fly
       - sound_fly
     extra: ~
-  "0x05967d2f35":
-    game_script: "0x093af2eb2e"
+  fly_1:
+    game_script: game_fly1
     flags:
       turn: false
       loop: true
@@ -186,10 +186,10 @@ list:
       - name: main.nuanmb
         unk: 0
     scripts:
-      - "0x0b4182b0fb"
-      - "0x0a9b92fd9c"
+      - effect_fly1
+      - sound_fly1
     extra: ~
-  "0x050f747e8f":
+  fly_2:
     game_script: game_fly2
     flags:
       turn: false
@@ -214,8 +214,8 @@ list:
       - effect_fly2
       - sound_fly2
     extra: ~
-  "0x0578734e19":
-    game_script: "0x09d4fc8a02"
+  fly_3:
+    game_script: game_fly3
     flags:
       turn: false
       loop: true
@@ -236,11 +236,11 @@ list:
       - name: main.nuanmb
         unk: 0
     scripts:
-      - "0x0baf8cd1d7"
-      - "0x0a759c9cb0"
+      - effect_fly3
+      - sound_fly3
     extra: ~
-  "0x05e617dbba":
-    game_script: "0x094a981fa1"
+  fly_4:
+    game_script: game_fly4
     flags:
       turn: false
       loop: true
@@ -261,11 +261,11 @@ list:
       - name: main.nuanmb
         unk: 0
     scripts:
-      - "0x0b31e84474"
-      - "0x0aebf80913"
+      - effect_fly4
+      - sound_fly4
     extra: ~
-  "0x06ffc14e57":
-    game_script: "0x0a5977621e"
+  turn_1:
+    game_script: game_turn1
     flags:
       turn: false
       loop: true
@@ -286,11 +286,11 @@ list:
       - name: main.nuanmb
         unk: 0
     scripts:
-      - "0x0cafb5341e"
-      - "0x0b7cb9d0a8"
+      - effect_turn1
+      - sound_turn1
     extra: ~
-  "0x0666c81fed":
-    game_script: "0x0ac07e33a4"
+  turn_2:
+    game_script: game_turn2
     flags:
       turn: false
       loop: true
@@ -311,11 +311,11 @@ list:
       - name: main.nuanmb
         unk: 0
     scripts:
-      - "0x0c36bc65a4"
-      - "0x0be5b08112"
+      - effect_turn2
+      - sound_turn2
     extra: ~
-  "0x0611cf2f7b":
-    game_script: "0x0ab7790332"
+  turn_3:
+    game_script: game_turn3
     flags:
       turn: false
       loop: true
@@ -336,11 +336,11 @@ list:
       - name: main.nuanmb
         unk: 0
     scripts:
-      - "0x0c41bb5532"
-      - "0x0b92b7b184"
+      - effect_turn3
+      - sound_turn3
     extra: ~
-  "0x068fabbad8":
-    game_script: "0x0a291d9691"
+  turn_4:
+    game_script: game_turn4
     flags:
       turn: false
       loop: true
@@ -361,11 +361,11 @@ list:
       - name: main.nuanmb
         unk: 0
     scripts:
-      - "0x0cdfdfc091"
-      - "0x0b0cd32427"
+      - effect_turn4
+      - sound_turn4
     extra: ~
-  "0x0462072ef9":
-    game_script: "0x09891242d5"
+  bump:
+    game_script: game_bump
     flags:
       turn: false
       loop: true
@@ -384,6 +384,6 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0bf2621900"
-      - "0x0a28725467"
+      - effect_bump
+      - sound_bump
     extra: ~

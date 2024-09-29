@@ -189,8 +189,8 @@ list:
       - effect_lost
       - sound_lost
     extra: ~
-  "0x03e61425dc":
-    game_script: "0x08fd4e3619"
+  set:
+    game_script: game_set
     flags:
       turn: false
       loop: false
@@ -209,8 +209,8 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0a3c3e4dd3"
-      - "0x094ccbfab8"
+      - effect_set
+      - sound_set
     extra: ~
   throw:
     game_script: game_throw

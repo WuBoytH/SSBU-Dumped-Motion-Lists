@@ -139,8 +139,8 @@ list:
       - effect_waitground
       - sound_waitground
     extra: ~
-  "0x059d13cf2d":
-    game_script: "0x0aaf20b6a2"
+  spark:
+    game_script: game_spark
     flags:
       turn: false
       loop: true
@@ -159,6 +159,6 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0c59e2e0a2"
-      - "0x0b8aee0414"
+      - effect_spark
+      - sound_spark
     extra: ~

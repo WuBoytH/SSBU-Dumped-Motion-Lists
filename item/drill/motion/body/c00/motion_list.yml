@@ -93,8 +93,8 @@ list:
       - effect_throw
       - sound_throw
     extra: ~
-  "0x0bbb3dc119":
-    game_script: "0x0f865f89d7"
+  empty_throw:
+    game_script: game_emptythrow
     flags:
       turn: false
       loop: false
@@ -112,11 +112,11 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x11828b7b56"
+      - name: emptythrow.nuanmb
         unk: 0
     scripts:
-      - "0x11b8f4ddbc"
-      - "0x10dd6199df"
+      - effect_emptythrow
+      - sound_emptythrow
     extra: ~
   lost:
     game_script: game_lost
@@ -187,8 +187,8 @@ list:
       - effect_attack
       - sound_attack
     extra: ~
-  "0x0c76c61723":
-    game_script: "0x107b19740b"
+  other_attack:
+    game_script: game_otherattack
     flags:
       turn: false
       loop: false
@@ -209,6 +209,6 @@ list:
       - name: vis.nuanmb
         unk: 1
     scripts:
-      - "0x12a147678f"
-      - "0x117599c229"
+      - effect_otherattack
+      - sound_otherattack
     extra: ~

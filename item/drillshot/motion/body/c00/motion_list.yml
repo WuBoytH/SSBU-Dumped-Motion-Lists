@@ -158,7 +158,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0bfe44e2e1"
+      - name: roll.nuanmb
         unk: 0
     scripts:
       - effect_moveright
@@ -183,7 +183,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0bfe44e2e1"
+      - name: roll.nuanmb
         unk: 0
     scripts:
       - effect_moveleft
@@ -208,7 +208,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0c8d15baaa"
+      - name: stick.nuanmb
         unk: 0
     scripts:
       - effect_stick

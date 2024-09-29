@@ -93,8 +93,8 @@ list:
       - effect_throw
       - sound_throw
     extra: ~
-  "0x1139f1e947":
-    game_script: "0x157611e686"
+  throw_lioleusboss:
+    game_script: game_throwlioleusboss
     flags:
       turn: false
       loop: true
@@ -113,8 +113,8 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x176d2e268a"
-      - "0x168abfbdaa"
+      - effect_throwlioleusboss
+      - sound_throwlioleusboss
     extra: ~
   lost:
     game_script: game_lost
@@ -162,8 +162,8 @@ list:
       - effect_waitground
       - sound_waitground
     extra: ~
-  "0x10fb87e930":
-    game_script: "0x149977f4a8"
+  disappear_ground:
+    game_script: game_disappearground
     flags:
       turn: false
       loop: true
@@ -182,11 +182,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x16a71283fd"
-      - "0x158ea4a4f3"
+      - effect_disappearground
+      - sound_disappearground
     extra: ~
-  "0x1c3d1aebc6":
-    game_script: "0x1fcd98cb09"
+  disappear_ground_lioleusboss:
+    game_script: game_disappeargroundlioleusboss
     flags:
       turn: false
       loop: true
@@ -205,6 +205,6 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x215657a12a"
-      - "0x2074e752ef"
+      - effect_disappeargroundlioleusboss
+      - sound_disappeargroundlioleusboss
     extra: ~

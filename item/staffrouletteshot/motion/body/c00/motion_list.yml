@@ -1,5 +1,5 @@
 ---
-motion_path: "0x1fe54979c8"
+motion_path: shoot/staffshot/motion/body/c00
 list:
   appear:
     game_script: game_appear

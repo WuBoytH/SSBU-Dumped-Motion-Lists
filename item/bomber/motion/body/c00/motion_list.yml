@@ -45,7 +45,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0cc0e8d0d3"
+      - name: have2.nuanmb
         unk: 0
     scripts:
       - effect_have
@@ -241,14 +241,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0e35393b3c"
+      - name: timeup2.nuanmb
         unk: 0
     scripts:
       - effect_timeup
       - sound_timeup
     extra: ~
-  "0x05b9304ad8":
-    game_script: "0x0a8b033357"
+  cliff:
+    game_script: game_cliff
     flags:
       turn: false
       loop: false
@@ -266,14 +266,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0f138ad01c"
+      - name: struggle.nuanmb
         unk: 0
     scripts:
-      - "0x0c7dc16557"
-      - "0x0baecd81e1"
+      - effect_cliff
+      - sound_cliff
     extra: ~
-  "0x09b409f8b9":
-    game_script: "0x0d9baade73"
+  born_fall:
+    game_script: game_bornfall
     flags:
       turn: false
       loop: false
@@ -291,14 +291,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x148985c035"
+      - name: fallexplosion.nuanmb
         unk: 0
     scripts:
-      - "0x0f022187cb"
-      - "0x0ef0567f79"
+      - effect_bornfall
+      - sound_bornfall
     extra: ~
-  "0x0ce4dda994":
-    game_script: "0x10f4e4cb5b"
+  born_landing:
+    game_script: game_bornlanding
     flags:
       turn: false
       loop: false
@@ -316,14 +316,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x148985c035"
+      - name: fallexplosion.nuanmb
         unk: 0
     scripts:
-      - "0x122ebad8df"
-      - "0x11fa647d79"
+      - effect_bornlanding
+      - sound_bornlanding
     extra: ~
-  "0x051859437b":
-    game_script: "0x0a2a6a3af4"
+  hoist:
+    game_script: game_hoist
     flags:
       turn: false
       loop: true
@@ -341,14 +341,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0d7370ccb1"
+      - name: hoist2.nuanmb
         unk: 0
     scripts:
-      - "0x0cdca86cf4"
-      - "0x0b0fa48842"
+      - effect_hoist
+      - sound_hoist
     extra: ~
-  "0x0522499ff2":
-    game_script: "0x0a107ae67d"
+  born2:
+    game_script: game_born2
     flags:
       turn: false
       loop: false
@@ -366,9 +366,9 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0d7370ccb1"
+      - name: hoist2.nuanmb
         unk: 0
     scripts:
-      - "0x0ce6b8b07d"
-      - "0x0b35b454cb"
+      - effect_born2
+      - sound_born2
     extra: ~

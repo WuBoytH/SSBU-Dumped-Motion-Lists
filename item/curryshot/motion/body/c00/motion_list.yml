@@ -139,8 +139,8 @@ list:
       - effect_shoot
       - sound_shoot
     extra: ~
-  "0x0e37cb45ab":
-    game_script: "0x121ad73645"
+  appear_preview:
+    game_script: game_appearpreview
     flags:
       turn: false
       loop: false
@@ -159,11 +159,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x14c186f08a"
-      - "0x139f67685c"
+      - effect_appearpreview
+      - sound_appearpreview
     extra: ~
-  "0x0b04e29cea":
-    game_script: "0x0f4702a16f"
+  appear_plus:
+    game_script: game_appearplus
     flags:
       turn: false
       loop: false
@@ -182,6 +182,6 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x1179a9f504"
-      - "0x101c3cb167"
+      - effect_appearplus
+      - sound_appearplus
     extra: ~

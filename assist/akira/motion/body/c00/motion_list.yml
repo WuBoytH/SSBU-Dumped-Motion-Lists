@@ -776,8 +776,8 @@ list:
       - effect_guardstandup
       - sound_guardstandup
     extra: ~
-  "0x1383a72d03":
-    game_script: "0x1689301c92"
+  guard_standup_break:
+    game_script: game_guardstandupbreak
     flags:
       turn: false
       loop: false
@@ -798,8 +798,8 @@ list:
       - name: guardend.nuanmb
         unk: 0
     scripts:
-      - "0x18809d6f79"
-      - "0x17bb14de2a"
+      - effect_guardstandupbreak
+      - sound_guardstandupbreak
     extra: ~
   guard_squat:
     game_script: game_guardsquat
@@ -827,7 +827,7 @@ list:
       - sound_guardsquat
     extra: ~
   guard_squat_break:
-    game_script: "0x14fff8867b"
+    game_script: game_guradsquatbreak
     flags:
       turn: false
       loop: false
@@ -848,6 +848,6 @@ list:
       - name: guardsquatend.nuanmb
         unk: 0
     scripts:
-      - "0x16c19df12e"
-      - "0x15e82bd620"
+      - effect_guradsquatbreak
+      - sound_guradsquatbreak
     extra: ~

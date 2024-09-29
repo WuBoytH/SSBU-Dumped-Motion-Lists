@@ -45,14 +45,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0ac02d0c78"
+      - name: get.nuanmb
         unk: 0
     scripts:
       - effect_have
       - sound_have
     extra: ~
-  "0x0b8798a899":
-    game_script: "0x0fc1cd0935"
+  have_attack:
+    game_script: game_haveattack
     flags:
       turn: false
       loop: true
@@ -70,11 +70,11 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0ac02d0c78"
+      - name: get.nuanmb
         unk: 0
     scripts:
-      - "0x11ff665d5e"
-      - "0x109af3193d"
+      - effect_haveattack
+      - sound_haveattack
     extra: ~
   fall:
     game_script: game_fall
@@ -224,8 +224,8 @@ list:
       - effect_wait
       - sound_wait
     extra: ~
-  "0x069d58e05c":
-    game_script: "0x0be06d4d94"
+  onhave:
+    game_script: game_onhave
     flags:
       turn: false
       loop: true
@@ -246,11 +246,11 @@ list:
       - name: wait.nuanmb
         unk: 0
     scripts:
-      - "0x0de09b8fc2"
-      - "0x0cc24a959f"
+      - effect_onhave
+      - sound_onhave
     extra: ~
-  "0x08d930c65c":
-    game_script: "0x0d7274397a"
+  pikopiko:
+    game_script: game_pikopiko
     flags:
       turn: false
       loop: true
@@ -268,9 +268,9 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0ac02d0c78"
+      - name: get.nuanmb
         unk: 0
     scripts:
-      - "0x0febff60c2"
-      - "0x0e19889870"
+      - effect_pikopiko
+      - sound_pikopiko
     extra: ~

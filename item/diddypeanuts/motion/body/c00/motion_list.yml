@@ -162,8 +162,8 @@ list:
       - effect_waitground
       - sound_waitground
     extra: ~
-  "0x0b87e95371":
-    game_script: "0x0ff3cfb4f6"
+  throw_bound:
+    game_script: game_throwbound
     flags:
       turn: false
       loop: true
@@ -182,6 +182,6 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x11cd64e09d"
-      - "0x10a8f1a4fe"
+      - effect_throwbound
+      - sound_throwbound
     extra: ~

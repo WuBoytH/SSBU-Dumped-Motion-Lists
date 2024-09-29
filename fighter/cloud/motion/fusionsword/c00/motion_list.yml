@@ -26,8 +26,8 @@ list:
       - sound_finalattack
       - effect_finalattack
     extra: ~
-  "0x0da46960bb":
-    game_script: "0x11c0a7b30d"
+  final_attackl:
+    game_script: game_finalattackl
     flags:
       turn: false
       loop: false
@@ -48,7 +48,7 @@ list:
       - name: d04finalattackl.nuanmb
         unk: 0
     scripts:
-      - "0x1215c9725f"
+      - sound_finalattackl
       - effect_finalattackl
     extra: ~
   final_fall:
@@ -76,8 +76,8 @@ list:
       - sound_finalfall
       - effect_finalfall
     extra: ~
-  "0x0b9e538d9a":
-    game_script: "0x0fef90ffbd"
+  final_falll:
+    game_script: game_finalfalll
     flags:
       turn: false
       loop: false
@@ -98,8 +98,8 @@ list:
       - name: d04finalfalll.nuanmb
         unk: 0
     scripts:
-      - "0x10b4aeefb5"
-      - "0x11d13babd6"
+      - sound_finalfalll
+      - effect_finalfalll
     extra: ~
   final_end:
     game_script: game_finalend

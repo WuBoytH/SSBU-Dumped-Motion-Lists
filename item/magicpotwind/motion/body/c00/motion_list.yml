@@ -116,8 +116,8 @@ list:
       - effect_lost
       - sound_lost
     extra: ~
-  "0x0936566689":
-    game_script: "0x0ca7c0dc89"
+  shot_lv_1:
+    game_script: game_shotlv1
     flags:
       turn: false
       loop: true
@@ -136,11 +136,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0e25c8de8a"
-      - "0x0d303022d9"
+      - effect_shotlv1
+      - sound_shotlv1
     extra: ~
-  "0x09af5f3733":
-    game_script: "0x0c3ec98d33"
+  shot_lv_2:
+    game_script: game_shotlv2
     flags:
       turn: false
       loop: true
@@ -159,11 +159,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0ebcc18f30"
-      - "0x0da9397363"
+      - effect_shotlv2
+      - sound_shotlv2
     extra: ~
-  "0x09d85807a5":
-    game_script: "0x0c49cebda5"
+  shot_lv_3:
+    game_script: game_shotlv3
     flags:
       turn: false
       loop: true
@@ -182,6 +182,6 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0ecbc6bfa6"
-      - "0x0dde3e43f5"
+      - effect_shotlv3
+      - sound_shotlv3
     extra: ~

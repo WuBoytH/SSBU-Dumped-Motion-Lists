@@ -1,5 +1,5 @@
 ---
-motion_path: "0x21bb019f1d"
+motion_path: fighter/snakecbox/motion/body/c00
 list:
   appear:
     game_script: game_appear

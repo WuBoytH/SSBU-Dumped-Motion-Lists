@@ -20,13 +20,13 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0bbb6a1a59"
+      - name: keep.nuanmb
         unk: 0
     scripts:
       - effect_have
       - sound_have
     extra: ~
-  "0x068858e80a":
+  have_l:
     game_script: game_have
     flags:
       turn: false
@@ -45,7 +45,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0c6dcdad80"
+      - name: keepl.nuanmb
         unk: 0
     scripts:
       - effect_have
@@ -166,8 +166,8 @@ list:
       - effect_lost
       - sound_lost
     extra: ~
-  "0x063a6892d6":
-    game_script: "0x0b475d3f1e"
+  fixing:
+    game_script: game_fixing
     flags:
       turn: false
       loop: true
@@ -188,11 +188,11 @@ list:
       - name: wait.nuanmb
         unk: 0
     scripts:
-      - "0x0d47abfd48"
-      - "0x0c657ae715"
+      - effect_fixing
+      - sound_fixing
     extra: ~
-  "0x059ec9ce32":
-    game_script: "0x0aacfab7bd"
+  fixed:
+    game_script: game_fixed
     flags:
       turn: false
       loop: true
@@ -213,11 +213,11 @@ list:
       - name: wait.nuanmb
         unk: 0
     scripts:
-      - "0x0c5a38e1bd"
-      - "0x0b8934050b"
+      - effect_fixed
+      - sound_fixed
     extra: ~
-  "0x0d1394532c":
-    game_script: "0x1127933766"
+  fixed_prepare:
+    game_script: game_fixedprepare
     flags:
       turn: false
       loop: true
@@ -238,11 +238,11 @@ list:
       - name: wait.nuanmb
         unk: 0
     scripts:
-      - "0x13cd9c2e4c"
-      - "0x12f2fdf634"
+      - effect_fixedprepare
+      - sound_fixedprepare
     extra: ~
-  "0x0b1923d448":
-    game_script: "0x0fa25743db"
+  fixed_shoot:
+    game_script: game_fixedshoot
     flags:
       turn: false
       loop: false
@@ -260,9 +260,9 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0b9638a727"
+      - name: fire.nuanmb
         unk: 0
     scripts:
-      - "0x119cfc17b0"
-      - "0x10f96953d3"
+      - effect_fixedshoot
+      - sound_fixedshoot
     extra: ~

@@ -45,7 +45,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0b96a44a01"
+      - name: pull.nuanmb
         unk: 0
     scripts:
       - effect_have

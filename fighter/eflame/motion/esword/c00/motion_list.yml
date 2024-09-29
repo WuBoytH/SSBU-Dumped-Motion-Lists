@@ -20,7 +20,7 @@ list:
       unk_2000: false
     blend_frames: 6
     animations:
-      - name: "0x0f40969975"
+      - name: z00close.nuanmb
         unk: 1
     scripts:
       - sound_close
@@ -45,14 +45,14 @@ list:
       unk_2000: false
     blend_frames: 6
     animations:
-      - name: "0x0e32317ab0"
+      - name: z00open.nuanmb
         unk: 1
     scripts:
       - sound_open
       - effect_open
     extra: ~
-  "0x08183db0f4":
-    game_script: "0x0c3c089f3f"
+  to_close:
+    game_script: game_toclose
     flags:
       turn: false
       loop: false
@@ -70,14 +70,14 @@ list:
       unk_2000: false
     blend_frames: 6
     animations:
-      - name: "0x112231a323"
+      - name: z00toclose.nuanmb
         unk: 1
     scripts:
-      - "0x0dabf8616f"
-      - "0x0ebe009d3c"
+      - sound_toclose
+      - effect_toclose
     extra: ~
-  "0x07439e926b":
-    game_script: "0x0bc212ff98"
+  to_open:
+    game_script: game_toopen
     flags:
       turn: false
       loop: false
@@ -95,11 +95,11 @@ list:
       unk_2000: false
     blend_frames: 6
     animations:
-      - name: "0x104816f3ec"
+      - name: z00toopen.nuanmb
         unk: 1
     scripts:
-      - "0x0ce0352793"
-      - "0x0dc2e43dce"
+      - sound_toopen
+      - effect_toopen
     extra: ~
   wait:
     game_script: game_wait
@@ -120,7 +120,7 @@ list:
       unk_2000: false
     blend_frames: 6
     animations:
-      - name: "0x0f40969975"
+      - name: z00close.nuanmb
         unk: 0
     scripts:
       - sound_wait
@@ -145,7 +145,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x17ca3a75f5"
+      - name: d01specialsmover.nuanmb
         unk: 0
     scripts:
       - sound_flyr
@@ -170,13 +170,13 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x17a30b56ec"
+      - name: d01specialsmovel.nuanmb
         unk: 0
     scripts:
       - sound_flyl
       - effect_flyl
     extra: ~
-  "0x0b257013e8":
+  fly_flick_r:
     game_script: game_flyflickr
     flags:
       turn: false
@@ -195,13 +195,13 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x17ca3a75f5"
+      - name: d01specialsmover.nuanmb
         unk: 0
     scripts:
-      - "0x0fb30e01b6"
+      - sound_flyflickr
       - effect_flyflickr
     extra: ~
-  "0x0bdf7f2e8b":
+  fly_flick_l:
     game_script: game_flyflickl
     flags:
       turn: false
@@ -220,7 +220,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x17a30b56ec"
+      - name: d01specialsmovel.nuanmb
         unk: 0
     scripts:
       - sound_flyflickl
@@ -249,7 +249,7 @@ list:
       - sound_hop
       - effect_hop
     extra: ~
-  "0x063789520c":
+  rotate:
     game_script: game_rotate
     flags:
       turn: false
@@ -299,7 +299,7 @@ list:
       - sound_back
       - effect_back
     extra: ~
-  "0x0bc988b5cf":
+  reflected_r:
     game_script: game_reflectedr
     flags:
       turn: false
@@ -318,14 +318,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x17ca3a75f5"
+      - name: d01specialsmover.nuanmb
         unk: 0
     scripts:
       - sound_reflectedr
       - effect_reflectedr
     extra: ~
-  "0x0b338788ac":
-    game_script: "0x0fdaf39fdc"
+  reflected_l:
+    game_script: game_reflectedl
     flags:
       turn: false
       loop: false
@@ -343,7 +343,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x17a30b56ec"
+      - name: d01specialsmovel.nuanmb
         unk: 0
     scripts:
       - sound_reflectedl

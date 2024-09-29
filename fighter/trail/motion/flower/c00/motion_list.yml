@@ -1,5 +1,5 @@
 ---
-motion_path: "0x1f5c9394f0"
+motion_path: fighter/trail/motion/flower/c00
 list:
   appeal_hi_r:
     game_script: game_appealhir

@@ -162,8 +162,8 @@ list:
       - effect_waitground
       - sound_waitground
     extra: ~
-  "0x09629b33ea":
-    game_script: "0x13d2865a2b"
+  variation:
+    game_script: game_othervariation
     flags:
       turn: false
       loop: false
@@ -184,6 +184,6 @@ list:
       - name: ptn.nuanmb
         unk: 0
     scripts:
-      - "0x15d986d4cc"
-      - "0x14b66842b5"
+      - effect_othervariation
+      - sound_othervariation
     extra: ~

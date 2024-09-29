@@ -20,7 +20,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0f583340af"
+      - name: j02lwin3.nuanmb
         unk: 0
     scripts:
       - sound_win3
@@ -45,7 +45,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x13fb39fee8"
+      - name: j02lwin3wait.nuanmb
         unk: 0
     scripts:
       - sound_win3wait

@@ -47,8 +47,8 @@ list:
       - effect_have
       - sound_have
     extra: ~
-  "0x0b8798a899":
-    game_script: "0x0fc1cd0935"
+  have_attack:
+    game_script: game_haveattack
     flags:
       turn: false
       loop: true
@@ -67,8 +67,8 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x11ff665d5e"
-      - "0x109af3193d"
+      - effect_haveattack
+      - sound_haveattack
     extra: ~
   fall:
     game_script: game_fall
@@ -93,8 +93,8 @@ list:
       - effect_fall
       - sound_fall
     extra: ~
-  "0x08b0140daf":
-    game_script: "0x0ccc3201a1"
+  throw_05:
+    game_script: game_throw05
     flags:
       turn: false
       loop: true
@@ -113,11 +113,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0e4e3a03a2"
-      - "0x0d5bc2fff1"
+      - effect_throw05
+      - sound_throw05
     extra: ~
-  "0x08c7133d39":
-    game_script: "0x0cbb353137"
+  throw_04:
+    game_script: game_throw04
     flags:
       turn: false
       loop: true
@@ -136,11 +136,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0e393d3334"
-      - "0x0d2cc5cf67"
+      - effect_throw04
+      - sound_throw04
     extra: ~
-  "0x085977a89a":
-    game_script: "0x0c2551a494"
+  throw_03:
+    game_script: game_throw03
     flags:
       turn: false
       loop: true
@@ -159,11 +159,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0ea759a697"
-      - "0x0db2a15ac4"
+      - effect_throw03
+      - sound_throw03
     extra: ~
-  "0x082e70980c":
-    game_script: "0x0c52569402"
+  throw_02:
+    game_script: game_throw02
     flags:
       turn: false
       loop: true
@@ -182,11 +182,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0ed05e9601"
-      - "0x0dc5a66a52"
+      - effect_throw02
+      - sound_throw02
     extra: ~
-  "0x08b779c9b6":
-    game_script: "0x0ccb5fc5b8"
+  throw_01:
+    game_script: game_throw01
     flags:
       turn: false
       loop: true
@@ -205,8 +205,8 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0e4957c7bb"
-      - "0x0d5caf3be8"
+      - effect_throw01
+      - sound_throw01
     extra: ~
   wait_ground:
     game_script: game_waitground

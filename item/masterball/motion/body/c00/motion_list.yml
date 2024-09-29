@@ -164,8 +164,8 @@ list:
       - effect_waitground
       - sound_waitground
     extra: ~
-  "0x07a4d5dfa6":
-    game_script: "0x0bc99477f2"
+  bound_l:
+    game_script: game_boundl
     flags:
       turn: false
       loop: false
@@ -183,14 +183,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0dd3ff5546"
+      - name: boundl.nuanmb
         unk: 0
     scripts:
-      - "0x0dc962b5a4"
-      - "0x0cebb3aff9"
+      - effect_boundl
+      - sound_boundl
     extra: ~
-  "0x075edae2c5":
-    game_script: "0x0b339b4a91"
+  bound_r:
+    game_script: game_boundr
     flags:
       turn: false
       loop: false
@@ -208,9 +208,9 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0dbace765f"
+      - name: boundr.nuanmb
         unk: 0
     scripts:
-      - "0x0d336d88c7"
-      - "0x0c11bc929a"
+      - effect_boundr
+      - sound_boundr
     extra: ~
