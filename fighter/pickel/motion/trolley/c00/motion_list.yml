@@ -251,7 +251,7 @@ list:
       - sound_specialsdamagel
       - effect_specialsdamagel
     extra: ~
-  "0x178753d926":
+  special_s_drive_partial:
     game_script: game_specialsdrivepartial
     flags:
       turn: false
@@ -271,10 +271,10 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x1a14f3ba43"
-      - "0x1b13b38eec"
+      - sound_specialsdrivepartial
+      - effect_specialsdrivepartial
     extra: ~
-  "0x1d6aa43c45":
+  special_s_drive_empty_partial:
     game_script: game_specialsdriveemptypartial
     flags:
       turn: false
@@ -294,6 +294,6 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x1fb1e10f61"
-      - "0x20030473d7"
+      - sound_specialsdriveemptypartial
+      - effect_specialsdriveemptypartial
     extra: ~

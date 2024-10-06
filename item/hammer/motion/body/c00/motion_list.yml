@@ -139,8 +139,8 @@ list:
       - effect_waitground
       - sound_waitground
     extra: ~
-  "0x0b8798a899":
-    game_script: "0x0fc1cd0935"
+  have_attack:
+    game_script: game_haveattack
     flags:
       turn: false
       loop: true
@@ -159,11 +159,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x11ff665d5e"
-      - "0x109af3193d"
+      - effect_haveattack
+      - sound_haveattack
     extra: ~
-  "0x06875e1689":
-    game_script: "0x10bb874fb9"
+  hazure:
+    game_script: game_otherhazure
     flags:
       turn: false
       loop: false
@@ -184,11 +184,11 @@ list:
       - name: vis.nuanmb
         unk: 0
     scripts:
-      - "0x1261d95c3d"
-      - "0x11b507f99b"
+      - effect_otherhazure
+      - sound_otherhazure
     extra: ~
   flash:
-    game_script: "0x0f7573be27"
+    game_script: game_otherflash
     flags:
       turn: false
       loop: true
@@ -206,9 +206,9 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0af3b60c02"
+      - name: col.nuanmb
         unk: 0
     scripts:
-      - "0x114bd8ea4c"
-      - "0x102e4dae2f"
+      - effect_otherflash
+      - sound_otherflash
     extra: ~

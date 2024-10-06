@@ -89,7 +89,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0a438f41a9"
+      - name: rev.nuanmb
         unk: 0
     scripts:
       - effect_throw
@@ -166,8 +166,8 @@ list:
       - effect_waitground
       - sound_waitground
     extra: ~
-  "0x05fd167ec1":
-    game_script: "0x095199bada"
+  fly_a:
+    game_script: game_flya
     flags:
       turn: false
       loop: false
@@ -185,14 +185,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0b760efc44"
+      - name: flya.nuanmb
         unk: 0
     scripts:
-      - "0x0b2ae9e10f"
-      - "0x0af0f9ac68"
+      - effect_flya
+      - sound_flya
     extra: ~
-  "0x05641f2f7b":
-    game_script: "0x09c890eb60"
+  fly_b:
+    game_script: game_flyb
     flags:
       turn: false
       loop: false
@@ -210,14 +210,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0bf881fba7"
+      - name: flyb.nuanmb
         unk: 0
     scripts:
-      - "0x0bb3e0b0b5"
-      - "0x0a69f0fdd2"
+      - effect_flyb
+      - sound_flyb
     extra: ~
-  "0x0513181fed":
-    game_script: "0x09bf97dbf6"
+  fly_c:
+    game_script: game_flyc
     flags:
       turn: false
       loop: false
@@ -235,14 +235,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0b342bfb39"
+      - name: flyc.nuanmb
         unk: 0
     scripts:
-      - "0x0bc4e78023"
-      - "0x0a1ef7cd44"
+      - effect_flyc
+      - sound_flyc
     extra: ~
-  "0x058d7c8a4e":
-    game_script: "0x0921f34e55"
+  fly_d:
+    game_script: game_flyd
     flags:
       turn: false
       loop: false
@@ -260,14 +260,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0b3eeef220"
+      - name: flyd.nuanmb
         unk: 0
     scripts:
-      - "0x0b5a831580"
-      - "0x0a809358e7"
+      - effect_flyd
+      - sound_flyd
     extra: ~
-  "0x05fa7bbad8":
-    game_script: "0x0956f47ec3"
+  fly_e:
+    game_script: game_flye
     flags:
       turn: false
       loop: false
@@ -285,14 +285,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0bf244f2be"
+      - name: flye.nuanmb
         unk: 0
     scripts:
-      - "0x0b2d842516"
-      - "0x0af7946871"
+      - effect_flye
+      - sound_flye
     extra: ~
-  "0x056372eb62":
-    game_script: "0x09cffd2f79"
+  fly_f:
+    game_script: game_flyf
     flags:
       turn: false
       loop: false
@@ -310,14 +310,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0b7ccbf55d"
+      - name: flyf.nuanmb
         unk: 0
     scripts:
-      - "0x0bb48d74ac"
-      - "0x0a6e9d39cb"
+      - effect_flyf
+      - sound_flyf
     extra: ~
-  "0x051475dbf4":
-    game_script: "0x09b8fa1fef"
+  fly_g:
+    game_script: game_flyg
     flags:
       turn: false
       loop: false
@@ -335,9 +335,9 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0bb061f5c3"
+      - name: flyg.nuanmb
         unk: 0
     scripts:
-      - "0x0bc38a443a"
-      - "0x0a199a095d"
+      - effect_flyg
+      - sound_flyg
     extra: ~

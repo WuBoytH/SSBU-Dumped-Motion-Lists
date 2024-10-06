@@ -183,7 +183,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0af3b60c02"
+      - name: col.nuanmb
         unk: 1
     scripts:
       - effect_flash

@@ -162,8 +162,8 @@ list:
       - effect_waitground
       - sound_waitground
     extra: ~
-  "0x0815c89b9e":
-    game_script: "0x0c200e140a"
+  set_bomb:
+    game_script: game_setbomb
     flags:
       turn: false
       loop: true
@@ -182,11 +182,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0ea2061609"
-      - "0x0db7feea5a"
+      - effect_setbomb
+      - sound_setbomb
     extra: ~
-  "0x0bdb156c7e":
-    game_script: "0x0fe703d3bf"
+  search_bomb:
+    game_script: game_searchbomb
     flags:
       turn: false
       loop: true
@@ -205,11 +205,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x11d9a887d4"
-      - "0x10bc3dc3b7"
+      - effect_searchbomb
+      - sound_searchbomb
     extra: ~
-  "0x08c5226841":
-    game_script: "0x0c517f6aad"
+  col_anim:
+    game_script: game_colanim
     flags:
       turn: false
       loop: true
@@ -227,11 +227,11 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0af3b60c02"
+      - name: col.nuanmb
         unk: 0
     scripts:
-      - "0x0ed37768ae"
-      - "0x0dc68f94fd"
+      - effect_colanim
+      - sound_colanim
     extra: ~
   "0x119d86b777":
     game_script: "0x13dd2ddd70"

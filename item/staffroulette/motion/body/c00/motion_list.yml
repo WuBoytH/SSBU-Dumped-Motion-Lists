@@ -187,8 +187,8 @@ list:
       - effect_shoot
       - sound_shoot
     extra: ~
-  "0x0a487b0155":
-    game_script: "0x0e7970bbec"
+  shoot_roll:
+    game_script: game_shootroll
     flags:
       turn: false
       loop: false
@@ -209,11 +209,11 @@ list:
       - name: shot.nuanmb
         unk: 0
     scripts:
-      - "0x10bc530b0b"
-      - "0x0f99ceae53"
+      - effect_shootroll
+      - sound_shootroll
     extra: ~
-  "0x04b6489977":
-    game_script: "0x095d5df55b"
+  suka:
+    game_script: game_suka
     flags:
       turn: false
       loop: false
@@ -232,6 +232,6 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0b262dae8e"
-      - "0x0afc3de3e9"
+      - effect_suka
+      - sound_suka
     extra: ~

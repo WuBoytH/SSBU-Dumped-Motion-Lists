@@ -139,8 +139,8 @@ list:
       - effect_lost
       - sound_lost
     extra: ~
-  "0x128e201fee":
-    game_script: "0x14d5e2184f"
+  fly_jet_fire_start:
+    game_script: game_flyjetfirestart
     flags:
       turn: false
       loop: true
@@ -159,11 +159,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x16eb876f1a"
-      - "0x15c2314814"
+      - effect_flyjetfirestart
+      - sound_flyjetfirestart
     extra: ~
-  "0x10298df98c":
-    game_script: "0x12ec5024dd"
+  fly_jet_fire_end:
+    game_script: game_flyjetfireend
     flags:
       turn: false
       loop: false
@@ -182,11 +182,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x143701e212"
-      - "0x1369e07ac4"
+      - effect_flyjetfireend
+      - sound_flyjetfireend
     extra: ~
-  "0x0d8c1cc231":
-    game_script: "0x1014829973"
+  jump_jet_fire:
+    game_script: game_jumpjetfire
     flags:
       turn: false
       loop: false
@@ -205,11 +205,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x12cedc8af7"
-      - "0x111a022f51"
+      - effect_jumpjetfire
+      - sound_jumpjetfire
     extra: ~
-  "0x146a82f5fc":
-    game_script: "0x16c427fa2c"
+  fall_jet_smoke_start:
+    game_script: game_falljetsmokestart
     flags:
       turn: false
       loop: true
@@ -228,11 +228,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x18cd8a89c7"
-      - "0x17f6033894"
+      - effect_falljetsmokestart
+      - sound_falljetsmokestart
     extra: ~
-  "0x12b06d35a7":
-    game_script: "0x1464254724"
+  fall_jet_smoke_end:
+    game_script: game_falljetsmokeend
     flags:
       turn: false
       loop: false
@@ -251,11 +251,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x165a403071"
-      - "0x1573f6177f"
+      - effect_falljetsmokeend
+      - sound_falljetsmokeend
     extra: ~
-  "0x082ec5291a":
-    game_script: "0x0cec27e9dc"
+  fly_away:
+    game_script: game_flyaway
     flags:
       turn: false
       loop: false
@@ -274,6 +274,6 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0e6e2febdf"
-      - "0x0d7bd7178c"
+      - effect_flyaway
+      - sound_flyaway
     extra: ~

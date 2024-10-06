@@ -1,7 +1,7 @@
 ---
 motion_path: fighter/elight/motion/bunshin/c00
 list:
-  "0x0a9370565f":
+  special_s0:
     game_script: game_specials0
     flags:
       turn: false
@@ -20,10 +20,10 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x13530327ba"
+      - name: d01specials0.nuanmb
         unk: 0
     scripts:
-      - "0x0f923f1da2"
+      - sound_specials0
       - effect_specials0
     extra: ~
   special_s1:
@@ -101,7 +101,7 @@ list:
       - sound_specials3
       - effect_specials3
     extra: ~
-  "0x0a941d9246":
+  special_s4:
     game_script: game_specials4
     flags:
       turn: false
@@ -126,7 +126,7 @@ list:
       - sound_specials4
       - effect_specials4
     extra: ~
-  "0x0ae31aa2d0":
+  special_s5:
     game_script: game_specials5
     flags:
       turn: false
@@ -151,7 +151,7 @@ list:
       - sound_specials5
       - effect_specials5
     extra: ~
-  "0x0e63223ccb":
+  special_air_s0:
     game_script: game_specialairs0
     flags:
       turn: false
@@ -170,11 +170,11 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x13530327ba"
+      - name: d01specials0.nuanmb
         unk: 0
     scripts:
-      - "0x12b52c33c2"
-      - "0x138a4debba"
+      - sound_specialairs0
+      - effect_specialairs0
     extra: ~
   special_air_s1:
     game_script: game_specialairs1

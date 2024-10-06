@@ -116,8 +116,8 @@ list:
       - effect_lost
       - sound_lost
     extra: ~
-  "0x083a9f0b98":
-    game_script: "0x0c335a562a"
+  lv_rapid:
+    game_script: game_lvrapid
     flags:
       turn: false
       loop: true
@@ -136,11 +136,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0eb1525429"
-      - "0x0da4aaa87a"
+      - effect_lvrapid
+      - sound_lvrapid
     extra: ~
-  "0x046c35c2e4":
-    game_script: "0x088d6d26d9"
+  lv_1:
+    game_script: game_lv1
     flags:
       turn: false
       loop: true
@@ -159,11 +159,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0a4c1d5d13"
-      - "0x093ce8ea78"
+      - effect_lv1
+      - sound_lv1
     extra: ~
-  "0x04f53c935e":
-    game_script: "0x0814647763"
+  lv_2:
+    game_script: game_lv2
     flags:
       turn: false
       loop: true
@@ -182,11 +182,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0ad5140ca9"
-      - "0x09a5e1bbc2"
+      - effect_lv2
+      - sound_lv2
     extra: ~
-  "0x04823ba3c8":
-    game_script: "0x08636347f5"
+  lv_3:
+    game_script: game_lv3
     flags:
       turn: false
       loop: true
@@ -205,11 +205,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0aa2133c3f"
-      - "0x09d2e68b54"
+      - effect_lv3
+      - sound_lv3
     extra: ~
-  "0x041c5f366b":
-    game_script: "0x08fd07d256"
+  lv_4:
+    game_script: game_lv4
     flags:
       turn: false
       loop: true
@@ -228,11 +228,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0a3c77a99c"
-      - "0x094c821ef7"
+      - effect_lv4
+      - sound_lv4
     extra: ~
-  "0x046b5806fd":
-    game_script: "0x088a00e2c0"
+  lv_5:
+    game_script: game_lv5
     flags:
       turn: false
       loop: true
@@ -251,11 +251,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0a4b70990a"
-      - "0x093b852e61"
+      - effect_lv5
+      - sound_lv5
     extra: ~
-  "0x04f2515747":
-    game_script: "0x081309b37a"
+  lv_6:
+    game_script: game_lv6
     flags:
       turn: false
       loop: true
@@ -274,11 +274,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0ad279c8b0"
-      - "0x09a28c7fdb"
+      - effect_lv6
+      - sound_lv6
     extra: ~
-  "0x04855667d1":
-    game_script: "0x08640e83ec"
+  lv_7:
+    game_script: game_lv7
     flags:
       turn: false
       loop: true
@@ -297,11 +297,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0aa57ef826"
-      - "0x09d58b4f4d"
+      - effect_lv7
+      - sound_lv7
     extra: ~
-  "0x0415e97a40":
-    game_script: "0x08f4b19e7d"
+  lv_8:
+    game_script: game_lv8
     flags:
       turn: false
       loop: true
@@ -320,11 +320,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0a35c1e5b7"
-      - "0x09453452dc"
+      - effect_lv8
+      - sound_lv8
     extra: ~
-  "0x06493f9f82":
-    game_script: "0x0a84b01005"
+  lv_max:
+    game_script: game_lvmax
     flags:
       turn: false
       loop: true
@@ -343,6 +343,6 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0c72724605"
-      - "0x0ba17ea2b3"
+      - effect_lvmax
+      - sound_lvmax
     extra: ~

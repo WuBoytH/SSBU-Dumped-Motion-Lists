@@ -95,8 +95,8 @@ list:
       - effect_throw
       - sound_throw
     extra: ~
-  "0x09f0f91cac":
-    game_script: "0x0d173d17a7"
+  throw_rot:
+    game_script: game_throwrot
     flags:
       turn: false
       loop: true
@@ -117,8 +117,8 @@ list:
       - name: throw.nuanmb
         unk: 0
     scripts:
-      - "0x0f8eb64e1f"
-      - "0x0e7cc1b6ad"
+      - effect_throwrot
+      - sound_throwrot
     extra: ~
   lost:
     game_script: game_lost

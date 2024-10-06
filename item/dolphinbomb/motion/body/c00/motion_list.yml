@@ -162,8 +162,8 @@ list:
       - effect_lost
       - sound_lost
     extra: ~
-  "0x0b87e95371":
-    game_script: "0x0ff3cfb4f6"
+  throw_bound:
+    game_script: game_throwbound
     flags:
       turn: false
       loop: false
@@ -182,11 +182,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x11cd64e09d"
-      - "0x10a8f1a4fe"
+      - effect_throwbound
+      - sound_throwbound
     extra: ~
-  "0x0c1cba6ab1":
-    game_script: "0x11f26a5edf"
+  installation:
+    game_script: game_installation
     flags:
       turn: false
       loop: false
@@ -205,11 +205,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x13186547f5"
-      - "0x1227049f8d"
+      - effect_installation
+      - sound_installation
     extra: ~
-  "0x064a347ac3":
-    game_script: "0x0b3701d70b"
+  flying:
+    game_script: game_flying
     flags:
       turn: false
       loop: true
@@ -227,14 +227,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0dbac5bf4e"
+      - name: stroll.nuanmb
         unk: 0
     scripts:
-      - "0x0d37f7155d"
-      - "0x0c15260f00"
+      - effect_flying
+      - sound_flying
     extra: ~
-  "0x0cbb596718":
-    game_script: "0x1055ed9727"
+  falling_wait:
+    game_script: game_fallingwait
     flags:
       turn: false
       loop: false
@@ -253,11 +253,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x128fb384a3"
-      - "0x115b6d2105"
+      - effect_fallingwait
+      - sound_fallingwait
     extra: ~
-  "0x07f43eead4":
-    game_script: "0x0c61fc95fb"
+  falling:
+    game_script: game_falling
     flags:
       turn: false
       loop: true
@@ -275,9 +275,9 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0e4c58675d"
+      - name: falling.nuanmb
         unk: 0
     scripts:
-      - "0x0ee3f497f8"
-      - "0x0df60c6bab"
+      - effect_falling
+      - sound_falling
     extra: ~

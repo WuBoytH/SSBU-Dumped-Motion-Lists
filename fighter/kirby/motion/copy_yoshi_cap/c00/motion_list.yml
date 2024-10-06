@@ -1,5 +1,5 @@
 ---
-motion_path: "0x216ed6d6e0"
+motion_path: fighter/kirby/motion/yoshicap/c00
 list:
   regular:
     game_script: game_regular

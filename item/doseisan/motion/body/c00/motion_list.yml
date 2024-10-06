@@ -49,8 +49,8 @@ list:
       - effect_damage
       - sound_damage
     extra: ~
-  "0x049afee455":
-    game_script: "0x0971eb8879"
+  flip:
+    game_script: game_flip
     flags:
       turn: false
       loop: false
@@ -71,8 +71,8 @@ list:
       - name: flip.nuanmb
         unk: 0
     scripts:
-      - "0x0b0a9bd3ac"
-      - "0x0ad08b9ecb"
+      - effect_flip
+      - sound_flip
     extra: ~
   walk:
     game_script: game_walk

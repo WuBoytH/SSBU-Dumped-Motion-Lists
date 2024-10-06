@@ -1,8 +1,8 @@
 ---
 motion_path: item/explosionbomb/motion/body/c00
 list:
-  "0x0a55434783":
-    game_script: "0x0ec2765a00"
+  throw_wire:
+    game_script: game_throwwire
     flags:
       turn: false
       loop: false
@@ -21,11 +21,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x100755eae7"
-      - "0x0f22c84fbf"
+      - effect_throwwire
+      - sound_throwwire
     extra: ~
-  "0x09ea461f0c":
-    game_script: "0x0d6eadfd17"
+  pull_wire:
+    game_script: game_pullwire
     flags:
       turn: false
       loop: false
@@ -44,11 +44,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0ff726a4af"
-      - "0x0e05515c1d"
+      - effect_pullwire
+      - sound_pullwire
     extra: ~
-  "0x065f5f0dd6":
-    game_script: "0x0b226aa01e"
+  ignite:
+    game_script: game_ignite
     flags:
       turn: false
       loop: false
@@ -67,8 +67,8 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0d229c6248"
-      - "0x0c004d7815"
+      - effect_ignite
+      - sound_ignite
     extra: ~
   born:
     game_script: game_born
@@ -254,8 +254,8 @@ list:
       - "0x12d4e43fc1"
       - "0x11003a9a67"
     extra: ~
-  "0x09d9d8a28e":
-    game_script: "0x0e0b7e638c"
+  ignite_c2:
+    game_script: game_ignite_c2
     flags:
       turn: false
       loop: false
@@ -274,11 +274,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x10ce5dd36b"
-      - "0x0febc07633"
+      - effect_ignite_c2
+      - sound_ignite_c2
     extra: ~
-  "0x07c1eb0ccb":
-    game_script: "0x0c542973e4"
+  born_c2:
+    game_script: game_born_c2
     flags:
       turn: false
       loop: false
@@ -297,11 +297,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0ed62171e7"
-      - "0x0dc3d98db4"
+      - effect_born_c2
+      - sound_born_c2
     extra: ~
-  "0x08bfe6969b":
-    game_script: "0x0d14a269bd"
+  throw_c2:
+    game_script: game_throw_c2
     flags:
       turn: false
       loop: true
@@ -320,11 +320,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0f8d293005"
-      - "0x0e7f5ec8b7"
+      - effect_throw_c2
+      - sound_throw_c2
     extra: ~
-  "0x077d101334":
-    game_script: "0x0ce8d26c1b"
+  have_c2:
+    game_script: game_have_c2
     flags:
       turn: false
       loop: true
@@ -343,11 +343,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0e6ada6e18"
-      - "0x0d7f22924b"
+      - effect_have_c2
+      - sound_have_c2
     extra: ~
-  "0x077a77a8c0":
-    game_script: "0x0cefb5d7ef"
+  fall_c2:
+    game_script: game_fall_c2
     flags:
       turn: false
       loop: true
@@ -366,11 +366,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0e6dbdd5ec"
-      - "0x0d784529bf"
+      - effect_fall_c2
+      - sound_fall_c2
     extra: ~
-  "0x0ebda4ba5b":
-    game_script: "0x12861c7ee2"
+  wait_ground_c2:
+    game_script: game_waitground_c2
     flags:
       turn: false
       loop: false
@@ -389,11 +389,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x145d4db82d"
-      - "0x1303ac20fb"
+      - effect_waitground_c2
+      - sound_waitground_c2
     extra: ~
-  "0x079310e9dd":
-    game_script: "0x0c06d296f2"
+  lost_c2:
+    game_script: game_lost_c2
     flags:
       turn: false
       loop: true
@@ -412,8 +412,8 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0e84da94f1"
-      - "0x0d912268a2"
+      - effect_lost_c2
+      - sound_lost_c2
     extra: ~
   "0x0dda3f8589":
     game_script: "0x11909388f8"
@@ -461,7 +461,7 @@ list:
       - "0x12a3e30f57"
       - "0x11773daaf1"
     extra: ~
-  "0x09aedf9218":
+  ignite_c3:
     game_script: "0x0e7c79531a"
     flags:
       turn: false
@@ -484,8 +484,8 @@ list:
       - "0x10b95ae3fd"
       - "0x0f9cc746a5"
     extra: ~
-  "0x07b6ec3c5d":
-    game_script: "0x0c232e4372"
+  born_c3:
+    game_script: game_born_c3
     flags:
       turn: false
       loop: false
@@ -504,11 +504,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0ea1264171"
-      - "0x0db4debd22"
+      - effect_born_c3
+      - sound_born_c3
     extra: ~
-  "0x08c8e1a60d":
-    game_script: "0x0d63a5592b"
+  throw_c3:
+    game_script: game_throw_c3
     flags:
       turn: false
       loop: true
@@ -527,11 +527,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0ffa2e0093"
-      - "0x0e0859f821"
+      - effect_throw_c3
+      - sound_throw_c3
     extra: ~
-  "0x070a1723a2":
-    game_script: "0x0c9fd55c8d"
+  have_c3:
+    game_script: game_have_c3
     flags:
       turn: false
       loop: true
@@ -550,11 +550,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0e1ddd5e8e"
-      - "0x0d0825a2dd"
+      - effect_have_c3
+      - sound_have_c3
     extra: ~
-  "0x070d709856":
-    game_script: "0x0c98b2e779"
+  fall_c3:
+    game_script: game_fall_c3
     flags:
       turn: false
       loop: true
@@ -573,11 +573,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0e1abae57a"
-      - "0x0d0f421929"
+      - effect_fall_c3
+      - sound_fall_c3
     extra: ~
-  "0x0ecaa38acd":
-    game_script: "0x12f11b4e74"
+  wait_ground_c3:
+    game_script: game_waitground_c3
     flags:
       turn: false
       loop: false
@@ -596,11 +596,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x142a4a88bb"
-      - "0x1374ab106d"
+      - effect_waitground_c3
+      - sound_waitground_c3
     extra: ~
-  "0x07e417d94b":
-    game_script: "0x0c71d5a664"
+  lost_c3:
+    game_script: game_lost_c3
     flags:
       turn: false
       loop: true
@@ -619,8 +619,8 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0ef3dda467"
-      - "0x0de6255834"
+      - effect_lost_c3
+      - sound_lost_c3
     extra: ~
   "0x0d445b102a":
     game_script: "0x110ef71d5b"
@@ -668,7 +668,7 @@ list:
       - "0x123d879af4"
       - "0x11e9593f52"
     extra: ~
-  "0x0930bb07bb":
+  ignite_c4:
     game_script: "0x0ee21dc6b9"
     flags:
       turn: false
@@ -691,8 +691,8 @@ list:
       - "0x10273e765e"
       - "0x0f02a3d306"
     extra: ~
-  "0x072888a9fe":
-    game_script: "0x0cbd4ad6d1"
+  born_c4:
+    game_script: game_born_c4
     flags:
       turn: false
       loop: false
@@ -711,11 +711,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0e3f42d4d2"
-      - "0x0d2aba2881"
+      - effect_born_c4
+      - sound_born_c4
     extra: ~
-  "0x08568533ae":
-    game_script: "0x0dfdc1cc88"
+  throw_c4:
+    game_script: game_throw_c4
     flags:
       turn: false
       loop: true
@@ -734,11 +734,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0f644a9530"
-      - "0x0e963d6d82"
+      - effect_throw_c4
+      - sound_throw_c4
     extra: ~
-  "0x079473b601":
-    game_script: "0x0c01b1c92e"
+  have_c4:
+    game_script: game_have_c4
     flags:
       turn: false
       loop: true
@@ -757,11 +757,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0e83b9cb2d"
-      - "0x0d9641377e"
+      - effect_have_c4
+      - sound_have_c4
     extra: ~
-  "0x0793140df5":
-    game_script: "0x0c06d672da"
+  fall_c4:
+    game_script: game_fall_c4
     flags:
       turn: false
       loop: true
@@ -780,11 +780,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0e84de70d9"
-      - "0x0d91268c8a"
+      - effect_fall_c4
+      - sound_fall_c4
     extra: ~
-  "0x0e54c71f6e":
-    game_script: "0x126f7fdbd7"
+  wait_ground_c4:
+    game_script: game_waitground_c4
     flags:
       turn: false
       loop: false
@@ -803,11 +803,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x14b42e1d18"
-      - "0x13eacf85ce"
+      - effect_waitground_c4
+      - sound_waitground_c4
     extra: ~
-  "0x077a734ce8":
-    game_script: "0x0cefb133c7"
+  lost_c4:
+    game_script: game_lost_c4
     flags:
       turn: false
       loop: true
@@ -826,6 +826,6 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0e6db931c4"
-      - "0x0d7841cd97"
+      - effect_lost_c4
+      - sound_lost_c4
     extra: ~

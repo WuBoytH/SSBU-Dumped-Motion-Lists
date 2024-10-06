@@ -139,8 +139,8 @@ list:
       - effect_waitground
       - sound_waitground
     extra: ~
-  "0x0b8798a899":
-    game_script: "0x0fc1cd0935"
+  have_attack:
+    game_script: game_haveattack
     flags:
       turn: false
       loop: true
@@ -159,6 +159,6 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x11ff665d5e"
-      - "0x109af3193d"
+      - effect_haveattack
+      - sound_haveattack
     extra: ~

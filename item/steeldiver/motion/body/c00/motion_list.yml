@@ -116,8 +116,8 @@ list:
       - effect_lost
       - sound_lost
     extra: ~
-  "0x04b6489977":
-    game_script: "0x095d5df55b"
+  suka:
+    game_script: game_suka
     flags:
       turn: false
       loop: false
@@ -136,6 +136,6 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0b262dae8e"
-      - "0x0afc3de3e9"
+      - effect_suka
+      - sound_suka
     extra: ~

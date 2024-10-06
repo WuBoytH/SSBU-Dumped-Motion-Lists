@@ -116,8 +116,8 @@ list:
       - effect_lost
       - sound_lost
     extra: ~
-  "0x0d2636e078":
-    game_script: "0x119b213512"
+  attack_normal:
+    game_script: game_attacknormal
     flags:
       turn: false
       loop: false
@@ -136,11 +136,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x13712e2c38"
-      - "0x124e4ff440"
+      - effect_attacknormal
+      - sound_attacknormal
     extra: ~
-  "0x0a4efd1efb":
-    game_script: "0x0e76bdfd04"
+  attack_lie:
+    game_script: game_attacklie
     flags:
       turn: false
       loop: false
@@ -159,6 +159,6 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x10b39e4de3"
-      - "0x0f9603e8bb"
+      - effect_attacklie
+      - sound_attacklie
     extra: ~

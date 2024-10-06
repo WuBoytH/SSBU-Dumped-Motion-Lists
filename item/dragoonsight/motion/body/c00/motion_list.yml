@@ -20,7 +20,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0d17addd6a"
+      - name: motion.nuanmb
         unk: 0
     scripts:
       - effect_wait

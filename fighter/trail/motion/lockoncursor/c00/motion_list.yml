@@ -24,8 +24,8 @@ list:
       - sound_start
       - effect_start
     extra: ~
-  "0x0359fa4760":
-    game_script: "0x0842a054a5"
+  fix:
+    game_script: game_fix
     flags:
       turn: false
       loop: false
@@ -44,6 +44,6 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x09f3259804"
+      - sound_fix
       - effect_fix
     extra: ~

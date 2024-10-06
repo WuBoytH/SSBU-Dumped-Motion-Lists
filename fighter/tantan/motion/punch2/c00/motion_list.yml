@@ -126,7 +126,7 @@ list:
       - sound_attackhitdamage
       - effect_attackhitdamage
     extra: ~
-  "0x1351cc783a":
+  attack_hit_hold_max:
     game_script: game_attackhitholdmaxdamage
     flags:
       turn: false

@@ -20,14 +20,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0af3b60c02"
+      - name: col.nuanmb
         unk: 1
     scripts:
       - effect_flash
       - sound_flash
     extra: ~
-  "0x090092c663":
-    game_script: "0x0dc341b2bf"
+  flash_off:
+    game_script: game_flashoff
     flags:
       turn: false
       loop: true
@@ -45,14 +45,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0d8b2629fd"
+      - name: coloff.nuanmb
         unk: 1
     scripts:
-      - "0x0f5acaeb07"
-      - "0x0ea8bd13b5"
+      - effect_flashoff
+      - sound_flashoff
     extra: ~
-  "0x0991f1ed54":
-    game_script: "0x0e43572c56"
+  injection:
+    game_script: game_injection
     flags:
       turn: false
       loop: false
@@ -70,14 +70,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x10bef6c52c"
+      - name: injection.nuanmb
         unk: 0
     scripts:
-      - "0x1086749cb1"
-      - "0x0fa3e939e9"
+      - effect_injection
+      - sound_injection
     extra: ~
-  "0x05b07d6772":
-    game_script: "0x0a824e1efd"
+  getup:
+    game_script: game_getup
     flags:
       turn: false
       loop: false
@@ -95,11 +95,11 @@ list:
       unk_2000: false
     blend_frames: 3
     animations:
-      - name: "0x0cc1286bfc"
+      - name: getup.nuanmb
         unk: 0
     scripts:
-      - "0x0c748c48fd"
-      - "0x0ba780ac4b"
+      - effect_getup
+      - sound_getup
     extra: ~
   move:
     game_script: game_move
@@ -226,8 +226,8 @@ list:
       - effect_dead
       - sound_dead
     extra: ~
-  "0x09bfb146c9":
-    game_script: "0x0e6d1787cb"
+  vibration:
+    game_script: game_vibration
     flags:
       turn: false
       loop: false
@@ -245,11 +245,11 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x105b2cb3b9"
+      - name: vibration.nuanmb
         unk: 0
     scripts:
-      - "0x10a834372c"
-      - "0x0f8da99274"
+      - effect_vibration
+      - sound_vibration
     extra: ~
   fall:
     game_script: game_fall

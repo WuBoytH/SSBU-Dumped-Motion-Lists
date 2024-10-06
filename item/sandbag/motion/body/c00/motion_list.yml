@@ -114,7 +114,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1143836b50"
+      - name: capturecut.nuanmb
         unk: 0
     scripts:
       - effect_capturecut
@@ -139,7 +139,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x16f03c18dd"
+      - name: capturedamagelw.nuanmb
         unk: 0
     scripts:
       - effect_capturedamagelw
@@ -164,7 +164,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x16c4e16ac8"
+      - name: capturedamagehi.nuanmb
         unk: 0
     scripts:
       - effect_capturedamagehi
@@ -189,7 +189,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x16b5ab5b12"
+      - name: capturepulledlw.nuanmb
         unk: 0
     scripts:
       - effect_capturepulledlw
@@ -214,7 +214,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1681762907"
+      - name: capturepulledhi.nuanmb
         unk: 0
     scripts:
       - effect_capturepulledhi
@@ -239,7 +239,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x147ca2b8e7"
+      - name: capturewaitlw.nuanmb
         unk: 0
     scripts:
       - effect_capturewaitlw
@@ -264,7 +264,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x14487fcaf2"
+      - name: capturewaithi.nuanmb
         unk: 0
     scripts:
       - effect_capturewaithi
@@ -289,7 +289,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x113750fdb0"
+      - name: damageair1.nuanmb
         unk: 0
     scripts:
       - effect_damageair1
@@ -314,7 +314,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x11b9dffa53"
+      - name: damageair2.nuanmb
         unk: 0
     scripts:
       - effect_damageair2
@@ -339,13 +339,13 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x117575facd"
+      - name: damageair3.nuanmb
         unk: 0
     scripts:
       - effect_damageair3
       - sound_damageair3
     extra: ~
-  "0x0b72bd4946":
+  damage_fall:
     game_script: game_damagefall
     flags:
       turn: false
@@ -389,7 +389,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x12eb74f8dd"
+      - name: damageflylw.nuanmb
         unk: 0
     scripts:
       - effect_damageflylw
@@ -414,7 +414,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x11f6115cc0"
+      - name: damageflyn.nuanmb
         unk: 0
     scripts:
       - effect_damageflyn
@@ -439,7 +439,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x12dfa98ac8"
+      - name: damageflyhi.nuanmb
         unk: 0
     scripts:
       - effect_damageflyhi
@@ -464,7 +464,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x144b06c093"
+      - name: damageflyroll.nuanmb
         unk: 0
     scripts:
       - effect_damageflyroll
@@ -489,7 +489,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x138f3df14a"
+      - name: damageflytop.nuanmb
         unk: 0
     scripts:
       - effect_damageflytop
@@ -514,7 +514,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x103ae05714"
+      - name: damagehi1.nuanmb
         unk: 0
     scripts:
       - effect_damagehi1
@@ -539,7 +539,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x10b46f50f7"
+      - name: damagehi2.nuanmb
         unk: 0
     scripts:
       - effect_damagehi2
@@ -564,7 +564,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1078c55069"
+      - name: damagehi3.nuanmb
         unk: 0
     scripts:
       - effect_damagehi3
@@ -589,7 +589,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0f49feb2a3"
+      - name: damagen1.nuanmb
         unk: 0
     scripts:
       - effect_damagen1
@@ -614,7 +614,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0fc771b540"
+      - name: damagen2.nuanmb
         unk: 0
     scripts:
       - effect_damagen2
@@ -639,7 +639,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0f0bdbb5de"
+      - name: damagen3.nuanmb
         unk: 0
     scripts:
       - effect_damagen3
@@ -664,7 +664,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1057096e8d"
+      - name: damagelw1.nuanmb
         unk: 0
     scripts:
       - effect_damagelw1
@@ -689,7 +689,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x10d986696e"
+      - name: damagelw2.nuanmb
         unk: 0
     scripts:
       - effect_damagelw2
@@ -714,7 +714,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x10152c69f0"
+      - name: damagelw3.nuanmb
         unk: 0
     scripts:
       - effect_damagelw3
@@ -739,7 +739,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x11abdc6caf"
+      - name: downboundd.nuanmb
         unk: 0
     scripts:
       - effect_downboundd
@@ -764,7 +764,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x111bcd5d1a"
+      - name: downboundu.nuanmb
         unk: 0
     scripts:
       - effect_downboundu
@@ -789,7 +789,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x128d62d0e8"
+      - name: downdamaged.nuanmb
         unk: 0
     scripts:
       - effect_downdamaged
@@ -814,7 +814,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x123d73e15d"
+      - name: downdamageu.nuanmb
         unk: 0
     scripts:
       - effect_downdamageu
@@ -839,7 +839,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x11a1e8ed4b"
+      - name: downstandd.nuanmb
         unk: 0
     scripts:
       - effect_downstandd
@@ -864,7 +864,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1111f9dcfe"
+      - name: downstandu.nuanmb
         unk: 0
     scripts:
       - effect_downstandu
@@ -889,7 +889,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x10572cd167"
+      - name: downwaitd.nuanmb
         unk: 0
     scripts:
       - effect_downwaitd
@@ -914,7 +914,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x10e73de0d2"
+      - name: downwaitu.nuanmb
         unk: 0
     scripts:
       - effect_downwaitu
@@ -989,7 +989,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0f9b81d758"
+      - name: stopceli.nuanmb
         unk: 0
     scripts:
       - effect_stopceil
@@ -1014,14 +1014,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x11eda0eb7a"
+      - name: walldamage.nuanmb
         unk: 0
     scripts:
       - effect_walldamage
       - sound_walldamage
     extra: ~
-  "0x095507b8e9":
-    game_script: "0x0d96d4cc35"
+  flash_anm:
+    game_script: game_flashanm
     flags:
       turn: false
       loop: true
@@ -1039,11 +1039,11 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0c3c0300ae"
+      - name: flash.nuanmb
         unk: 1
     scripts:
-      - "0x0f0f5f958d"
-      - "0x0efd286d3f"
+      - effect_flashanm
+      - sound_flashanm
     extra: ~
   damage_fly:
     game_script: game_damagefly
@@ -1064,14 +1064,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x12eb74f8dd"
+      - name: damageflylw.nuanmb
         unk: 0
     scripts:
       - effect_damagefly
       - sound_damagefly
     extra: ~
-  "0x0a52f462e8":
-    game_script: "0x0ef6196966"
+  wait_smile:
+    game_script: game_waitsmile
     flags:
       turn: false
       loop: false
@@ -1089,9 +1089,9 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x10846fa321"
+      - name: waitsmile.nuanmb
         unk: 2
     scripts:
-      - "0x10333ad981"
-      - "0x0f16a77cd9"
+      - effect_waitsmile
+      - sound_waitsmile
     extra: ~

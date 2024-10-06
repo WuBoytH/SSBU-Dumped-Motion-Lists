@@ -43,7 +43,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0c53a12a92"
+      - name: haved.nuanmb
         unk: 0
     scripts:
       - effect_have
@@ -189,8 +189,8 @@ list:
       - effect_fly
       - sound_fly
     extra: ~
-  "0x08a8ba9e8c":
-    game_script: "0x0c6a585e4a"
+  fly_turn:
+    game_script: game_flyturn
     flags:
       turn: false
       loop: true
@@ -211,11 +211,11 @@ list:
       - name: move.nuanmb
         unk: 0
     scripts:
-      - "0x0ee8505c49"
-      - "0x0dfda8a01a"
+      - effect_flyturn
+      - sound_flyturn
     extra: ~
-  "0x082ec5291a":
-    game_script: "0x0cec27e9dc"
+  fly_away:
+    game_script: game_flyaway
     flags:
       turn: false
       loop: true
@@ -236,11 +236,11 @@ list:
       - name: move.nuanmb
         unk: 0
     scripts:
-      - "0x0e6e2febdf"
-      - "0x0d7bd7178c"
+      - effect_flyaway
+      - sound_flyaway
     extra: ~
-  "0x0462072ef9":
-    game_script: "0x09891242d5"
+  bump:
+    game_script: game_bump
     flags:
       turn: false
       loop: true
@@ -259,11 +259,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0bf2621900"
-      - "0x0a28725467"
+      - effect_bump
+      - sound_bump
     extra: ~
-  "0x07f43eead4":
-    game_script: "0x0c61fc95fb"
+  falling:
+    game_script: game_falling
     flags:
       turn: false
       loop: true
@@ -284,11 +284,11 @@ list:
       - name: fall.nuanmb
         unk: 0
     scripts:
-      - "0x0ee3f497f8"
-      - "0x0df60c6bab"
+      - effect_falling
+      - sound_falling
     extra: ~
-  "0x0ee4ded352":
-    game_script: "0x1201bde5c6"
+  falling_broken:
+    game_script: game_fallingbroken
     flags:
       turn: false
       loop: true
@@ -307,6 +307,6 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x14daec2309"
-      - "0x13840dbbdf"
+      - effect_fallingbroken
+      - sound_fallingbroken
     extra: ~

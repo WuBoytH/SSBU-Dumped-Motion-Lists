@@ -210,8 +210,8 @@ list:
       - effect_drop
       - sound_drop
     extra: ~
-  "0x0801ae9336":
-    game_script: "0x0ca2affeb3"
+  pre_drop:
+    game_script: game_predrop
     flags:
       turn: false
       loop: false
@@ -232,6 +232,6 @@ list:
       - name: bomb.nuanmb
         unk: 0
     scripts:
-      - "0x0e20a7fcb0"
-      - "0x0d355f00e3"
+      - effect_predrop
+      - sound_predrop
     extra: ~

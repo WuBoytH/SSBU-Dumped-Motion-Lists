@@ -124,8 +124,8 @@ list:
       - effect_lost
       - sound_lost
     extra: ~
-  "0x082583b314":
-    game_script: "0x0c0871ceab"
+  move_lv1:
+    game_script: game_movelv1
     flags:
       turn: false
       loop: true
@@ -146,11 +146,11 @@ list:
       - name: move.nuanmb
         unk: 0
     scripts:
-      - "0x0e8a79cca8"
-      - "0x0d9f8130fb"
+      - effect_movelv1
+      - sound_movelv1
     extra: ~
-  "0x08bc8ae2ae":
-    game_script: "0x0c91789f11"
+  move_lv2:
+    game_script: game_movelv2
     flags:
       turn: false
       loop: true
@@ -171,11 +171,11 @@ list:
       - name: move.nuanmb
         unk: 0
     scripts:
-      - "0x0e13709d12"
-      - "0x0d06886141"
+      - effect_movelv2
+      - sound_movelv2
     extra: ~
-  "0x08cb8dd238":
-    game_script: "0x0ce67faf87"
+  move_lv3:
+    game_script: game_movelv3
     flags:
       turn: false
       loop: true
@@ -196,11 +196,11 @@ list:
       - name: move.nuanmb
         unk: 0
     scripts:
-      - "0x0e6477ad84"
-      - "0x0d718f51d7"
+      - effect_movelv3
+      - sound_movelv3
     extra: ~
-  "0x0e29eee34b":
-    game_script: "0x0c0871ceab"
+  angry_move_lv1:
+    game_script: game_movelv1
     flags:
       turn: false
       loop: true
@@ -218,14 +218,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0cba830551"
+      - name: angry.nuanmb
         unk: 0
     scripts:
-      - "0x0e8a79cca8"
-      - "0x0d9f8130fb"
+      - effect_movelv1
+      - sound_movelv1
     extra: ~
-  "0x0eb0e7b2f1":
-    game_script: "0x0c91789f11"
+  angry_move_lv2:
+    game_script: game_movelv2
     flags:
       turn: false
       loop: true
@@ -243,14 +243,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0cba830551"
+      - name: angry.nuanmb
         unk: 0
     scripts:
-      - "0x0e13709d12"
-      - "0x0d06886141"
+      - effect_movelv2
+      - sound_movelv2
     extra: ~
-  "0x0ec7e08267":
-    game_script: "0x0ce67faf87"
+  angry_move_lv3:
+    game_script: game_movelv3
     flags:
       turn: false
       loop: true
@@ -268,11 +268,11 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0cba830551"
+      - name: angry.nuanmb
         unk: 0
     scripts:
-      - "0x0e6477ad84"
-      - "0x0d718f51d7"
+      - effect_movelv3
+      - sound_movelv3
     extra: ~
   turn:
     game_script: game_turn
@@ -299,8 +299,8 @@ list:
       - effect_turn
       - sound_turn
     extra: ~
-  "0x05c0c12699":
-    game_script: "0x0af2f25f16"
+  angry:
+    game_script: game_angry
     flags:
       turn: false
       loop: true
@@ -318,11 +318,11 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0cba830551"
+      - name: angry.nuanmb
         unk: 0
     scripts:
-      - "0x0c04300916"
-      - "0x0bd73ceda0"
+      - effect_angry
+      - sound_angry
     extra: ~
   down:
     game_script: game_down
@@ -349,8 +349,8 @@ list:
       - effect_down
       - sound_down
     extra: ~
-  "0x05b07d6772":
-    game_script: "0x0a824e1efd"
+  getup:
+    game_script: game_getup
     flags:
       turn: false
       loop: false
@@ -371,6 +371,6 @@ list:
       - name: down.nuanmb
         unk: 0
     scripts:
-      - "0x0c748c48fd"
-      - "0x0ba780ac4b"
+      - effect_getup
+      - sound_getup
     extra: ~

@@ -24,8 +24,8 @@ list:
       - sound_fly
       - effect_fly
     extra: ~
-  "0x09a3f0deb0":
-    game_script: "0x0dd1355bf5"
+  fly_flash:
+    game_script: game_flyflash
     flags:
       turn: false
       loop: true
@@ -44,8 +44,8 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0ebac9faff"
-      - "0x0f48be024d"
+      - sound_flyflash
+      - effect_flyflash
     extra: ~
   burst_attack:
     game_script: game_burstattack

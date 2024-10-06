@@ -52,7 +52,7 @@ list:
       - effect_final
     extra: ~
   final_u:
-    game_script: "0x0bfdb3752f"
+    game_script: game_finalu
     flags:
       turn: false
       loop: true
@@ -73,11 +73,11 @@ list:
       - name: d04finalu.nuanmb
         unk: 0
     scripts:
-      - "0x0cdf94ad24"
-      - "0x0dfd45b779"
+      - sound_finalu
+      - effect_finalu
     extra: ~
   final_d:
-    game_script: "0x0b970355dd"
+    game_script: game_finald
     flags:
       turn: false
       loop: true
@@ -98,8 +98,8 @@ list:
       - name: d04finald.nuanmb
         unk: 0
     scripts:
-      - "0x0cb5248dd6"
-      - "0x0d97f5978b"
+      - sound_finald
+      - effect_finald
     extra: ~
   final_end:
     game_script: game_finalend

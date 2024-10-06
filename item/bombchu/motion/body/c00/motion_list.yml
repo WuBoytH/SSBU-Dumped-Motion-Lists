@@ -166,8 +166,8 @@ list:
       - effect_born
       - sound_born
     extra: ~
-  "0x0a5cee6a08":
-    game_script: "0x0ed3482783"
+  flash_anim:
+    game_script: game_flashanim
     flags:
       turn: false
       loop: true
@@ -186,8 +186,8 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x10166b9764"
-      - "0x0f33f6323c"
+      - effect_flashanim
+      - sound_flashanim
     extra: ~
   lost:
     game_script: game_lost

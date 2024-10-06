@@ -1,7 +1,7 @@
 ---
 motion_path: fighter/element/motion/diver/c00
 list:
-  "0x0d1a6b318f":
+  f_final_start:
     game_script: game_ffinalstart
     flags:
       turn: false
@@ -20,14 +20,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x151efd1ca9"
+      - name: d04ffinalstart.nuanmb
         unk: 0
     scripts:
       - sound_ffinalstart
       - effect_ffinalstart
     extra: ~
-  "0x0e47453f5f":
-    game_script: "0x11f50d1832"
+  f_final_attack:
+    game_script: game_ffinalattack
     flags:
       turn: false
       loop: false
@@ -45,14 +45,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x16d5d2afc8"
+      - name: d04ffinalattack.nuanmb
         unk: 0
     scripts:
       - sound_ffinalattack
       - effect_ffinalattack
     extra: ~
-  "0x0b5314f7b0":
-    game_script: "0x0e0b9d1f47"
+  f_final_end:
+    game_script: game_ffinalend
     flags:
       turn: false
       loop: false
@@ -70,13 +70,13 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x138dfcda79"
+      - name: d04ffinalend.nuanmb
         unk: 0
     scripts:
-      - "0x0feb230af8"
-      - "0x10cebeafa0"
+      - sound_ffinalend
+      - effect_ffinalend
     extra: ~
-  "0x11173987eb":
+  f_final_air_start:
     game_script: game_ffinalairstart
     flags:
       turn: false
@@ -95,14 +95,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x188b78e0d2"
+      - name: d04ffinalairstart.nuanmb
         unk: 0
     scripts:
       - sound_ffinalairstart
       - effect_ffinalairstart
     extra: ~
-  "0x120d97c8a8":
-    game_script: "0x14a77530c5"
+  f_final_air_attack:
+    game_script: game_ffinalairattack
     flags:
       turn: false
       loop: false
@@ -120,14 +120,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1912908280"
+      - name: d04ffinalairattack.nuanmb
         unk: 0
     scripts:
       - sound_ffinalairattack
       - effect_ffinalairattack
     extra: ~
-  "0x0f3a48a016":
-    game_script: "0x116a0edfdd"
+  f_final_air_end:
+    game_script: game_ffinalairend
     flags:
       turn: false
       loop: false
@@ -145,14 +145,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x168e54dc18"
+      - name: d04ffinalairend.nuanmb
         unk: 0
     scripts:
-      - "0x12bf601e8f"
-      - "0x138001c6f7"
+      - sound_ffinalairend
+      - effect_ffinalairend
     extra: ~
-  "0x111227ca66":
-    game_script: "0x137237bea4"
+  f_visual_scene_01:
+    game_script: game_fvisualscene01
     flags:
       turn: false
       loop: false
@@ -170,14 +170,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x18cd315c6a"
+      - name: d04fvisualscene01.nuanmb
         unk: 0
     scripts:
-      - "0x1416d9a63a"
+      - sound_fvisualscene01
       - effect_fvisualscene01
     extra: ~
-  "0x118b2e9bdc":
-    game_script: "0x13eb3eef1e"
+  f_visual_scene_02:
+    game_script: game_fvisualscene02
     flags:
       turn: false
       loop: false
@@ -195,13 +195,13 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1843be5b89"
+      - name: d04fvisualscene02.nuanmb
         unk: 0
     scripts:
-      - "0x148fd0f780"
-      - "0x15e03e61f9"
+      - sound_fvisualscene02
+      - effect_fvisualscene02
     extra: ~
-  "0x0d203457a9":
+  l_final_start:
     game_script: game_lfinalstart
     flags:
       turn: false
@@ -220,13 +220,13 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x150c78d926"
+      - name: d04lfinalstart.nuanmb
         unk: 0
     scripts:
       - sound_lfinalstart
       - effect_lfinalstart
     extra: ~
-  "0x0e9572e5c4":
+  l_final_attack:
     game_script: game_lfinalattack
     flags:
       turn: false
@@ -245,14 +245,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x16a8c7b4bc"
+      - name: d04lfinalattack.nuanmb
         unk: 0
     scripts:
       - sound_lfinalattack
       - effect_lfinalattack
     extra: ~
-  "0x0bb1bbaf34":
-    game_script: "0x0e9eb395d9"
+  l_final_end:
+    game_script: game_lfinalend
     flags:
       turn: false
       loop: false
@@ -270,13 +270,13 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x13794f6055"
+      - name: d04lfinalend.nuanmb
         unk: 0
     scripts:
-      - "0x0f7e0d8066"
-      - "0x105b90253e"
+      - sound_lfinalend
+      - effect_lfinalend
     extra: ~
-  "0x11251558b2":
+  l_final_air_start:
     game_script: game_lfinalairstart
     flags:
       turn: false
@@ -295,14 +295,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x184a4ee8d9"
+      - name: d04lfinalairstart.nuanmb
         unk: 0
     scripts:
       - sound_lfinalairstart
       - effect_lfinalairstart
     extra: ~
-  "0x121f120d27":
-    game_script: "0x14c07a4dd3"
+  l_final_air_attack:
+    game_script: game_lfinalairattack
     flags:
       turn: false
       loop: false
@@ -320,14 +320,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1985836d00"
+      - name: d04lfinalairattack.nuanmb
         unk: 0
     scripts:
       - sound_lfinalairattack
       - effect_lfinalairattack
     extra: ~
-  "0x0f5d47dd00":
-    game_script: "0x11803937bc"
+  l_final_air_end:
+    game_script: game_lfinalairend
     flags:
       turn: false
       loop: false
@@ -345,14 +345,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x16f341c76c"
+      - name: d04lfinalairend.nuanmb
         unk: 0
     scripts:
-      - "0x125557f6ee"
-      - "0x136a362e96"
+      - sound_lfinalairend
+      - effect_lfinalairend
     extra: ~
-  "0x11200b153f":
-    game_script: "0x13a000643f"
+  l_visual_scene_01:
+    game_script: game_lvisualscene01
     flags:
       turn: false
       loop: false
@@ -370,14 +370,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x180c075461"
+      - name: d04lvisualscene01.nuanmb
         unk: 0
     scripts:
-      - "0x14c4ee7ca1"
+      - sound_lvisualscene01
       - effect_lvisualscene01
     extra: ~
-  "0x11b9024485":
-    game_script: "0x1339093585"
+  l_visual_scene_02:
+    game_script: game_lvisualscene02
     flags:
       turn: false
       loop: false
@@ -395,14 +395,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1882885382"
+      - name: d04lvisualscene02.nuanmb
         unk: 0
     scripts:
-      - "0x145de72d1b"
-      - "0x153209bb62"
+      - sound_lvisualscene02
+      - effect_lvisualscene02
     extra: ~
-  "0x11ce057413":
-    game_script: "0x134e0e0513"
+  l_visual_scene_03:
+    game_script: game_lvisualscene03
     flags:
       turn: false
       loop: false
@@ -420,14 +420,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x184e22531c"
+      - name: d04lvisualscene03.nuanmb
         unk: 0
     scripts:
-      - "0x142ae01d8d"
-      - "0x15450e8bf4"
+      - sound_lvisualscene03
+      - effect_lvisualscene03
     extra: ~
-  "0x115061e1b0":
-    game_script: "0x13d06a90b0"
+  l_visual_scene_04:
+    game_script: game_lvisualscene04
     flags:
       turn: false
       loop: false
@@ -445,14 +445,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1844e75a05"
+      - name: d04lvisualscene04.nuanmb
         unk: 0
     scripts:
-      - "0x14b484882e"
-      - "0x15db6a1e57"
+      - sound_lvisualscene04
+      - effect_lvisualscene04
     extra: ~
-  "0x09bb6a2cce":
-    game_script: "0x0c6d2dd711"
+  f_entry_r:
+    game_script: game_fentryr
     flags:
       turn: false
       loop: false
@@ -470,14 +470,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x113379382d"
+      - name: j00fentryr.nuanmb
         unk: 0
     scripts:
       - sound_fentryr
       - effect_fentryr
     extra: ~
-  "0x09416511ad":
-    game_script: "0x0c9722ea72"
+  f_entry_l:
+    game_script: game_fentryl
     flags:
       turn: false
       loop: false
@@ -495,14 +495,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x115a481b34"
+      - name: j00fentryl.nuanmb
         unk: 0
     scripts:
       - sound_fentryl
       - effect_fentryl
     extra: ~
-  "0x092e44a650":
-    game_script: "0x0cc95d885f"
+  l_entry_r:
+    game_script: game_lentryr
     flags:
       turn: false
       loop: false
@@ -520,14 +520,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x11e14ee2b6"
+      - name: j00lentryr.nuanmb
         unk: 0
     scripts:
       - sound_lentryr
       - effect_lentryr
     extra: ~
-  "0x09d44b9b33":
-    game_script: "0x0c3352b53c"
+  l_entry_l:
+    game_script: game_lentryl
     flags:
       turn: false
       loop: false
@@ -545,14 +545,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x11887fc1af"
+      - name: j00lentryl.nuanmb
         unk: 0
     scripts:
       - sound_lentryl
       - effect_lentryl
     extra: ~
-  "0x0d323e89b4":
-    game_script: "0x0f1be4dd39"
+  f_appeal_hi_r:
+    game_script: game_fappealhir
     flags:
       turn: false
       loop: false
@@ -570,14 +570,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x14796cc945"
+      - name: j01fappealhir.nuanmb
         unk: 0
     scripts:
       - sound_fappealhir
       - effect_fappealhir
     extra: ~
-  "0x0dc831b4d7":
-    game_script: "0x0fe1ebe05a"
+  f_appeal_hi_l:
+    game_script: game_fappealhil
     flags:
       turn: false
       loop: false
@@ -595,14 +595,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x14105dea5c"
+      - name: j01fappealhil.nuanmb
         unk: 0
     scripts:
       - sound_fappealhil
       - effect_fappealhil
     extra: ~
-  "0x0d0861ef92":
-    game_script: "0x0f0cc64df0"
+  l_appeal_hi_r:
+    game_script: game_lappealhir
     flags:
       turn: false
       loop: false
@@ -620,14 +620,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x144b40161c"
+      - name: j01lappealhir.nuanmb
         unk: 0
     scripts:
       - sound_lappealhir
       - effect_lappealhir
     extra: ~
-  "0x0df26ed2f1":
-    game_script: "0x0ff6c97093"
+  l_appeal_hi_l:
+    game_script: game_lappealhil
     flags:
       turn: false
       loop: false
@@ -645,14 +645,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1422713505"
+      - name: j01lappealhil.nuanmb
         unk: 0
     scripts:
       - sound_lappealhil
       - effect_lappealhil
     extra: ~
-  "0x07abba3f5e":
-    game_script: "0x0af92d22e6"
+  f_win_1:
+    game_script: game_fwin1
     flags:
       turn: false
       loop: false
@@ -670,14 +670,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0ff021afb3"
+      - name: j02fwin1.nuanmb
         unk: 0
     scripts:
-      - "0x0bdce39050"
+      - sound_fwin1
       - effect_fwin1
     extra: ~
-  "0x0c8a9a7447":
-    game_script: "0x0e51781fd8"
+  f_win_1_wait:
+    game_script: game_fwin1wait
     flags:
       turn: false
       loop: true
@@ -695,14 +695,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x13e3b1da5b"
+      - name: j02fwin1wait.nuanmb
         unk: 0
     scripts:
-      - "0x0fb1c60a67"
-      - "0x10945baf3f"
+      - sound_fwin1wait
+      - effect_fwin1wait
     extra: ~
-  "0x0732b36ee4":
-    game_script: "0x0a6024735c"
+  f_win_2:
+    game_script: game_fwin2
     flags:
       turn: false
       loop: false
@@ -720,14 +720,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0f7eaea850"
+      - name: j02fwin2.nuanmb
         unk: 0
     scripts:
-      - "0x0b45eac1ea"
-      - "0x0c96e6255c"
+      - sound_fwin2
+      - effect_fwin2
     extra: ~
-  "0x0c0c0e06e9":
-    game_script: "0x0e16d86508"
+  f_win_2_wait:
+    game_script: game_fwin2wait
     flags:
       turn: false
       loop: true
@@ -745,14 +745,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x13942f08ab"
+      - name: j02fwin2wait.nuanmb
         unk: 0
     scripts:
-      - "0x0ff66670b7"
-      - "0x10d3fbd5ef"
+      - sound_fwin2wait
+      - effect_fwin2wait
     extra: ~
-  "0x070fca6010":
-    game_script: "0x0ab39d3a47"
+  l_win_1:
+    game_script: game_lwin1
     flags:
       turn: false
       loop: false
@@ -770,14 +770,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0f1a1647d2"
+      - name: j02lwin1.nuanmb
         unk: 0
     scripts:
-      - "0x0b965388f1"
+      - sound_lwin1
       - effect_lwin1
     extra: ~
-  "0x0c60ad9c26":
-    game_script: "0x0ec4569546"
+  l_win_1_wait:
+    game_script: game_lwin1wait
     flags:
       turn: false
       loop: true
@@ -795,14 +795,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1317026077"
+      - name: j02lwin1wait.nuanmb
         unk: 0
     scripts:
-      - "0x0f24e880f9"
-      - "0x10017525a1"
+      - sound_lwin1wait
+      - effect_lwin1wait
     extra: ~
-  "0x0796c331aa":
-    game_script: "0x0a2a946bfd"
+  l_win_2:
+    game_script: game_lwin2
     flags:
       turn: false
       loop: false
@@ -820,14 +820,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0f94994031"
+      - name: j02lwin2.nuanmb
         unk: 0
     scripts:
-      - "0x0b0f5ad94b"
+      - sound_lwin2
       - effect_lwin2
     extra: ~
-  "0x0ce639ee88":
-    game_script: "0x0e83f6ef96"
+  l_win_2_wait:
+    game_script: game_lwin2wait
     flags:
       turn: false
       loop: true
@@ -845,9 +845,9 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x13609cb287"
+      - name: j02lwin2wait.nuanmb
         unk: 0
     scripts:
-      - "0x0f6348fa29"
-      - "0x1046d55f71"
+      - sound_lwin2wait
+      - effect_lwin2wait
     extra: ~

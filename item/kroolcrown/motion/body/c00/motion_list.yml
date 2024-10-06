@@ -139,8 +139,8 @@ list:
       - effect_lost
       - sound_lost
     extra: ~
-  "0x0cc304dcf4":
-    game_script: "0x10f1d61454"
+  wait_respawn:
+    game_script: game_waitrespawn
     flags:
       turn: false
       loop: false
@@ -159,6 +159,6 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x122b8807d0"
-      - "0x11ff56a276"
+      - effect_waitrespawn
+      - sound_waitrespawn
     extra: ~

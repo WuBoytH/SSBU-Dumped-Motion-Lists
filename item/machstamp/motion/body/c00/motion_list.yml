@@ -1,5 +1,5 @@
 ---
-motion_path: "0x1ff2ccc949"
+motion_path: equip/machstamp/motion/body/c00
 list:
   dive:
     game_script: game_dive
@@ -24,8 +24,8 @@ list:
       - effect_dive
       - sound_dive
     extra: ~
-  "0x07b2fbd60f":
-    game_script: "0x0b52945981"
+  no_dive:
+    game_script: game_nodive
     flags:
       turn: false
       loop: true
@@ -44,8 +44,8 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0d52629bd7"
-      - "0x0c70b3818a"
+      - effect_nodive
+      - sound_nodive
     extra: ~
   landing:
     game_script: game_landing

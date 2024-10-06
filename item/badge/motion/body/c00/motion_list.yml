@@ -185,8 +185,8 @@ list:
       - effect_slip
       - sound_slip
     extra: ~
-  "0x064a347ac3":
-    game_script: "0x0b3701d70b"
+  flying:
+    game_script: game_flying
     flags:
       turn: false
       loop: true
@@ -205,8 +205,8 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0d37f7155d"
-      - "0x0c15260f00"
+      - effect_flying
+      - sound_flying
     extra: ~
   wait_ground:
     game_script: game_waitground

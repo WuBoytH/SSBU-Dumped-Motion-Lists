@@ -1,5 +1,5 @@
 ---
-motion_path: "0x1d0f5bbc3c"
+motion_path: xxx/magicball/motion/body/c00
 list:
   appear:
     game_script: game_appear
@@ -139,8 +139,8 @@ list:
       - effect_lost
       - sound_lost
     extra: ~
-  "0x0bf7730810":
-    game_script: "0x0fa186def6"
+  magic_throw:
+    game_script: game_magicthrow
     flags:
       turn: false
       loop: true
@@ -159,11 +159,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x119f2d8a9d"
-      - "0x10fab8cefe"
+      - effect_magicthrow
+      - sound_magicthrow
     extra: ~
-  "0x0f5ef0e551":
-    game_script: "0x126be9ec1b"
+  normal_to_magic:
+    game_script: game_normaltomagic
     flags:
       turn: false
       loop: true
@@ -182,6 +182,6 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x14b0b82ad4"
-      - "0x13ee59b202"
+      - effect_normaltomagic
+      - sound_normaltomagic
     extra: ~

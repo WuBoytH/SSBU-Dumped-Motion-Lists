@@ -20,7 +20,7 @@ list:
       unk_2000: false
     blend_frames: 6
     animations:
-      - name: "0x0f40969975"
+      - name: z00close.nuanmb
         unk: 1
     scripts: []
     extra: ~
@@ -43,12 +43,12 @@ list:
       unk_2000: false
     blend_frames: 6
     animations:
-      - name: "0x0e32317ab0"
+      - name: z00open.nuanmb
         unk: 1
     scripts: []
     extra: ~
-  "0x08183db0f4":
-    game_script: "0x07a9cae010"
+  to_close:
+    game_script: toclose
     flags:
       turn: false
       loop: false
@@ -66,12 +66,12 @@ list:
       unk_2000: false
     blend_frames: 6
     animations:
-      - name: "0x112231a323"
+      - name: z00toclose.nuanmb
         unk: 1
     scripts: []
     extra: ~
-  "0x07439e926b":
-    game_script: "0x06bf275250"
+  to_open:
+    game_script: toopen
     flags:
       turn: false
       loop: false
@@ -89,7 +89,7 @@ list:
       unk_2000: false
     blend_frames: 6
     animations:
-      - name: "0x104816f3ec"
+      - name: z00toopen.nuanmb
         unk: 1
     scripts: []
     extra: ~
@@ -112,7 +112,7 @@ list:
       unk_2000: false
     blend_frames: 6
     animations:
-      - name: "0x0f40969975"
+      - name: z00close.nuanmb
         unk: 0
     scripts: []
     extra: ~

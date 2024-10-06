@@ -89,7 +89,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0d8c61f0f7"
+      - name: hrwait.nuanmb
         unk: 0
     scripts:
       - effect_appear
@@ -114,7 +114,7 @@ list:
       unk_2000: false
     blend_frames: 8
     animations:
-      - name: "0x13fef52bf0"
+      - name: hrcapturecut.nuanmb
         unk: 0
     scripts:
       - effect_capturecut
@@ -139,7 +139,7 @@ list:
       unk_2000: false
     blend_frames: 8
     animations:
-      - name: "0x181a181b61"
+      - name: hrcapturedamagelw.nuanmb
         unk: 0
     scripts:
       - effect_capturedamagelw
@@ -164,7 +164,7 @@ list:
       unk_2000: false
     blend_frames: 8
     animations:
-      - name: "0x182ec56974"
+      - name: hrcapturedamagehi.nuanmb
         unk: 0
     scripts:
       - effect_capturedamagehi
@@ -189,7 +189,7 @@ list:
       unk_2000: false
     blend_frames: 8
     animations:
-      - name: "0x185f8f58ae"
+      - name: hrcapturepulledlw.nuanmb
         unk: 0
     scripts:
       - effect_capturepulledlw
@@ -214,7 +214,7 @@ list:
       unk_2000: false
     blend_frames: 8
     animations:
-      - name: "0x186b522abb"
+      - name: hrcapturepulledhi.nuanmb
         unk: 0
     scripts:
       - effect_capturepulledhi
@@ -239,7 +239,7 @@ list:
       unk_2000: false
     blend_frames: 8
     animations:
-      - name: "0x16ecc57e36"
+      - name: hrcapturewaitlw.nuanmb
         unk: 0
     scripts:
       - effect_capturewaitlw
@@ -264,7 +264,7 @@ list:
       unk_2000: false
     blend_frames: 8
     animations:
-      - name: "0x16d8180c23"
+      - name: hrcapturewaithi.nuanmb
         unk: 0
     scripts:
       - effect_capturewaithi
@@ -289,7 +289,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x138a26bd10"
+      - name: hrdamageair1.nuanmb
         unk: 0
     scripts:
       - effect_damageair1
@@ -314,7 +314,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1304a9baf3"
+      - name: hrdamageair2.nuanmb
         unk: 0
     scripts:
       - effect_damageair2
@@ -339,13 +339,13 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x13c803ba6d"
+      - name: hrdamageair3.nuanmb
         unk: 0
     scripts:
       - effect_damageair3
       - sound_damageair3
     extra: ~
-  "0x0b72bd4946":
+  damage_fall:
     game_script: game_damagefall
     flags:
       turn: false
@@ -364,7 +364,7 @@ list:
       unk_2000: false
     blend_frames: 8
     animations:
-      - name: "0x131aeb9793"
+      - name: hrdamagefall.nuanmb
         unk: 0
     scripts:
       - effect_damagefall
@@ -389,7 +389,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x143d1f2d75"
+      - name: hrdamageflylw.nuanmb
         unk: 0
     scripts:
       - effect_damageflylw
@@ -414,7 +414,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x134b671c60"
+      - name: hrdamageflyn.nuanmb
         unk: 0
     scripts:
       - effect_damageflyn
@@ -439,7 +439,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1409c25f60"
+      - name: hrdamageflyhi.nuanmb
         unk: 0
     scripts:
       - effect_damageflyhi
@@ -464,7 +464,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x16db610642"
+      - name: hrdamageflyroll.nuanmb
         unk: 0
     scripts:
       - effect_damageflyroll
@@ -489,7 +489,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1557e6b145"
+      - name: hrdamageflytop.nuanmb
         unk: 0
     scripts:
       - effect_damageflytop
@@ -514,7 +514,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x12f152ebe4"
+      - name: hrdamagehi1.nuanmb
         unk: 0
     scripts:
       - effect_damagehi1
@@ -539,7 +539,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x127fddec07"
+      - name: hrdamagehi2.nuanmb
         unk: 0
     scripts:
       - effect_damagehi2
@@ -564,7 +564,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x12b377ec99"
+      - name: hrdamagehi3.nuanmb
         unk: 0
     scripts:
       - effect_damagehi3
@@ -589,7 +589,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x119af1ce13"
+      - name: hrdamagen1.nuanmb
         unk: 0
     scripts:
       - effect_damagen1
@@ -614,7 +614,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x11147ec9f0"
+      - name: hrdamagen2.nuanmb
         unk: 0
     scripts:
       - effect_damagen2
@@ -639,7 +639,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x11d8d4c96e"
+      - name: hrdamagen3.nuanmb
         unk: 0
     scripts:
       - effect_damagen3
@@ -664,7 +664,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x129cbbd27d"
+      - name: hrdamagelw1.nuanmb
         unk: 0
     scripts:
       - effect_damagelw1
@@ -689,7 +689,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x121234d59e"
+      - name: hrdamagelw2.nuanmb
         unk: 0
     scripts:
       - effect_damagelw2
@@ -714,7 +714,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x12de9ed500"
+      - name: hrdamagelw3.nuanmb
         unk: 0
     scripts:
       - effect_damagelw3
@@ -739,7 +739,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1316aa2c0f"
+      - name: hrdownboundd.nuanmb
         unk: 0
     scripts:
       - effect_downboundd
@@ -764,7 +764,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x13a6bb1dba"
+      - name: hrdownboundu.nuanmb
         unk: 0
     scripts:
       - effect_downboundu
@@ -789,7 +789,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x145b090540"
+      - name: hrdowndamaged.nuanmb
         unk: 0
     scripts:
       - effect_downdamaged
@@ -814,7 +814,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x14eb1834f5"
+      - name: hrdowndamageu.nuanmb
         unk: 0
     scripts:
       - effect_downdamageu
@@ -839,7 +839,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x131c9eadeb"
+      - name: hrdownstandd.nuanmb
         unk: 0
     scripts:
       - effect_downstandd
@@ -864,7 +864,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x13ac8f9c5e"
+      - name: hrdownstandu.nuanmb
         unk: 0
     scripts:
       - effect_downstandu
@@ -889,7 +889,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x129c9e6d97"
+      - name: hrdownwaitd.nuanmb
         unk: 0
     scripts:
       - effect_downwaitd
@@ -914,7 +914,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x122c8f5c22"
+      - name: hrdownwaitu.nuanmb
         unk: 0
     scripts:
       - effect_downwaitu
@@ -939,7 +939,7 @@ list:
       unk_2000: false
     blend_frames: 8
     animations:
-      - name: "0x0d06d0842d"
+      - name: hrfall.nuanmb
         unk: 0
     scripts:
       - effect_fall
@@ -964,7 +964,7 @@ list:
       unk_2000: false
     blend_frames: 8
     animations:
-      - name: "0x0d8c61f0f7"
+      - name: hrwait.nuanmb
         unk: 0
     scripts:
       - effect_wait
@@ -989,7 +989,7 @@ list:
       unk_2000: false
     blend_frames: 8
     animations:
-      - name: "0x11488eabe8"
+      - name: hrstopceli.nuanmb
         unk: 0
     scripts:
       - effect_stopceil
@@ -1014,7 +1014,7 @@ list:
       unk_2000: false
     blend_frames: 8
     animations:
-      - name: "0x1350d6abda"
+      - name: hrwalldamage.nuanmb
         unk: 0
     scripts:
       - effect_walldamage
@@ -1039,14 +1039,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x140039309e"
+      - name: hrcapturewait.nuanmb
         unk: 0
     scripts:
       - effect_damagefly
       - sound_damagefly
     extra: ~
-  "0x0a52f462e8":
-    game_script: "0x0ef6196966"
+  wait_smile:
+    game_script: game_waitsmile
     flags:
       turn: false
       loop: false
@@ -1064,14 +1064,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x124fdd1fd1"
+      - name: hrwaitsmile.nuanmb
         unk: 1
     scripts:
-      - "0x10333ad981"
-      - "0x0f16a77cd9"
+      - effect_waitsmile
+      - sound_waitsmile
     extra: ~
-  "0x0cb631019b":
-    game_script: "0x10f8abe10b"
+  hokahoka_lv1:
+    game_script: game_hokahokalv1
     flags:
       turn: false
       loop: false
@@ -1090,11 +1090,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x1222f5f28f"
-      - "0x11f62b5729"
+      - effect_hokahokalv1
+      - sound_hokahokalv1
     extra: ~
-  "0x0c2f385021":
-    game_script: "0x1061a2b0b1"
+  hokahoka_lv2:
+    game_script: game_hokahokalv2
     flags:
       turn: false
       loop: false
@@ -1113,11 +1113,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x12bbfca335"
-      - "0x116f220693"
+      - effect_hokahokalv2
+      - sound_hokahokalv2
     extra: ~
-  "0x0c583f60b7":
-    game_script: "0x1016a58027"
+  hokahoka_lv3:
+    game_script: game_hokahokalv3
     flags:
       turn: false
       loop: false
@@ -1136,11 +1136,11 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x12ccfb93a3"
-      - "0x1118253605"
+      - effect_hokahokalv3
+      - sound_hokahokalv3
     extra: ~
-  "0x095097b643":
-    game_script: "0x0d87e21930"
+  sliding_d:
+    game_script: game_slidingd
     flags:
       turn: false
       loop: true
@@ -1158,14 +1158,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x11b181a893"
+      - name: hrslidingd.nuanmb
         unk: 0
     scripts:
-      - "0x0f1e694088"
-      - "0x0eec1eb83a"
+      - effect_slidingd
+      - sound_slidingd
     extra: ~
-  "0x093a2796b1":
-    game_script: "0x0ded5239c2"
+  sliding_u:
+    game_script: game_slidingu
     flags:
       turn: false
       loop: true
@@ -1183,14 +1183,14 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1101909926"
+      - name: hrslidingu.nuanmb
         unk: 0
     scripts:
-      - "0x0f74d9607a"
-      - "0x0e86ae98c8"
+      - effect_slidingu
+      - sound_slidingu
     extra: ~
-  "0x0d508e1213":
-    game_script: "0x10f193fcea"
+  sliding_d_end:
+    game_script: game_slidingdend
     flags:
       turn: false
       loop: false
@@ -1208,14 +1208,14 @@ list:
       unk_2000: false
     blend_frames: 2
     animations:
-      - name: "0x14ebfe1236"
+      - name: hrslidingdend.nuanmb
         unk: 0
     scripts:
-      - "0x122bcdef6e"
-      - "0x11ff134ac8"
+      - effect_slidingdend
+      - sound_slidingdend
     extra: ~
-  "0x0d0d0eac21":
-    game_script: "0x101936cc10"
+  sliding_u_end:
+    game_script: game_slidinguend
     flags:
       turn: false
       loop: false
@@ -1233,9 +1233,9 @@ list:
       unk_2000: false
     blend_frames: 2
     animations:
-      - name: "0x148486093d"
+      - name: hrslidinguend.nuanmb
         unk: 0
     scripts:
-      - "0x12c368df94"
-      - "0x1117b67a32"
+      - effect_slidinguend
+      - sound_slidinguend
     extra: ~

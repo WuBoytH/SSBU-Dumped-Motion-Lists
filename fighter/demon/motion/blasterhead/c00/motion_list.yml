@@ -1,5 +1,5 @@
 ---
-motion_path: "0x2499ff8b4a"
+motion_path: fighter/demon/motion/blasterhead/c00
 list:
   final_start:
     game_script: game_finalstart
@@ -270,7 +270,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x134ddf60a6"
+      - name: d04finalairl.nuanmb
         unk: 0
     scripts:
       - sound_finalair

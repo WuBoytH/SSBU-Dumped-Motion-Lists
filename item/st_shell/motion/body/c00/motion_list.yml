@@ -20,7 +20,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0cfa0343b7"
+      - name: down2.nuanmb
         unk: 0
     scripts:
       - effect_have
@@ -45,7 +45,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0cfa0343b7"
+      - name: down2.nuanmb
         unk: 0
     scripts:
       - effect_fall
@@ -93,7 +93,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0cfa0343b7"
+      - name: down2.nuanmb
         unk: 0
     scripts:
       - effect_landing
@@ -122,8 +122,8 @@ list:
       - effect_lost
       - sound_lost
     extra: ~
-  "0x082583b314":
-    game_script: "0x0c0871ceab"
+  move_lv1:
+    game_script: game_movelv1
     flags:
       turn: false
       loop: true
@@ -144,11 +144,11 @@ list:
       - name: move.nuanmb
         unk: 0
     scripts:
-      - "0x0e8a79cca8"
-      - "0x0d9f8130fb"
+      - effect_movelv1
+      - sound_movelv1
     extra: ~
-  "0x08bc8ae2ae":
-    game_script: "0x0c91789f11"
+  move_lv2:
+    game_script: game_movelv2
     flags:
       turn: false
       loop: true
@@ -169,11 +169,11 @@ list:
       - name: move.nuanmb
         unk: 0
     scripts:
-      - "0x0e13709d12"
-      - "0x0d06886141"
+      - effect_movelv2
+      - sound_movelv2
     extra: ~
-  "0x08cb8dd238":
-    game_script: "0x0ce67faf87"
+  move_lv3:
+    game_script: game_movelv3
     flags:
       turn: false
       loop: true
@@ -194,8 +194,8 @@ list:
       - name: move.nuanmb
         unk: 0
     scripts:
-      - "0x0e6477ad84"
-      - "0x0d718f51d7"
+      - effect_movelv3
+      - sound_movelv3
     extra: ~
   turn:
     game_script: game_turn
@@ -247,8 +247,8 @@ list:
       - effect_down
       - sound_down
     extra: ~
-  "0x05b07d6772":
-    game_script: "0x0a824e1efd"
+  getup:
+    game_script: game_getup
     flags:
       turn: false
       loop: false
@@ -266,9 +266,9 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x0c36a94329"
+      - name: down3.nuanmb
         unk: 0
     scripts:
-      - "0x0c748c48fd"
-      - "0x0ba780ac4b"
+      - effect_getup
+      - sound_getup
     extra: ~

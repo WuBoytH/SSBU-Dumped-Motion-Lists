@@ -20,7 +20,7 @@ list:
       unk_2000: false
     blend_frames: 0
     animations:
-      - name: "0x1302f146e6"
+      - name: mainj00entry.nuanmb
         unk: 0
       - name: j00entry.nuanmb
         unk: 1

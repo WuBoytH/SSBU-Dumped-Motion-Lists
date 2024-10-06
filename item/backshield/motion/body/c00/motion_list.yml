@@ -164,8 +164,8 @@ list:
       - effect_guard
       - sound_guard
     extra: ~
-  "0x0462072ef9":
-    game_script: "0x09891242d5"
+  bump:
+    game_script: game_bump
     flags:
       turn: false
       loop: false
@@ -184,6 +184,6 @@ list:
     blend_frames: 0
     animations: []
     scripts:
-      - "0x0bf2621900"
-      - "0x0a28725467"
+      - effect_bump
+      - sound_bump
     extra: ~

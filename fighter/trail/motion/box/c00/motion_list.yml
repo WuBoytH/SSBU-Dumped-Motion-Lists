@@ -1,5 +1,5 @@
 ---
-motion_path: "0x1caced6df1"
+motion_path: fighter/trail/motion/box/c00
 list:
   visual_scene_01:
     game_script: game_visualscene01
